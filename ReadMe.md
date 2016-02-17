@@ -1,18 +1,26 @@
-## Simple site: Easy websites with GitHub pages
 
-[Github Pages](http://pages.github.com) provide a simple way to make a
-website using Markdown and git.
+This website is based on the template kindly provided by Karl Broman.
+View the template [here](http://kbroman.org/simple_site).
 
-This is a minimal tutorial to get started.
+To update:
 
-View the thing [here](http://kbroman.org/simple_site).
+* edit the appropriate .md files
+* test the changes locally:
+  * run `jekyll serve` to run a local jekyll server
+  * dial up http://localhost:4000
+* stage and commit the changes to the git repo
+* push the repo to origin (github), which will make the changes live
 
----
+For the DNS, I have
 
-To the extent possible under law,
-[Karl Broman](http://github.com/kbroman)
-has waived all copyright and related or neighboring rights to
-&ldquo;[simple site](http://github.com/kbroman/simple_site)&rdquo;.
-This work is published from the United States.
-<br/>
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+* www.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover's forwarding option)
+* CNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org
+* DNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io
+
+The net result is that my default page is www.dennisfeehan.org
+
+
+
+
+
+
