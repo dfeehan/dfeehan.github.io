@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : simple site
+title : Dennis Feehan
 author :
   name : Dennis M. Feehan
   email : feehan@berkeley.edu
@@ -16,7 +16,7 @@ author :
   twitter : dennisfeehan
   feedburner : nil
 
-production_url : http://dfeehan.github.io/simple_site
+production_url : http://dfeehan.github.io/
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
