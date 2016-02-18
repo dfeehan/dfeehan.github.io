@@ -22,5 +22,8 @@ The net result is that my default page is www.dennisfeehan.org
 
 
 
+NB: see [this page](http://joshualande.com/jekyll-github-pages-poole/) for some help on setting up google analytics
+
+
 
 
