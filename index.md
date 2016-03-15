@@ -39,6 +39,6 @@ I'm an Assistant Professor of Demography at the
 <a href="http://www.demog.berkeley.edu">University of California, Berkeley</a>.
 In the summer of 2015, I finished my Ph.D. in Demography at Princeton's
 <a href="http://opr.princeton.edu">Office of Population Research</a>, and
-I spent the fall of 2015, as a Research Scientist at 
+I spent the fall of 2015 as a Research Scientist at 
 <a href="http://www.facebook.com/data">Facebook</a>.
 
