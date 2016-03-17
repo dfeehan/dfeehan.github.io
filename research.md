@@ -30,7 +30,7 @@ hard to measure.
 <table width="100%">
 <tr>
  <td style="width:20%; padding-right:10px; vertical-align:top;">
-<img src="{{ BASE_PATH }}/assets/images/flag-brazil.png">
+<img src="{{ BASE_PATH }}/assets/images/flag-brazil.png" style="width:150px">
  </td>
 <td valign='top'>
  <h4>Brazil</h4> 
@@ -50,7 +50,7 @@ method's accuracy for two different quantities.
 </tr>
 <tr>
  <td style="padding-right:10px; vertical-align:top;">
-  <img src="{{ BASE_PATH }}/assets/images/flag-rwanda.png">
+  <img src="{{ BASE_PATH }}/assets/images/flag-rwanda.png" style="width:150px">
  </td>
 <td>
 <h4>Rwanda</h4> 
