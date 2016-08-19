@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>L&amp;S 88-4: Social Networks</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--
+     This document has been created with Marked.app <http://marked2app.com>
+     Please leave this notice in place, along with any additional credits below.
+     ---------------------------------------------------------------
+     Title: Kultiad
+     Author: Peter Sziebig - @bigpe; Modified by Kieran Healy - @kjhealy
+     Description: Easy to read. Pandoc style elements. 
+  -->
+  
+  <!-- Dennis added-->
+  <style type="text/css">
+  
+  
+  html {
+      font-size: 100%;
+  }
+  html, button, input, select, textarea {
+      font-family: sans-serif;
+  }
+  
+  html, body, button, input, select, textarea {
+      color: #57534A;
+      font-family: "PT Serif","Calluna","Arno Pro",serif;
+      font-size: 18px;
+      font-weight: 300;
+  }
+  
+  body{
+      margin: 0 auto;
+      background-color: #FFFFFF;
+  }
+  
+  body, textarea {
+      line-height: 1.4;
+  }
+  
+  
+  body:after {
+      clear: both;
+      content: "";
+      display: table;
+  }
+  
+  body {
+      padding-left: 6rem;
+      padding-right: 6rem;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 42rem;
+      display: block;
+  }
+  
+  
+  
+  h1, h2, h3, dt {
+      color: #423F37;
+      font-weight: 700;
+  }
+  
+  h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+  }
+  h2, .article-list .article-title {
+      padding-top: 1em;
+      padding-bottom: 0em;
+      border-bottom: none;
+      font-size: 1.5em;
+      margin: 0.83em 0;
+  }
+  h3, dt {
+      padding-top: 1em;
+      font-size: 1.17em;
+      font-style: italic;
+      margin: 1em 0;
+  }
+  h4 {
+      font-size: 1em;
+      margin: 1.33em 0;
+  }
+  h5 {
+      font-size: 0.83em;
+      margin: 1.67em 0;
+  }
+  h6 {
+      font-size: 0.75em;
+      margin: 2.33em 0;
+  }
+  
+  
+  a {
+      color: #8DB359;
+      cursor: pointer;
+      outline: 0 none;
+      text-decoration: underline;
+  }
+  
+  a:hover {
+      outline: 0 none;
+      color: #739544;
+  }
+  
+  
+  p, pre {
+      margin: 1em 0;
+  }
+  
+  code, kbd, pre, samp {
+      font-family: monospace,serif;
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+  
+  }
+  pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
+  
+  pre {
+      background-color: #F8F5F0;
+      font-size: 0.7rem;
+      overflow-x: auto;
+      padding: 1.3rem;
+      position: relative;
+      white-space: pre;
+      word-wrap: normal;
+  }
+  pre, code, kbd, samp {
+      margin: 0;
+  }
+  code, kbd, pre, samp {
+      font-family: monospace,serif;
+  }
+  
+  code {
+      color: #423F37;
+  }
+  
+  
+  aside {
+      display: block;
+      float: right;
+      width: 390px;
+  }
+  
+  
+  b, strong {
+      font-weight: bold;
+      color: #423F37;
+      font-weight: 700;
+  }
+  
+  blockquote {
+      color: #423F37;
+      margin: 1em 40px;
+  }
+  
+  blockquote {
+      margin-bottom: 2em;
+      margin-top: 2em;
+  }
+  
+  figure {
+  	margin-left: -4.5rem;
+      margin-right: -4.5rem;
+      margin-bottom: 2em;
+      margin-top: 2em;
+  }
+  
+  
+  hr {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-color: -moz-use-text-color -moz-use-text-color #ECE6DA;
+      border-image: none;
+      border-style: none none solid;
+      border-width: medium medium 1px;
+      margin: 3em 6em;
+  }
+  
+  
+  img {
+      max-width: 100%;
+      display: block;
+      border: 0 none;
+  }
+  
+  
+  ol > li:before {
+      color: #423F37;
+      content: counter(ol, decimal) ".";
+      counter-increment: ol;
+      font-weight: 700;
+      margin-right: 0.333em;
+      position: absolute;
+      right: 100%;
+  }
+  
+  ul > li:before {
+      background-color: #423F37;
+      border-radius: 14px 14px 14px 14px;
+      content: "";
+      height: 6px;
+      margin-right: 0.333em;
+      margin-top: 0.55em;
+      position: absolute;
+      right: 100%;
+      width: 6px;
+  }
+  
+  ol, ul, dl {
+      margin-left: 2rem;
+      padding: 0;
+  }
+  ol {
+      counter-reset: ol;
+  }
+  li + li, dd + dt {
+      margin-top: 0.5em;
+  }
+  
+  ul > li {
+      position: relative;
+  }
+  
+  ol > li {
+      position: relative;
+  }
+  li {
+      list-style: none outside none;
+  }
+  
+  
+  figure > figcaption {
+      margin-top: 0.5em;
+  }
+  small, dd, figcaption {
+      color: #A19C91;
+      display: block;
+      font-size: 0.8rem;
+      font-style: italic;
+      line-height: 1.2;
+  }
+  
+  
+  tbody{display:table-row-group}
+  tfoot{display:table-footer-group}
+  table{margin-bottom:2em;font-size: 0.8em;padding:0;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,.35);width:80%;margin:0 auto 2em auto}
+  table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}
+  table th{
+  padding-top:9px;!important;text-transform:uppercase;vertical-align:middle}
+  table td{vertical-align:top;border-top:1px solid #ddd;}
+  table tbody th{border-top:1px solid #ddd;vertical-align:top}
+  table{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+  table th+th,table td+td,table th+td{border-left:1px solid #ddd}
+  table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}
+  table thead tr:first-child th:last-child,table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}
+  table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}
+  table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}
+  tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
+  
+  caption{display:table-caption;font-weight:300;font-size:1.3em;text-transform:uppercase;letter-spacing:2px;word-spacing:.2em;background:rgba(0,0,0,.75);color:#EEE;padding:4px;-webkit-border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.35)}
+  
+  /* grey out placeholders */
+  :-moz-placeholder {
+    color: #bfbfbf;
+  }
+  ::-webkit-input-placeholder {
+    color: #bfbfbf;
+  }
+  
+  
+  .article-date {
+      color: #C7C2B8;
+      display: block;
+      font-size: 0.8rem;
+  }
+  
+  .title{
+      padding-bottom: 1em;
+  }
+  
+  .author{
+    padding-top: 0.5em;
+    font-size:1.24em;
+    line-height:0.5em;
+  }
+  
+  .date {
+      color: #C7C2B8;
+      display: block;
+      font-size: 0.8rem;
+  }
+  
+  .caption {
+     display: block;
+     font-size: 0.8rem;
+     font-style: italic;
+  }
+  
+  .small{
+   font-size:0.8em;
+  }
+  
+  .affiliation{
+   margin-top: 0;
+   padding-top: 0;
+   font-size:0.9em;
+   font-style: italic;
+  }
+  
+  </style>
+
+<style>
+
+   body {margin:0;}
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F5F5F5;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li.nav {
+    float: left;
+}
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F5F5F5;;
+  width: 100%;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: black;
+    background-color: #ADD8E6;
+    text-decoration: underline;
+}
+.active {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 9px 18px;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   border-radius: 18px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #99ccff;
+   background: #99ccff;
+   }
+  
+.line-separator{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
+}
+
+.title {
+    border-bottom: 1px solid #dedede;
+}
+
+
+.quick-list-item {
+  background-color:#e6f3ff;
+  border-left:solid #0072c1;
+  color:black;
+  margin:10px 0;
+  min-height:100px;
+  padding:10px;
+}
+
+.quick-list-item:hover {
+  background-color:#CAE1FF;
+}
+
+.quick-list-item > hr {
+  margin:5px 0;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-dn63{background-color:#D2E4FC;font-size:14px;color:#000000;vertical-align:top}
+.tg .tg-3xcb{font-size:14px;color:#000000;vertical-align:top}
+.tg .tg-2zhz{font-size:14px;color:#000000;text-align:center;vertical-align:top}
+  
+</style>
+
+</head>
+
+<ul class="nav" align="right">
+  <li class="nav"><a class="active" href="http://data8.org/connector">Connectors</a></li>
+  <li class="nav"><a href="https://data8.org/">Data 8</a></li>
+  <li class="nav"><a href="http://data.berkeley.edu">data.berkeley.edu</a></li>
+</ul>
+
+<body>
+<header>
+<h3 class="date">Fall 2016</h3>
+
+<h1 class="title"><p>L&amp;S 88-4: Social Networks</p></h1>
+
+
+</header>
+
+
+
+<p>Class meetings: <strong>Mondays, 10am-1pm 458 Evans Hall</strong></p>
+<p>Instructor: <strong>Dennis M. Feehan (feehan@berkeley.edu)</strong></p>
+<p>Office hours: TBA</p>
+<h2 id="overview">Overview</h2>
+<p>In this connector, we will explore the science of social networks. This interdisciplinary subject focuses on measuring, modeling, and understanding the different types of connections and interactions between people. Social networks come in many different types and sizes: there are small, tightly-knit networks like the members of a family; and there are also massive, loosely connected networks like the users of Twitter.</p>
+<p>Insights from the study of social networks are used in a wide range of different real-world settings. For example, demographers and epidemiologists at the Centers for Disease Control and UNAIDS use network models to help them predict and prevent the spread of infectious diseases like HIV and Ebola; data scientists at Facebook and Google use ideas from social networks to build products that enable people all across the globe to connect with one another; and researchers working on political campaigns use insights from social networks to try and convince people to turn out and vote for their candidate on election day.</p>
+<p>Studying social networks means working with a broad toolkit of theories and methods drawn from the social, natural, and mathematical sciences. In this connector class, we will explore a few key ideas from this toolkit. Our goal will be to understand what a social network is, to learn how to work with social network data, and to illustrate some of the ways that understanding social networks can be useful in theory and in practice.</p>
+<h2 id="requirements">Requirements</h2>
+<p>Course requirements will include:</p>
+<ul>
+<li><p>Reading</p></li>
+<li><p>Class participation</p></li>
+<li><p>Homework</p></li>
+<li><p>Final project</p></li>
+</ul>
+<h2 id="syllabus">Syllabus</h2>
+<table class="tg" style="undefined;table-layout: fixed; width: 870px">
+<colgroup>
+<col style="width: 89px">
+<col style="width: 270px">
+<col style="width: 306px">
+<col style="width: 205px">
+</colgroup>
+<tr>
+<th class="tg-2zhz" colspan="4">
+Calendar
+</th>
+</tr>
+<tr>
+<td class="tg-dn63">
+Date
+</td>
+<td class="tg-dn63">
+Module
+</td>
+<td class="tg-dn63">
+Reading
+</td>
+<td class="tg-dn63">
+Assignment
+</td>
+</tr>
+<!-- 
+      WEEK 1  
+-->
+<tr>
+<td class="tg-3xcb">
+8/29
+</td>
+<td class="tg-3xcb">
+Introduction
+</td>
+<td class="tg-3xcb">
+TBA
+</td>
+<td class="tg-3xcb">
+</td>
+</tr>
+<div style="display:none">
+<!--
+  NOTE: TO UNCOMMENT, SUB ~~ for -- below
+<!~~ 
+      LABOR DAY
+~~>
+<tr>
+<td class="tg-dn63">9/5</td>
+<td class="tg-dn63">LABOR DAY (no class)</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 2
+~~>
+<tr>
+<td class="tg-dn63">9/12</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 3
+~~>
+<tr>
+<td class="tg-dn63">9/19</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 4
+~~>
+<tr>
+<td class="tg-dn63">9/26</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 5
+~~>
+<tr>
+<td class="tg-dn63">10/3</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 6
+~~>
+<tr>
+<td class="tg-dn63">10/10</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 7
+~~>
+<tr>
+<td class="tg-dn63">10/17</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 8
+~~>
+<tr>
+<td class="tg-dn63">10/24</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 9
+~~>
+<tr>
+<td class="tg-dn63">10/31</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 10
+~~>
+<tr>
+<td class="tg-dn63">11/7</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 11
+~~>
+<tr>
+<td class="tg-dn63">11/14</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 12
+~~>
+<tr>
+<td class="tg-dn63">11/21</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+<!~~ 
+      WEEK 13
+~~>
+<tr>
+<td class="tg-dn63">11/28</td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+<td class="tg-dn63"></td>
+</tr>
+-->
+</table>
+<div id="refs" class="references">
+
+</div>
+</body>
+</html>
