@@ -328,7 +328,25 @@
 
    body {margin:0;}
 
+ul > li:before {
+    all: initial;
+}
 
+/*
+ul > li:before {
+    background-color: #423F37;
+    border-radius: 0 0 0 0;
+    content: "";
+    height: 0px;
+    margin-right: 0.333em;
+    margin-top: 0.55em;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+    right: 100%;
+    width: 0;
+}
+*/
 ul.nav {
     list-style-type: none;
     margin: 0;
@@ -437,19 +455,21 @@ li a:hover {
   
 </style>
 
-</head>
 
-<ul class="nav" align="right">
-  <li class="nav"><a class="active" href="http://data8.org/connector">Connectors</a></li>
-  <li class="nav"><a href="https://data8.org/">Data 8</a></li>
-  <li class="nav"><a href="http://data.berkeley.edu">data.berkeley.edu</a></li>
-</ul>
+
+</head>
 
 <body>
 <header>
+<ul>
+<li class="nav"></li>
+<li class="nav"><a href="http://data8.org/connector">Connectors</a></li>
+<li class="nav"><a href="https://data8.org/">Data 8</a></li>
+<li class="nav"><a href="http://data.berkeley.edu">data.berkeley.edu</a></li>
+</ul>
 <h3 class="date">Fall 2016</h3>
 
-<h1 class="title"><p>L&amp;S 88-4: Social Networks</p></h1>
+<h1 class="title">L&amp;S 88-4: Social Networks</h1>
 
 
 </header>
