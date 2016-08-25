@@ -5,7 +5,6 @@ title: Software
 
 ### network reporting methods in R
 
-
 <table width="120%">            
 <tr style="vertical-align:top;">                        
 <td>
@@ -15,7 +14,7 @@ related techniques.
 <p>You can download the package from CRAN by typing
 <p>
 <code>
-    install.packages("networkreporting")
+install.packages("networkreporting")
 </code>
 </p>
 at the R prompt. The most recent development version is available from the
