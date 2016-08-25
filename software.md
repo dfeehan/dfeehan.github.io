@@ -12,7 +12,6 @@ title: Software
 The R package <a href="http://dfeehan.github.io/networkreporting/">networkreporting</a> 
 implements the methods I develop in my dissertation, and also several
 related techniques. 
-
 <p>You can download the package from CRAN by typing
 <p>
 <code>
