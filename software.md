@@ -20,12 +20,10 @@ related techniques.
 </code>
 </p>
 at the R prompt. The most recent development version is available from the
-<a href="https://github.com/dfeehan/networkreporting">github respository</a>.
-</td>
+<a href="https://github.com/dfeehan/networkreporting">github respository</a>.</td>
 <td>
 <div style="width:300px;">
-<img src="{{ BASE_PATH }}/assets/images/reporting-network-example.png">			
-</div>
+<img src="{{ BASE_PATH }}/assets/images/reporting-network-example.png"></div>
 </td>
 </tr>
 </table>
