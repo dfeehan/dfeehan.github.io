@@ -10,14 +10,15 @@ title: Software
 The R package <a href="http://dfeehan.github.io/networkreporting/">networkreporting</a> 
 implements the methods I develop in my dissertation, and also several
 related techniques. 
-<p>You can download the package from CRAN by typing
+<p>You can download the package from CRAN by typing</p>
 <p>
 <code>
 install.packages("networkreporting")
 </code>
 </p>
 at the R prompt. The most recent development version is available from the
-<a href="https://github.com/dfeehan/networkreporting">github respository</a>.</td>
+<a href="https://github.com/dfeehan/networkreporting">github respository</a>.
+</td>
 <td>
 <div style="width:300px;">
 <img src="{{ BASE_PATH }}/assets/images/reporting-network-example.png"></div>
