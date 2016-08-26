@@ -4,7 +4,6 @@ title: Software
 ---
 
 ### network reporting methods in R
-
 <table width="120%">            
 <tr style="vertical-align:top;">                        
 <td>
