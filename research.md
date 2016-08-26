@@ -15,7 +15,7 @@ Recent publications / forthcoming:
 
 ### Dissertation
 
-My dissertation focuses on a new way to estimate adult mortality rates in poor
+My dissertation focused on a new way to estimate adult mortality rates in poor
 countries where there are currently no reliable data on deaths. This problem is
 important because, as long as we can't figure out how to measure adult
 mortality in the world's poorest countries, we can't measure life expectancy,
@@ -55,7 +55,7 @@ method's accuracy for two different quantities.
 </tr>
 <tr>
  <td style="colspan:2">
- <p>
+ <p></p>
  </td>
 </tr>
 <tr>
