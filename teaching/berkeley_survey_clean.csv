@@ -1,0 +1,98 @@
+interview_number,interview_date,interview_time,respondent_age,respondent_class,respondent_home,number_alters,alter1_gender,alter1_age,alter1_class,alter1_home,alter2_gender,alter2_age,alter2_class,alter2_home,alter3_gender,alter3_age,alter3_class,alter3_home,alter4_gender,alter4_age,alter4_class,alter4_home,alter5_gender,alter5_age,alter5_class,alter5_home
+self,08/29/2016,9:57 PM,18,Freshman,Rest of US,5,F,54,Other,Rest of US,M,59,Other,Rest of US,F,20,Sophomore,Rest of US,F,17,Other,Rest of US,F,75,Other,Bay Area
+1,08/29/2016,8:47 PM,18,Freshman,Rest of World,2,F,46,Other,Rest of World,M,50,Other,Rest of World,,,,,,,,,,,,
+2,08/29/2016,8:52 PM,17,Freshman,LA,4,F,42,Other,LA,F,35,Other,Rest of US,M,22,Junior,LA,F,21,Sophomore,LA,,,,
+3,08/29/2016,8:59 PM,19,Sophomore,Bay Area,4,F,52,Other,Bay Area,F,19,Sophomore,Bay Area,F,19,Sophomore,Rest of California,M,19,Sophomore,LA,,,,
+4,08/29/2016,3:35 PM,19,Sophomore,Bay Area,5,M,53,Other,Rest of World,F,53,Other,Rest of World,M,19,Sophomore,LA,M,25,Senior,LA,F,19,Sophomore,Rest of California
+self,08/29/2016,4:00,20,Senior,Rest of World,4,M,23,Senior,Rest of World,F,40,Other,Rest of World,M,50,Other,Rest of World,M,21,Sophomore,Rest of World,,,,
+1,08/29/2016,3:30,20,Junior,Rest of California,4,F,53,Other,Rest of California,M,58,Other,Rest of California,F,24,Other,Rest of California,M,20,Junior,Rest of California,,,,
+2,08/29/2016,3:40,17,Freshman,LA,5,M,17,Freshman,LA,F,50,Other,LA,F,15,Other,LA,F,16,Other,LA,F,18,Other,Rest of US
+3,08/30/2016,4:00,22,Junior,Bay Area,4,M,23,Other,Rest of World,M,25,Other,Rest of World,F,22,Other,LA,M,21,Senior,Rest of World,,,,
+self,09/05/2016,6:31 PM,20,Junior,Rest of World,5,F,20,Junior,Rest of World,M,20,Junior,Rest of US,F,21,Senior,Rest of World,M,20,Junior,Rest of World,M,18,Other,Rest of World
+1,08/30/2016,3:35 PM,21,Senior,LA,5,M,21,Senior,LA,M,21,Senior,Rest of US,F,21,Senior,Rest of California,M,47,Other,LA,F,51,Other,LA
+2,08/30/2016,3:36 PM,19,Sophomore,Bay Area,5,F,18,Sophomore,LA,M,18,Sophomore,Bay Area,F,19,Sophomore,Bay Area,M,18,Sophomore,LA,F,45,Other,Bay Area
+3,09/05/2016,6:30 PM,20,Junior,LA,4,M,20,Junior,LA,M,20,Junior,LA,M,20,Junior,LA,M,20,Junior,Rest of US,,,,
+self,08/29/2016,3:30 PM,19,Sophomore,Rest of US,5,F,19,Sophomore,Bay Area,F,19,Sophomore,LA,F,50,Other,Rest of World,F,16,Other,Rest of US,F,19,Sophomore,Rest of US
+1,08/29/2016,3:30 PM,19,Sophomore,Rest of US,5,F,53,Other,Rest of US,F,19,Sophomore,Rest of US,F,19,Sophomore,LA,F,19,Sophomore,Rest of US,F,19,Sophomore,Rest of US
+2,08/29/2016,4:15 PM,19,Sophomore,Bay Area,5,M,19,Sophomore,LA,F,50,Other,Rest of World,M,54,Other,Rest of World,F,19,Sophomore,Rest of US,F,19,Sophomore,LA
+3,08/29/2016,4:20 PM,19,Sophomore,LA,5,M,55,Other,Rest of World,F,57,Other,Rest of World,M,19,Sophomore,LA,F,19,Sophomore,LA,F,19,Sophomore,Rest of US
+self,08/29/2016,3:32pm,20,Junior,LA,6+,F,20,Junior,LA,M,20,Junior,Rest of California,M,20,Junior,Rest of US,F,50,Other,LA,M,55,Other,LA
+1,09/06/2016,8:19pm,19,Sophomore,LA,3,F,19,Sophomore,LA,M,19,Sophomore,LA,F,21,Senior,LA,,,,,,,,
+2,09/06/2016,8:23pm,19,Sophomore,LA,4,F,25,Other,LA,F,19,Sophomore,LA,F,26,Other,LA,M,30,Other,LA,,,,
+3,09/07/2016,2:30pm,19,Sophomore,Rest of US,2,M,22,Senior,Rest of US,M,20,Sophomore,LA,,,,,,,,,,,,
+self,08/29/2016,3:40 PM,18,Freshman,Rest of US,5,M,50,Other,Rest of US,F,18,Freshman,Rest of US,F,18,Freshman,Rest of World,M,18,Freshman,Rest of US,F,52,Other,Rest of US
+1,08/29/2016,3:30 PM,20,Senior,Rest of California,5,M,24,Other,Rest of US,M,21,Senior,Rest of World,F,22,Other,Bay Area,M,20,Junior,Rest of US,F,20,Other,Bay Area
+2,08/30/2016,12:15 AM,18,Freshman,Bay Area,6+,F,46,Other,Rest of World,M,21,Senior,Rest of World,F,17,Freshman,Rest of World,M,48,Other,Rest of World,F,19,Sophomore,Rest of World
+3,08/30/2016,12:22 AM,18,Freshman,Rest of US,6+,F,18,Freshman,Rest of US,F,18,Freshman,Rest of US,F,21,Senior,Rest of US,F,18,Freshman,Rest of US,F,18,Freshman,Rest of US
+self,09/06/2016,5:45 PM,18,Freshman,Rest of World,5,F,18,Freshman,Rest of World,F,18,Freshman,Rest of World,M,18,Freshman,Rest of World,M,17,Freshman,Rest of World,M,18,Freshman,Rest of World
+1,09/06/2016,10:48 PM,18,Freshman,Rest of California,6,F,59,Other,Rest of World,M,55,Other,Rest of World,M,21,Other,Rest of World,F,18,Other,Rest of World,M,18,Senior,Rest of World
+2,09/06/2016,10:41 PM,19,Junior,Rest of California,7,M,58,Other,Rest of California,M,18,Freshman,Rest of California,M,18,Freshman,Rest of California,M,52,Other,Rest of California,F,18,Freshman,Rest of California
+3,09/06/2016,10:47 PM,18,Freshman,Bay Area,8,F,18,Freshman,Bay Area,F,18,Freshman,Bay Area,M,18,Freshman,Bay Area,F,18,Freshman,Bay Area,M,17,Freshman,Bay Area
+in class,08/29/2016,3:30 PM,24,Junior,Rest of US,3,F,23,Junior,Rest of World,F,44,Other,Rest of US,F,26,Other,Rest of US,,,,,,,,
+1,09/01/2016,11:30 PM,20,Junior,Bay Area,1,M,19,Other,Rest of US,,,,,,,,,,,,,,,,
+2,09/03/2016,11:00 AM,19,Sophomore,Bay Area,4,M,19,Sophomore,Bay Area,F,20,Junior,Bay Area,M,19,Sophomore,LA,M,20,Sophomore,Bay Area,,,,
+3,09/03/2016,11:15 AM,19,Sophomore,LA,3,F,19,Sophomore,Rest of US,F,46,Other,LA,M,27,Other,LA,M,20,Sophomore,LA,F,19,Sophomore,Bay Area
+self,09/05/2016,10:12 AM,19,Junior,Rest of World,5,M,19,Junior,Rest of US,F,65,Other,Rest of World,F,19,Junior,Bay Area,F,19,Sophomore,Rest of World,M,25,Other,Rest of California
+1,09/05/2016,11:36 AM,18,Sophomore,Bay Area,3,F,18,Sophomore,Bay Area,M,18,Sophomore,Bay Area,M,50,Other,Bay Area,,,,,,,,
+2,09/05/2016,2:03 PM,19,Junior,Rest of US,5,M,19,Junior,Rest of US,F,19,Junior,Rest of US,M,19,Junior,Rest of US,F,19,Junior,Bay Area,F,19,Junior,LA
+3,09/05/2016,6:40 PM,20,Senior,Rest of World,4,M,20,Senior,LA,M,20,Senior,Bay Area,F,20,Senior,Rest of California,F,50,Other,Rest of California,,,,
+self,09/06/2016,11:15 AM,19,Sophomore,Bay Area,5,F,19,Sophomore,LA,M,19,Sophomore,LA,M,19,Sophomore,Bay Area,F,19,Sophomore,Bay Area,F,45,Other,Bay Area
+1,09/07/2016,11:30 AM,19,Junior,Bay Area,5,F,19,Sophomore,Bay Area,M,29,Senior,LA,M,30,Senior,LA,M,25,Senior,LA,F,20,Junior,Bay Area
+2,09/08/2016,11:25 AM,19,Sophomore,Bay Area,5,M,19,Junior,Bay Area,F,19,Sophomore,LA,F,52,Other,Bay Area,F,17,Freshman,Bay Area,F,19,Sophomore,Bay Area
+3,09/09/2016,12:42 PM,19,Sophomore,Bay Area,5,F,51,Other,Bay Area,M,19,Sophomore,LA,F,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,M,21,Senior,LA
+self,09/06/2016,22:05,18,Freshman,LA,5,F,18,Freshman,LA,M,18,Freshman,LA,M,18,Freshman,LA,F,56,Other,Rest of World,M,18,Freshman,LA
+1,09/06/2016,8:31 PM,18,Freshman,LA,5,F,15,Other,LA,M,19,Sophomore,LA,M,18,Freshman,LA,F,18,Freshman,LA,F,18,Freshman,LA
+2,09/06/2016,20:40,17,Freshman,Rest of US,3,M,54,Other,Rest of World,M,26,Other,Rest of World,M,20,Junior,Rest of US,,,,,,,,
+3,09/06/2016,20:59,18,Freshman,Rest of California,2,F,46,Other,Rest of US,M,47,Other,Rest of US,,,,,,,,,,,,
+self,08/29/2016,3:30 PM,20,Junior,Bay Area,3,M,21,Senior,Rest of World,F,21,Senior,Bay Area,F,49,Other,Rest of World,,,,,,,,
+1,08/30/2016,10:45 AM,22,Other,Rest of California,4,M,20,Junior,Bay Area,F,23,Other,LA,F,22,Other,Rest of California,F,22,Other,Rest of California,,,,
+2,08/30/2016,2:15 PM,21,Junior,Rest of World,5,F,20,Freshman,Bay Area,F,16,Other,Rest of World,F,20,Sophomore,Rest of World,F,21,Junior,Rest of World,M,23,Other,Rest of World
+3,09/02/2016,11:05 AM,25,Other,Bay Area,1,M,25,Other,Bay Area,,,,,,,,,,,,,,,,
+self,08/29/2016,3:35 PM,21,Senior,Bay Area,5,F,23,Other,Bay Area,M,23,Other,Rest of California,F,25,Other,Bay Area,F,21,Senior,Bay Area,M,21,Senior,Rest of California
+1,08/31/2016,4:20 PM,20,Junior,LA,5,F,20,Junior,LA,M,21,Junior,Rest of World,F,20,Junior,Bay Area,F,20,Junior,LA,F,18,Freshman,LA
+2,09/02/2016,12:30 PM,23,Other,LA,5,M,23,Senior,LA,F,24,Other,Rest of World,F,24,Other,Rest of World,M,23,Senior,Bay Area,F,20,Senior,Bay Area
+3,09/02/2016,3:45 PM,21,Senior,Bay Area,6+,F,20,Senior,Bay Area,F,23,Other,LA,F,21,Junior,Rest of World,F,24,Other,Rest of World,M,23,Senior,Bay Area
+self,08/29/2016,3:30PM,20,Junior,Rest of California,4,F,53,Other,Rest of California,M,58,Other,Rest of California,F,24,Other,Rest of California,M,20,Junior,Rest of California,,,,
+1,08/29/2016,3:31PM,20,Senior,Rest of California,4,M,23,Senior,Rest of World,F,40,Other,Rest of World,M,50,Other,Rest of World,M,21,Sophomore,Rest of World,,,,
+2,08/29/2016,5:40PM,17,Freshman,LA,5,M,17,Freshman,LA,F,50,Other,LA,F,15,Other,LA,F,16,Other,Rest of US,F,18,Other,LA
+3,08/29/2016,5:42PM,22,Junior,Bay Area,4,M,23,Other,Rest of World,M,25,Other,Rest of World,F,22,Other,LA,M,21,Senior,Rest of World,,,,
+self,09/05/2016,10:26 PM,20,Junior,Rest of California,6+,F,20,Junior,Rest of California,F,20,Junior,Rest of California,M,23,Other,Rest of California,F,15,Other,Rest of California,F,50,Other,Rest of California
+1,09/05/2016,10:05 PM,21,Senior,Bay Area,6+,M,20,Senior,Rest of US,F,51,Other,Rest of World,M,56,Other,Rest of World,F,20,Junior,Rest of California,F,19,Senior,Bay Area
+2,09/05/2016,10:15 PM,20,Junior,Rest of California,6+,F,22,Junior,Rest of World,F,49,Other,Rest of World,M,55,Other,Rest of World,M,14,Other,Rest of California,F,22,Other,Rest of California
+3,09/05/2016,11:19 PM,19,Junior,Rest of California,6+,M,20,Junior,Rest of US,M,20,Junior,Rest of US,F,21,Senior,Bay Area,M,22,Senior,Rest of World,F,20,Junior,Rest of California
+self,08/29/2016,15:38,21,Senior,Rest of World,5,F,48,Other,Rest of World,F,21,Senior,Rest of World,M,22,Other,Rest of World,F,21,Senior,Rest of World,M,48,Other,Rest of World
+1,09/01/2016,17:05,22,Senior,Rest of World,5,M,21,Senior,Rest of World,M,22,Senior,Rest of World,M,21,Senior,Rest of World,M,21,Senior,Rest of World,M,21,Senior,Rest of World
+2,08/29/2016,15:35,21,Junior,Bay Area,5,F,53,Other,Bay Area,M,53,Other,Bay Area,M,35,Other,Bay Area,M,18,Freshman,Bay Area,F,21,Junior,Bay Area
+3,09/02/2016,22:24,21,Senior,Rest of World,5,F,21,Senior,Rest of World,M,21,Senior,Rest of World,M,21,Senior,Rest of World,F,21,Senior,Rest of World,F,46,Other,Rest of World
+1,08/29/2016,3:35 PM,21,Junior,Rest of World,3,F,22,Other,Bay Area,M,62,Other,Rest of World,F,56,Other,Rest of World,,,,,,,,
+2,08/30/2016,2:30 PM,21,Senior,Rest of World,5,F,20,Junior,Bay Area,M,52,Other,Rest of World,M,21,Senior,Rest of World,M,21,Senior,Rest of World,M,22,Other,Rest of World
+3,08/31/2016,6:12 PM,21,Senior,Bay Area,3,F,21,Other,Rest of World,F,22,Other,Bay Area,F,20,Junior,Bay Area,,,,,,,,
+4,09/01/2016,12:09 AM,19,Junior,Bay Area,5,F,23,Other,Bay Area,F,20,Junior,LA,M,20,Junior,Bay Area,F,20,Junior,Rest of California,F,20,Junior,Rest of World
+self,09/01/2016,12:23,20,Junior,Rest of World,6+,M,21,Senior,Rest of World,M,20,Senior,Rest of World,F,47,Other,Rest of World,M,50,Other,Rest of World,F,11,Other,Rest of World
+1,09/05/2016,23:23,19,Junior,Rest of World,5,M,20,Junior,Rest of World,M,22,Senior,Rest of World,M,20,Junior,Rest of World,F,35,Other,Rest of World,F,30,Other,Rest of World
+2,09/05/2016,23:30,22,Senior,Rest of World,5,M,21,Senior,Rest of World,M,22,Senior,Rest of World,M,21,Senior,Rest of World,F,21,Senior,Rest of World,M,21,Senior,Rest of World
+3,09/05/2016,23:54,20,Junior,Rest of World,6+,M,20,Senior,Rest of World,M,48,Other,Rest of World,F,47,Other,Rest of World,M,50,Other,Rest of World,M,38,Other,Rest of World
+self,09/07/2016,3:01 PM,17,Freshman,LA,5,F,50,Other,Rest of World,M,55,Other,Rest of US,F,15,Other,LA,M,17,Freshman,LA,F,17,Freshman,LA
+1,08/29/2016,3:40 PM,20,Junior,Rest of California,4,F,53,Other,Rest of California,M,58,Other,Rest of California,F,24,Other,Rest of California,M,20,Junior,Rest of California,,,,
+2,08/29/2016,3:30 PM,20,Sophomore,Bay Area,5,M,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,M,19,Sophomore,LA,M,19,Sophomore,LA
+3,09/07/2016,15:10,17,Freshman,Rest of US,3,F,18,Freshman,Rest of US,F,18,Freshman,Rest of US,F,18,Freshman,Rest of US,F,18,Freshman,Rest of US,F,18,Freshman,Rest of US
+self,08/29/2016,3:30 PM,21,Senior,Bay Area,5,F,22,Senior,Rest of US,F,23,Other,LA,F,23,Other,Bay Area,M,22,Senior,Bay Area,F,19,Senior,Rest of World
+1,09/01/2016,1:30 PM,21,Senior,Bay Area,6,M,21,Senior,Bay Area,F,21,Senior,Bay Area,M,24,Other,LA,F,21,Senior,Rest of California,M,42,Other,Rest of California
+2,09/03/2016,2:45 PM,21,Senior,Bay Area,3,F,21,Senior,LA,M,21,Senior,Rest of California,M,21,Senior,Bay Area,,,,,,,,
+3,09/05/2016,5:15 PM,21,Senior,Rest of California,6,F,21,Senior,Rest of US,F,21,Senior,LA,F,21,Senior,Bay Area,F,20,Senior,Rest of California,M,63,Other,Rest of California
+1,08/29/2016,3:40 PM,19,Sophomore,Rest of California,6+,F,21,Senior,Rest of World,F,19,Sophomore,Rest of California,F,19,Sophomore,Rest of California,F,20,Junior,Bay Area,F,19,Sophomore,Bay Area
+2,09/06/2016,1:56 PM,19,Sophomore,LA,6+,F,20,Junior,LA,F,20,Junior,LA,F,19,Sophomore,LA,F,19,Sophomore,LA,M,19,Sophomore,Rest of World
+3,09/06/2016,3:00 PM,21,Senior,Bay Area,5,F,21,Senior,LA,M,20,Senior,Bay Area,F,49,Other,Rest of US,F,20,Junior,LA,F,22,Other,LA
+4,09/06/2016,4:45 PM,21,Senior,LA,3,M,21,Other,Bay Area,F,22,Other,LA,F,21,Other,LA,F,,,,,,,
+self,08/31/2016,8:30 PM,20,Sophomore,Bay Area,6+,F,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,M,19,Freshman,Bay Area,M,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area
+1,08/29/2016,3:30 PM,17,Freshman,LA,5,M,17,Freshman,LA,F,50,Other,LA,F,16,Other,Rest of US,F,18,Freshman,LA,F,15,Other,LA
+2,08/30/2016,10:30 PM,19,Sophomore,LA,6+,F,18,Sophomore,LA,M,19,Sophomore,LA,M,20,Sophomore,LA,M,47,Other,LA,M,24,Other,LA
+3,08/31/2016,12:10 AM,19,Sophomore,LA,3,F,15,Other,Rest of US,F,19,Sophomore,Rest of US,F,48,Other,Rest of US,,,,,,,,
+self,08/29/2016,3:30 PM,18,Sophomore,Bay Area,5,M,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,M,19,Sophomore,Bay Area,F,19,Sophomore,LA
+1,08/29/2016,6:15 PM,23,Junior,Rest of US,4,M,24,Junior,Rest of US,F,18,Freshman,Rest of US,F,21,Other,Rest of US,F,25,Senior,Rest of US,,,,
+2,08/30/2016,10:00 AM,20,Junior,Rest of World,3,M,27,Other,Rest of World,F,20,Junior,Bay Area,F,21,Junior,Bay Area,,,,,,,,
+3,08/30/2016,10:05 AM,19,Freshman,Bay Area,5,M,20,Freshman,Bay Area,M,19,Freshman,Bay Area,F,19,Freshman,LA,F,19,Freshman,Bay Area,M,20,Sophomore,Rest of US
+self,08/30/2016,10:05 AM,21,Junior,Rest of World,5,M,22,Senior,Rest of World,F,21,Junior,Rest of World,F,21,Junior,Bay Area,F,48,Other,Rest of World,M,44,Other,Bay Area
+1,08/29/2016,3:35 PM,22,Junior,Bay Area,4,M,23,Other,Rest of World,M,25,Other,Rest of World,F,22,Other,LA,M,21,Senior,Rest of World,,,,
+2,08/31/2016,3:20 PM,20,Junior,Rest of World,3,F,21,Junior,Bay Area,F,58,Other,Rest of US,M,44,Other,Bay Area,,,,,,,,
+3,09/03/2016,11:20 AM,23,Senior,Rest of US,5,M,21,Junior,Bay Area,F,22,Junior,Rest of California,M,52,Other,Rest of US,F,24,Senior,Bay Area,F,28,Other,Bay Area
