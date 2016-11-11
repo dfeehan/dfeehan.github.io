@@ -46,6 +46,8 @@ Emilio Zagheni and I are co-organizing a workshop on
 [Web, Social Media, and Cellphone Data for Demographic Research](http://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](http://usa2016.socinfo.eu/); we are now accepting extended abstracts
 (deadline: Sept 30th).
 
+I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](http://rain.stanford.edu/) on November 2nd.
+
 Working papers:
 
 * [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://arxiv.org/abs/1603.08588)
