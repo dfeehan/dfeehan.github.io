@@ -18,6 +18,7 @@ install.packages("networkreporting")
 </p>
 at the R prompt. The most recent development version is available from the
 <a href="https://github.com/dfeehan/networkreporting">github respository</a>.
+<BR><BR>
 <p>
 Prof. Sadeqi of Yazd University (Iran) has developed a
 <a href="https://sadeqi.shinyapps.io/networkreportingGUI/">GUI based on RShiny</a>
