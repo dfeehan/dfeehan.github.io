@@ -18,6 +18,11 @@ install.packages("networkreporting")
 </p>
 at the R prompt. The most recent development version is available from the
 <a href="https://github.com/dfeehan/networkreporting">github respository</a>.
+<p>
+Prof. Sadeqi of Yazd University (Iran) has developed a
+[GUI based on Shiny](https://sadeqi.shinyapps.io/networkreportingGUI/)
+to help researchers use the networkreporting package.
+</p>
 </td>
 <td>
 <div style="width:300px;">
