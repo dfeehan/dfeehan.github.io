@@ -20,7 +20,7 @@ at the R prompt. The most recent development version is available from the
 <a href="https://github.com/dfeehan/networkreporting">github respository</a>.
 <p>
 Prof. Sadeqi of Yazd University (Iran) has developed a
-[GUI based on Shiny](https://sadeqi.shinyapps.io/networkreportingGUI/)
+<a href="https://sadeqi.shinyapps.io/networkreportingGUI/">GUI based on RShiny</a>
 to help researchers use the networkreporting package.
 </p>
 </td>
