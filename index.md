@@ -42,17 +42,21 @@ In the summer of 2015, I finished my Ph.D. at Princeton's
 I spent the fall of 2015 as a Research Scientist at 
 <a href="http://www.facebook.com/data">Facebook</a>.
 
-Emilio Zagheni and I are co-organizing a workshop on 
+I had a great visit to UW Madison, where I gave a talk in their [demography seminar](https://www.ssc.wisc.edu/cde/demsem/home.php) on March 14th.
+
+I was interviewed about our work on social network methods for estimating adult mortality 
+by the [Matrix](http://matrix.berkeley.edu/research/network-survival-method).
+
+
+Emilio Zagheni and I co-organized a workshop on 
 [Web, Social Media, and Cellphone Data for Demographic Research](http://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](http://usa2016.socinfo.eu/); we are now accepting extended abstracts
 (deadline: Sept 30th).
 
 I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](http://rain.stanford.edu/) on November 2nd.
 
-Working papers:
+Recent publications / forthcoming:
 
 * [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://arxiv.org/abs/1603.08588)
-
-Recent publications / forthcoming:
 
 * [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](http://aje.oxfordjournals.org/content/early/2016/03/24/aje.kwv287.abstract?keytype=ref&ijkey=CL6F1KyZXTbe2sq)
 
