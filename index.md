@@ -36,27 +36,27 @@ I'm a demographer and quantitative social scientist. <br>
 My research interests lie at the intersection of networks, demography, and
 quantitative methodology.
 I'm an Assistant Professor of Demography at the
-<a href="http://www.demog.berkeley.edu">University of California, Berkeley</a>.
+<a href="https://www.demog.berkeley.edu">University of California, Berkeley</a>.
 In the summer of 2015, I finished my Ph.D. at Princeton's
-<a href="http://opr.princeton.edu">Office of Population Research</a>, and
+<a href="https://opr.princeton.edu">Office of Population Research</a>, and
 I spent the fall of 2015 as a Research Scientist at 
-<a href="http://www.facebook.com/data">Facebook</a>.
+<a href="https://www.facebook.com/data">Facebook</a>.
 
 I had a great visit to UW Madison, where I gave a talk in their [demography seminar](https://www.ssc.wisc.edu/cde/demsem/home.php) on March 14th.
 
 I was interviewed about our work on social network methods for estimating adult mortality 
-by the [Matrix](http://matrix.berkeley.edu/research/network-survival-method).
+by the [Matrix](https://matrix.berkeley.edu/research/network-survival-method).
 
 
 Emilio Zagheni and I co-organized a workshop on 
-[Web, Social Media, and Cellphone Data for Demographic Research](http://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](http://usa2016.socinfo.eu/).
+[Web, Social Media, and Cellphone Data for Demographic Research](https://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](https://usa2016.socinfo.eu/).
 
-I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](http://rain.stanford.edu/) on November 2nd.
+I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](https://rain.stanford.edu/) on November 2nd.
 
 Recent publications / forthcoming:
 
-* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://arxiv.org/abs/1603.08588)
+* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](https://arxiv.org/abs/1603.08588)
 
-* [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](http://aje.oxfordjournals.org/content/early/2016/03/24/aje.kwv287.abstract?keytype=ref&ijkey=CL6F1KyZXTbe2sq)
+* [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](https://aje.oxfordjournals.org/content/early/2016/03/24/aje.kwv287.abstract?keytype=ref&ijkey=CL6F1KyZXTbe2sq)
 
-* [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](http://arxiv.org/abs/1404.4009)
+* [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](https://arxiv.org/abs/1404.4009)

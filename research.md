@@ -5,13 +5,13 @@ title: Research
 
 Working papers:
 
-* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://arxiv.org/abs/1603.08588)
+* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](https://arxiv.org/abs/1603.08588)
 
 Recent publications / forthcoming:
 
-* [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](http://aje.oxfordjournals.org/content/early/2016/03/24/aje.kwv287.abstract?keytype=ref&ijkey=CL6F1KyZXTbe2sq)
+* [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](https://aje.oxfordjournals.org/content/early/2016/03/24/aje.kwv287.abstract?keytype=ref&ijkey=CL6F1KyZXTbe2sq)
 
-* [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](http://arxiv.org/abs/1404.4009)
+* [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](https://arxiv.org/abs/1404.4009)
 
 ### Dissertation
 
