@@ -19,13 +19,14 @@ For the DNS, I have
 
 The net result is that my default page is www.dennisfeehan.org
 
-
-
-
 NB: see [this page](http://joshualande.com/jekyll-github-pages-poole/) for some help on setting up google analytics
 
 NB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html
 
+2017-04-22
+
+* now I'm getting an SSL error, so I am switching DNS to CloudFlare; apparently,
+  they have free SSL certs
 
 
 
