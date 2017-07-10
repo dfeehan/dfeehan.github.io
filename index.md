@@ -42,7 +42,7 @@ In the summer of 2015, I finished my Ph.D. at Princeton's
 I spent the fall of 2015 as a Research Scientist at 
 <a href="https://www.facebook.com/data">Facebook</a>.
 
-I visited to the US State Department, where I gave a talk hosted by the Bureau of Intelligence and Research.
+In June, I was invited to the US State Department, where I gave a talk hosted by the Bureau of Intelligence and Research.
 
 I had a great visit to UW Madison, where I gave a talk in their [demography seminar](https://www.ssc.wisc.edu/cde/demsem/home.php) on March 14th.
 
