@@ -42,6 +42,21 @@ In the summer of 2015, I finished my Ph.D. at Princeton's
 I spent the fall of 2015 as a Research Scientist at 
 <a href="https://www.facebook.com/data">Facebook</a>.
 
+
+**Working papers**
+
+* [Testing theories of old-age mortality using model selection techniques](https://arxiv.org/pdf/1707.09433.pdf)
+
+
+**Recent publications / forthcoming**
+
+* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://dx.doi.org/10.1007/s13524-017-0594-y)
+
+* [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](https://doi.org/10.1093/aje/kwv287)
+
+* [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](https://doi.org/10.1177/0081175016665425)
+
+
 **Updates**
 
 In June, I was invited to the US State Department, where I gave a talk hosted by the Bureau of Intelligence and Research.
@@ -56,18 +71,4 @@ Emilio Zagheni and I co-organized a workshop on
 [Web, Social Media, and Cellphone Data for Demographic Research](https://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](https://usa2016.socinfo.eu/).
 
 I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](https://rain.stanford.edu/) on November 2nd.
-
-
-Working papers:
-
-* [Testing theories of old-age mortality using model selection techniques](https://arxiv.org/pdf/1707.09433.pdf)
-
-
-Recent publications / forthcoming:
-
-* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://dx.doi.org/10.1007/s13524-017-0594-y)
-
-* [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](https://doi.org/10.1093/aje/kwv287)
-
-* [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](https://doi.org/10.1177/0081175016665425)
 
