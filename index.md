@@ -68,7 +68,7 @@ by the [Matrix](https://matrix.berkeley.edu/research/network-survival-method).
 
 
 Emilio Zagheni and I co-organized a workshop on 
-[Web, Social Media, and Cellphone Data for Demographic Research](https://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](https://usa2016.socinfo.eu/).
+[Web, Social Media, and Cellphone Data for Demographic Research](http://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](https://usa2016.socinfo.eu/).
 
 I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](https://rain.stanford.edu/) on November 2nd.
 
