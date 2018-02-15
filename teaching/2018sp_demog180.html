@@ -341,16 +341,17 @@ Spring 2018</h1>
 
 
 
-<p><strong>Professor Dennis Feehan</strong><BR> Office: 2232 Piedmont Ave, Room 210<BR> Email: my last name at berkeley.edu<BR> Class meetings Tu/Th 11am-12.30pm, 141 McCone<BR> Class number: 41045<BR> Office hours: Tu 4-5pm, 210 Dept. of Demography<BR> <BR> <a href="https://piazza.com/class/jcgtusuzymr5f7?cid=6">Piazza page</a><BR> <a href="https://bcourses.berkeley.edu/courses/1470310">Bcourses page</a><BR> <a href="https://drive.google.com/drive/folders/1x-ZA9Nz8lqJUmi9iGFJ1UB2pHi-Qzl9Q?usp=sharing">Lecture slides</a></p>
+<p><strong>Professor Dennis Feehan</strong><BR> Office: 2232 Piedmont Ave, Room 210<BR> Email: my last name at berkeley.edu<BR> Class meetings Tu/Th 11am-12.30pm, 141 McCone<BR> Class number: 41045<BR> Office hours: Tu 3-4pm, 210 Dept. of Demography<BR> <BR> <a href="https://piazza.com/class/jcgtusuzymr5f7?cid=6">Piazza page</a><BR> <a href="https://bcourses.berkeley.edu/courses/1470310">Bcourses page</a><BR> <a href="https://drive.google.com/drive/folders/1x-ZA9Nz8lqJUmi9iGFJ1UB2pHi-Qzl9Q?usp=sharing">Lecture slides</a></p>
 <h2 id="overview">Overview</h2>
 <p>The science of social networks focuses on measuring, modeling, and understanding the different ways that people are connected to one another. In this class, we will use a broad toolkit of theories and methods drawn from the social, natural, and mathematical sciences to learn what a social network is, to understand how to work with social network data, and to illustrate some of the ways that social networks can be useful in theory and in practice. We will see that network ideas are powerful enough to be used everywhere from CDC and UNAIDS, where network models help epidemiologists prevent the spread of HIV, to Silicon Valley, where data scientists use network ideas to build products that enable people all across the globe to connect with one another.</p>
 <h2 id="calendar">Calendar</h2>
 <table>
 <colgroup>
-<col style="width: 25%" />
+<col style="width: 31%" />
 <col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 62%" />
+<col style="width: 9%" />
+<col style="width: 38%" />
+<col style="width: 13%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -358,6 +359,7 @@ Spring 2018</h1>
 <th>Week</th>
 <th>Date</th>
 <th>Topic</th>
+<th>Materials</th>
 </tr>
 </thead>
 <tbody>
@@ -366,192 +368,224 @@ Spring 2018</h1>
 <td>1</td>
 <td>1/16</td>
 <td>Intro / what social networks are / class info</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>1/18</td>
-<td>Definitions, types of networks, types of network data, discussion about survey research</td>
+<td>Personal networks; social connectedness and social isolation in America; survey data collection</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:homophilyI">Homophily / Tie strength I</a></td>
 <td>2</td>
 <td>1/23</td>
-<td>Social connectedness and social isolation in America; survey data collection</td>
+<td>Basic graph theory: definitions, types of networks, types of network data</td>
+<td><a href="#sec:hwk1">Homework 1</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>1/25</td>
-<td>Social capital and the strength of weak ties; patterns of tie strength in students’ survey results</td>
+<td>Strength of weak ties; social capital</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:homophilyII">Homophily / Tie strength II</a></td>
 <td>3</td>
 <td>1/30</td>
-<td>Homophily; choice and structure; social implications; patterns of homophily in students’ survey results</td>
+<td>Networks in context; homophily</td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/01_personal_networks/01%20-%20UCB%20personal%20networks%20survey.ipynb">Personal networks lecture notebook</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>2/1</td>
-<td>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</td>
+<td>Positive and negative relationships</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:models">Network models</a></td>
+<td><a href="#sec:affiliation">Affiliation networks</a></td>
 <td>4</td>
 <td>2/6</td>
-<td>Intro to mathematical network models; the Erdos-Renyi model and its predictions</td>
+<td>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/02_entire_networks/02%20-%20Introduction%20to%20whole%20network%20data.ipynb">Working with whole network data notebook</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>2/8</td>
-<td>Using the ER model to analyze empirical data; homophily example</td>
+<td>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/04_structural_balance/04%20-%20Structural%20balance%20in%20the%20small%20Slashdot%20network.ipynb">Structural balance notebook</a></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:smallworlds">Small worlds</a></td>
+<td><a href="#sec:models">Network models</a></td>
 <td>5</td>
 <td>2/13</td>
-<td>The small world phenomenon</td>
+<td>Intro to mathematical network models; the Erdos-Renyi model and its predictions</td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/05_er_networks/live%20-%20erods_renyi_random_networks.ipynb">Erdos-Renyi random networks notebook</a></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>2/15</td>
-<td>Search in small worlds; scale-free networks</td>
+<td>Intro to mathematical network models; the Erdos-Renyi model and its predictions</td>
+<td><a href="#sec:hwk2">Homework 2</a></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:affiliation">Affiliation networks</a></td>
+<td><a href="#sec:smallworlds">Small worlds</a></td>
 <td>6</td>
 <td>2/20</td>
-<td>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</td>
+<td>Small worlds</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>2/22</td>
-<td>Affiliation networks cont.</td>
+<td>Search in small worlds / Scale-free networks</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>7</td>
 <td>2/27</td>
 <td>Midterm review</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>3/1</td>
 <td>Midterm</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:simplecontagion">Simple contagion</a></td>
 <td>8</td>
 <td>3/6</td>
 <td>SIR model, types of centrality</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>3/8</td>
 <td>Why your friends have more friends than you do; network structure and disease</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>9</td>
 <td>3/13</td>
 <td>Sexual networks, concurrency, and HIV</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><a href="#sec:complexcontagion">Complex contagion</a></td>
 <td></td>
 <td>3/15</td>
 <td>Complex contagion; social influence, decisions, threshold models</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>10</td>
 <td>3/20</td>
 <td>Experimental studies of complex contagion</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>3/22</td>
 <td>Can your friends make you fat? Observational studies of network contagion</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>11</td>
 <td>3/27</td>
 <td>SPRING BREAK</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>3/29</td>
 <td>SPRING BREAK</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:osn">Online social networks</a></td>
 <td>12</td>
 <td>4/3</td>
 <td>Online social networks; online/offline relationships; digital divide</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>4/5</td>
 <td>Filter bubbles; going viral</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:communities">Network structure / communities</a></td>
 <td>13</td>
 <td>4/10</td>
 <td>More complex network models: the block model, the configuration model</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>4/12</td>
 <td>Community detection; models of network formation</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:strongweak">Strong and weak tie networks</a></td>
 <td>14</td>
 <td>4/17</td>
 <td>Family and kinship networks; the grandmother hypothesis</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>4/19</td>
 <td>Weak tie networks</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:cooperation">Cooperation and collaboration</a></td>
 <td>15</td>
 <td>4/24</td>
 <td>Cooperation; the prisoner’s dilemma and public goods games</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>4/26</td>
 <td>Experimental evidence for the emergence of cooperation</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td>5/1</td>
 <td>READING WEEK</td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>5/3</td>
 <td>READING WEEK</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -606,14 +640,14 @@ Spring 2018</h1>
 <p>Lectures:</p>
 <ul>
 <li>Intro / what social networks are / class info</li>
-<li>Definitions, types of networks, types of network data, discussion about survey research</li>
+<li>Personal networks; social connectedness and social isolation in America; survey data collection</li>
 </ul>
 <p>Reading:</p>
 <ul>
 <li><span class="citation" data-cites="watts_six_2003">D. J. Watts (<a href="#ref-watts_six_2003">2003</a>)</span> preface-Ch.1</li>
 <li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.1-Ch.2</li>
 </ul>
-<p>Homework 1:</p>
+<h4 id="sec:hwk1">Homework 1</h4>
 <ul>
 <li><a href="https://docs.google.com/document/d/1hsY5PXv0PPctn1sQZwnHwf-DWVcNQhOncQyYd6tTfak/edit?usp=sharing">Assignment</a></li>
 <li><a href="https://drive.google.com/open?id=1EOrHhYZ8X_J2ryfbinQTFIDwJNJNLucGHGZ8BMUwpn0">Data entry</a></li>
@@ -622,8 +656,9 @@ Spring 2018</h1>
 <h3 id="sec:homophilyI">Week 2: Homophily and tie strength I</h3>
 <p>Lectures:</p>
 <ul>
-<li>Social connectedness and social isolation in America; survey data collection</li>
-<li>Social capital and the strength of weak ties; patterns of tie strength in students’ survey results</li>
+<li>Basic graph theory: definitions, types of networks</li>
+<li>Strength of weak ties; social capital</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/01_personal_networks/01%20-%20UCB%20personal%20networks%20survey.ipynb">Personal networks lecture notebook</a></li>
 </ul>
 <p>Reading:</p>
 <!--* TODO NEWSPAPER-->
@@ -633,47 +668,50 @@ Spring 2018</h1>
 <h3 id="sec:homophilyII">Week 3: Homophily and tie strength II</h3>
 <p>Lectures:</p>
 <ul>
-<li>Homophily; choice and structure; social implications; patterns of homophily in students’ survey results</li>
-<li>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</li>
-<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/01_personal_networks/01%20-%20UCB%20personal%20networks%20survey.ipynb">Personal networks lecture notebook</a></li>
+<li>Networks in context; homophily: choice and structure; social implications; patterns of homophily in students’ survey results</li>
+<li>Positive and negative relationships</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/02_entire_networks/02%20-%20Introduction%20to%20whole%20network%20data.ipynb">Working with whole network data notebook</a></li>
 </ul>
 <p>Reading:</p>
 <!--* TODO NEWSPAPER-->
 <ul>
 <li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.1-4.2; Ch.5.1-5.2</li>
 </ul>
-<h3 id="sec:models">Week 4: Network models</h3>
+<h3 id="sec:affiliation">Week 4: Affiliation networks</h3>
 <p>Lectures:</p>
 <ul>
-<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/02_entire_networks/02%20-%20Introduction%20to%20whole%20network%20data.ipynb">Whole network data notebook</a></li>
+<li>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</li>
+<li>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/04_structural_balance/04%20-%20Structural%20balance%20in%20the%20small%20Slashdot%20network.ipynb">Structural balance notebook</a></li>
+</ul>
+<p>Readings:</p>
+<ul>
+<li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.3-4.4</li>
+</ul>
+<h3 id="sec:models">Week 5: Network models</h3>
+<p>Lectures:</p>
+<ul>
 <li>Intro to mathematical network models; the Erdos-Renyi model and its predictions</li>
 <li>Using the ER model to analyze empirical data; homophily example</li>
-<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/04_structural_balance/04%20-%20Structural%20balance%20in%20the%20small%20Slashdot%20network.ipynb">Structural balance notebook</a></li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=lecture/05_er_networks/live%20-%20erods_renyi_random_networks.ipynb">Erdos-Renyi random networks notebook</a></li>
 </ul>
 <p>Readings:</p>
 <ul>
 <li><span class="citation" data-cites="watts_six_2003">D. J. Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 2</li>
 </ul>
-<h3 id="sec:smallworlds">Week 5: Small worlds</h3>
-<p>Lectures:</p>
+<h4 id="sec:hwk2">Homework 2</h4>
 <ul>
 <li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=mrazakhan&amp;repo=Demography180-Spring2018&amp;branch=master&amp;path=hwk2/hw02_Spring2018.ipynb">Homework 2</a></li>
+</ul>
+<h3 id="sec:smallworlds">Week 6: Small worlds</h3>
+<p>Lectures:</p>
+<ul>
 <li>The small world phenomenon</li>
 <li>Search in small worlds; scale-free networks</li>
 </ul>
 <p>Readings:</p>
 <ul>
 <li><span class="citation" data-cites="watts_six_2003">D. J. Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 3-4</li>
-</ul>
-<h3 id="sec:affiliation">Week 6: Affiliation networks</h3>
-<p>Lectures:</p>
-<ul>
-<li>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</li>
-<li>Affiliation networks cont.</li>
-</ul>
-<p>Readings:</p>
-<ul>
-<li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.3-4.4</li>
 </ul>
 <h3 id="sec:midterm">Week 7: Catch-up, review, and midterm</h3>
 <p>Lectures:</p>
