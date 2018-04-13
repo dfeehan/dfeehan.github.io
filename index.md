@@ -45,12 +45,12 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Working papers**
 
-* [Testing theories of old-age mortality using model selection techniques](https://arxiv.org/pdf/1707.09433.pdf)
+* [Separating the signal from the noise: Evidence for deceleration in old-age death rates](https://arxiv.org/pdf/1707.09433.pdf)
 
 
 **Recent publications / forthcoming**
 
-* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://dx.doi.org/10.1007/s13524-017-0594-y)
+* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](https://link.springer.com/article/10.1007/s13524-017-0594-y)
 
 * [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](https://doi.org/10.1093/aje/kwv287)
 
@@ -58,6 +58,11 @@ I spent the fall of 2015 as a Research Scientist at
 
 
 **Updates**
+
+I had a great visit to Duke, where I gave a talk at the DuPRI Seminar.
+
+I gave a talk at the Center for Statistics and the Social Sciences at the University of
+Washington, a wonderful group of researchers.
 
 In June, I was invited to the US State Department, where I gave a talk hosted by the Bureau of Intelligence and Research.
 
