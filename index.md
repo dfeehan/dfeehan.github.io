@@ -59,6 +59,10 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Updates**
 
+I'm thrilled to have been awarded the ASA Outstanding Article in Mathematical Sociology Award! Check out the paper, written with Matt Salganik, [here](https://goo.gl/Xcxino)  (arxiv version [here](https://arxiv.org/abs/1404.4009)). Congrats to co-winners Joscha Legewie and Merlin Schaeffer for their work on contested boundaries.
+
+I gave a keynote talk and tutorial at the pre-PAA workshop, 'Demographic Research in the Digital Age' (sponsored by IUSSP). I also gave two talks during the PAA conference. 
+
 I had a great visit to Duke, where I gave a talk at the DuPRI Seminar.
 
 I gave a talk at the Center for Statistics and the Social Sciences at the University of
