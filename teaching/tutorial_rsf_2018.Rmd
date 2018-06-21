@@ -556,7 +556,7 @@ The papers have a full derivation of the sensitivity framework for network
 scale-up; to illustrate this approach, you can use the following Shiny widget to
 conduct a partial sensitivity analysis yourself:
 
-```{r}
+```{r, eval=FALSE}
 shiny::runGitHub( "gnsum-sensitivity-widget", "dfeehan") 
 ```
 
