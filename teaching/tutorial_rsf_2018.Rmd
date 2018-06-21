@@ -1,0 +1,596 @@
+---
+title: "Getting started with network methods for estimating demographic quantities"
+subtitle: "RSF migration workshop tutorial"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(networkreporting)
+library(surveybootstrap)
+library(ggrepel)
+
+theme_set(theme_minimal()) # theme for plots
+```
+
+## Prelminary: sign up for the group!
+
+I created an email list that you can access [here](https://groups.google.com/d/forum/networkreporting).
+If you are interested in network reporting,
+please sign up!
+
+## Introduction
+
+In this tutorial, we'll go through a typical analysis that uses survey data about
+respondents' reported network connections.
+These data are a little different from the network reports in my talk about
+estimating internet adoption; in this case, we'll look at a dataset that was
+produced by asking respondents to a household survey questions like
+"How many nurses have you shared a meal with in the past year?"
+This type of data has been called *aggregate relational data*, and it's
+often collected with the goal of using the network scale-up method.
+
+In order to analyze these data, we'll use the
+**networkreporting** package.  **networkreporting** has various tools that are
+using for analyzing network reporting data, including aggregate relational
+data that have been collected using the network scale-up method.
+
+This introduction will assume that you already have the **networkreporting**
+package installed. If you don't, please refer to the instructions you were
+sent before the tutorial. 
+
+## Review of the network scale-up method
+
+For the purposes of this tutorial, we'll assume that you have conducted a survey
+using network scale-up questions in order to estimate the size of a hidden 
+population.  Analytically, using the scale-up estimator involves two steps:
+
+* step 1: estimating the size of the survey respondents' personal
+  networks (their *degrees*)
+* step 2: estimating the size of the hidden population by combining the estimated network sizes (from step 1) with the number of connections to the hidden population
+
+We'll quickly review each of these steps, and then we'll show how to use
+the package to carry the estimation out.
+
+### Step 1: estimating network sizes
+
+Here, we will use the *known population* estimator for respondents' degrees (Killworth et al., 1998; Feehan and Salganik, 2016). In order to estimate the degree of the $i$ th survey respondent,
+we use the
+
+$$
+\begin{align}
+\label{eqn:kpdegree}
+\hat{d_i} = \sum_{j=1}^{K} y_{ij} \times 
+\frac{N}{\sum_{j=1}^{K} N_j},
+\end{align}
+$$
+
+where $N$ is the total size of the population, $N_j$ is the size of
+the $j$ th population of known size, and $y_{ij}$ is the number of connections
+that survey respondent $i$ reports between herself and members of the $j$ th
+population of known size.
+
+### Step 2: estimating hidden population sizes
+
+Once we have the estimates of the respondents' degrees, we use them to produce
+an estimate for the size of the hidden population:
+
+$$
+\begin{align}
+\label{eqn:nsum}
+\hat{N}_h = \frac{ \sum_{i \in s} y_{ih} }{ \sum_{i \in s} \hat{d_i} },
+\end{align}
+$$
+
+where $N_h$ is the size of the population of interest (which we want to
+estimate), $s$ is the set of respondents in our sample, and $\hat{d_i}$ is the
+estimate of the size of respondent $i$'s degree, obtained using the known
+population method. In this tutorial, we'll use clients of
+sex workers as an example hidden population.
+
+Preparing data
+--------------
+We will assume that you start with two datasets: the first is a survey
+containing information collected from respondents about their personal networks;
+the second is information about the sizes of several populations.
+
+The example data for this tutorial are provided with the `networkreporting`
+package, and can be loaded by typing
+
+```{r, message=FALSE}
+## column names for connections to hidden population numbers
+hidden.q <- c("sex.workers", "msm", "idu", "clients")
+
+## column names for connections to groups of known size
+hm.q <- c("widower", "nurse.or.doctor", "male.community.health", "teacher", 
+          "woman.smoke", "priest", "civil.servant", "woman.gave.birth", 
+          "muslim", "incarcerated", "judge", "man.divorced", "treatedfortb", 
+          "nsengimana", "murekatete", "twahirwa", "mukandekezi", "nsabimana", 
+          "mukamana", "ndayambaje", "nyiraneza", "bizimana", "nyirahabimana", 
+          "ndagijimana", "mukandayisenga", "died")
+
+## size of the entire population
+tot.pop.size <- 10718378
+
+## size of the frame population
+tot.frame.size <- 5993742
+
+```
+
+The example data include two datasets: one has all of the responses from a
+network scale-up survey, and the other has the known population sizes for
+use with the known population estimator.
+
+### Preparing the known population data
+
+The demo known population data are in `example.knownpop.dat`: 
+
+```{r}
+example.knownpop.dat
+```
+
+`example.knownpop.dat` is very simple: one column has a name for each known population,
+and the other has its toal size. We expect that users will typically start with
+a small dataset like this one. But, when using the `networkreporting` package, it is
+more useful to have a vector whose entries are known population sizes and whose
+names are the known population names. The `df.to.kpvec` function makes it easy
+for us to create it:
+
+```{r}
+kp.vec <- df.to.kpvec(example.knownpop.dat, kp.var="known.popn", kp.value="size")
+
+kp.vec
+```
+
+Finally, we also need to know the total size of the population we are making
+estimates about. In this case, let's assume that we're working in a country of
+about 10 million people; the population size is in the variable `tot.pop.size`:
+
+```{r}
+tot.pop.size
+```
+
+
+### Preparing the survey data
+
+Now let's take a look at the demo survey dataset, which is called
+`example.survey`:
+
+```{r}
+glimpse(example.survey)
+```
+
+The columns fall into a few categories:
+
+* an id variable for each respondent: `id`
+* information related to the sampling design of the survey: `cluster`, `region`, and `indweight`. 
+* demographic characteristics of the respondents: `sex` and `age.cat` 
+* responses to questiona bout populations whose total size is known: `widower`, ...,
+`mukandayisenga`
+* questions about hidden populations: `died`, ..., `clients` 
+
+This is the general form that your survey dataset should have.
+
+The first thing we're going to do is to rescale the weights. They were delivered to us
+as relative weights, but we'll want them to add up to the size of the frame population.
+
+```{r}
+example.survey <- example.survey %>% mutate(indweight = tot.frame.size * indweight / sum(indweight))
+```
+
+
+#### Topcoding
+
+Many network scale-up studies have topcoded the responses to the aggregate 
+relational data questions (this is also called
+[Winsorization](https://en.wikipedia.org/wiki/Winsorizing)). This means that
+researchers considered any responses above a certain value, called the topcode,
+to be implausible. Before proceeding with the analysis, researchers substitute
+the maximum plausible value in for the implausible ones. For example, in many
+studies, researchers replaced responses with the value 31 or higher with the
+value 30 before conducting their analysis (see Zheng, Salganik, and Gelman
+2006).
+
+We won't discuss whether or not this is advisable here, but this is currently a
+common practice in scale-up studies. If you wish to follow it, you can use the
+`topcode.data` function.  For example, let's topcode the responses to
+the questions about populations of known size to the value 30. First, we'll
+examine the distribution of the responses before topcoding:
+
+```{r}
+## make a vector with the list of known population names from
+## our dataset of known population totals
+known.popn.vars <- paste(example.knownpop.dat$known.popn)
+
+## before topcoding: max. response for several popns is > 30
+summary(example.survey[,known.popn.vars])
+```
+
+It's usually more helpful to look at plots:
+
+```{r}
+
+hm.raw <- map(known.popn.vars,
+               function(kp) {
+                 plotdat <- example.survey %>% select(thiscol=kp)
+                 #thisname <- hm.labels[kp]
+                 thisname <- kp
+                 
+                 p <- ggplot(plotdat) +
+                   geom_histogram(aes(x=thiscol), binwidth=1) +
+                   xlab(thisname) +
+                   theme_minimal()
+                 
+                 return(p)
+               })
+hm.raw <- setNames(hm.raw, known.popn.vars)
+
+```
+
+Look at a couple of examples (feel free to explore more):
+
+```{r}
+names(hm.raw)
+
+hm.raw[[1]]
+
+hm.raw[['woman.smoke']]
+```
+
+
+
+
+Several populations, including `widower`, `male.community.health`, `teacher`,
+`woman.smoke`, `muslim`, and `incarcerated` have maximum values that are very
+high. (It turns out that 95 is the highest value that could be recorded during
+the interviews; if respondents said that they were connected to more than 95
+people in the group, the interviewers wrote 95 down.)
+
+Now we use the `topcode.data` function to topcode all of the responses
+at 30:
+
+```{r}
+example.survey <- topcode.data(example.survey,
+                               vars=known.popn.vars,
+                               max=30)
+
+## after topcoding: max. response for all popns is 30
+summary(example.survey[,known.popn.vars])
+```
+
+If you look at the help page for `topcode.data`, you'll see that it can also
+handle situations where the variables can take on special codes for missing
+values, refusals, and so forth. 
+
+We can redo our plots to check the topcoded distributions:
+
+```{r}
+# this vector maps variable names to descriptive labels
+hm.topcoded <- map(known.popn.vars,
+               function(kp) {
+                 plotdat <- example.survey %>% select(thiscol=kp)
+                 thisname <- kp
+                 
+                 
+                 p <- ggplot(plotdat) +
+                   geom_histogram(aes(x=thiscol), binwidth=1) +
+                   xlab(thisname) +
+                   theme_minimal()
+                 
+                 return(p)
+               })
+hm.topcoded <- setNames(hm.topcoded, known.popn.vars)
+```
+
+And let's check that this all worked...
+
+```{r}
+names(hm.topcoded)
+
+hm.topcoded[[1]]
+
+hm.topcoded[['woman.smoke']]
+```
+
+
+Avg number reported vs known popn size
+--------------------------------------
+
+After examining the distribution of responses to the aggregate relational survey items
+(e.g., the 'how many X do you know?' questions), the next step is typically to examine the
+relationship between the average number of reported connections to each group of known size
+and the size of each group. Although we don't necessarily expect these to be perfectly related,
+we expect there to be a strong positive relationship between these two quantities: 
+in other words, we expect people will report, on average, more connections to groups that are
+bigger. We'll take a look at this next, by creating a plot:
+
+```{r}
+# calculate the (weighted) average number known for each group
+ank.kp <- example.survey %>%
+  select(c(known.popn.vars, 'indweight')) %>%
+  gather(kp, num_known, -indweight) %>%
+  group_by(kp) %>%
+  dplyr::summarize(avg_num_known = weighted.mean(num_known, weight=indweight, na.rm=TRUE))
+
+ank.kp 
+
+# make a dataframe with the known population values, so we can
+# join it into the average reported connections
+kp.df <- data_frame(kp = names(kp.vec),
+                    tot = kp.vec)
+
+kp.df
+
+# merge the average number of reported connections and the
+# actual size of each group into a single dataset
+compare.kp <- ank.kp %>%
+  left_join(kp.df)
+  
+# and, finally, plot that relationship
+ank.kp.plot <- ggplot(compare.kp) +
+  geom_point(aes(x=tot, y=avg_num_known)) +
+  xlab("Total group size") +
+  ylab("Average number of reported connections") +
+  scale_x_continuous(label=scales::comma) +
+  theme_minimal()
+
+ank.kp.plot
+
+```
+
+If you want a plot that shows the identity of each point, you can use the `ggrepel` package:
+
+```{r}
+
+ank.kp.plot.labs <- ggplot(compare.kp) +
+  geom_point(aes(x=tot, y=avg_num_known)) +
+  geom_text_repel(aes(x=tot, y=avg_num_known, label=kp)) +
+  xlab("Total group size") +
+  ylab("Average number of reported connections") +
+  scale_x_continuous(label=scales::comma) +
+  theme_minimal()
+
+ank.kp.plot.labs
+
+```
+
+
+Estimating network sizes
+------------------------
+
+Now that we have finished preparing the data, we turn to esimating the sizes of 
+each respondent's personal network.  To do this using the known population 
+estimator, we can use the `kp.degree.estimator` function. This function will
+return a degree estimate for each individual respondent:
+
+```{r, tidy=FALSE}
+d.hat <- kp.individual.estimator(resp.data=example.survey,
+                                  known.populations=known.popn.vars,
+                                  total.kp.size=sum(kp.vec),
+                                  alter.popn.size=tot.pop.size)$dbar.Fcell.F
+
+summary(d.hat)
+```
+
+We can examine the results with a histogram
+
+```{r}
+qplot(d.hat, binwidth=25)
+```
+
+Now let's append the degree estimates to the survey reports dataframe:
+
+```{r}
+example.survey$d.hat <- d.hat
+```
+
+Estimating average degree
+-------------------------
+
+We can also directly estimate the average degree using the kp estimator
+(this is slightly different from estimating the degree of each individual
+respondent):
+
+```{r}
+d.bar.hat<- kp.estimator(resp.data=example.survey,
+                         known.populations=known.popn.vars,
+                         total.kp.size=sum(kp.vec),
+                         weights="indweight",
+                         alter.popn.size=tot.pop.size)
+
+d.bar.hat
+```
+
+
+Estimating hidden population size
+---------------------------------
+
+Now that we have estimated degrees, we  can use them to produce estimates of the
+size of the hidden population. Here, we'll take the example of clients of female sex
+workers, `clients`
+
+```{r, tidy=FALSE}
+clients.est <- nsum.estimator(survey.data=example.survey,
+                              d.hat.vals=d.hat,
+                              total.popn.size=tot.pop.size,
+                              y.vals="clients",
+                              missing="complete.obs")
+```
+
+Note that we had to specify that we should use only rows in our dataset with no
+missing values through the `missing = "complete.obs"` option, and also that we
+had to pass in the total population size using the `total.popn.size` option.
+The resulting estimate is
+
+```{r}
+clients.est
+```
+
+This returns the estimate, and also the numerator and denominator used to
+compute it.
+
+Variance estimation
+-------------------
+
+In order to estimate the sampling uncertainty of our estimated totals, we can 
+use the rescaled bootstrap technique [see Rao and Wu (1988) for the original derivation
+of the rescaled bootstrap, and Feehan and Salganik 2016 for more
+about the rescaled boostrap and how it can be applied to the network scale-up
+method].  
+
+In order to use the rescaled boostrap, you need to be able to specify the
+sampling design of your study. In particular, you need to be able to describe
+the stratifcation (if any) and the primary sampling units used in the study.
+
+```{r, tidy=FALSE}
+clients.est <- bootstrap.estimates(## this describes the sampling design of the
+                                   ## survey; here, the PSUs are given by the
+                                   ## variable cluster, and the strata are given
+                                   ## by the variable region
+                                   survey.design = ~ cluster + strata(region),
+                                   ## the number of bootstrap resamples to obtain
+                                   num.reps=1000,
+                                   ## this is the name of the function
+                                   ## we want to use to produce an estimate
+                                   ## from each bootstrapped dataset
+                                   estimator.fn="nsum.estimator",
+                                   ## these are the sampling weights
+                                   weights="indweight",
+                                   ## this is the name of the type of bootstrap
+                                   ## we wish to use
+                                   bootstrap.fn="rescaled.bootstrap.sample",
+                                   ## our dataset
+                                   survey.data=example.survey,
+                                   ## other parameters we need to pass
+                                   ## to the nsum.estimator function
+                                   d.hat.vals=d.hat,
+                                   total.popn.size=tot.pop.size,
+                                   y.vals="clients",
+                                   missing="complete.obs")
+```
+
+By default, `bootstrap.estimates` produces a list with `num.reps` entries; each
+entry is the result of calling the estimator function on one bootstrap
+resample.  
+
+Next, you can write a bit of code that will help us put all of these
+results together, for plotting and summarizing
+
+```{r}
+## combine the estimates together in one data frame
+## (bootstrap.estimates gives us a list)
+all.clients.estimates <- ldply(clients.est,
+                               function(x) { data.frame(estimate=x$estimate) })
+```
+
+Finally, we can examine the summarized results with a histogram or with `summarize`.
+
+```{r}
+## look at a histogram of the results
+qplot(all.clients.estimates$estimate, binwidth=500)
+
+## summarize the results
+summary(all.clients.estimates$estimate)
+```
+
+To produce 95% intervals using the percentile method you can use R's `quantile` function:
+
+```{r}
+quantile(all.clients.estimates$estimate, probs=c(0.025, 0.975))
+```
+
+Internal consistency checks
+---------------------------
+
+If you want to conduct internal consistency checks (see e.g. [Feehan et al., 2016, Fig 3](https://doi.org/10.1093/aje/kwv287)), you can use the
+`nsum.internal.consistency` function. We specify that we wish to use only
+complete observations (ie, we will remove rows that have any missing values
+from our calculations).
+
+[You should see several copies of a message warning you about ignoring missingness;
+in our case, there is only one row with missingness, so we will disregard the warning.]
+
+```{r, tidy=FALSE}
+ic.result <- nsum.internal.consistency(survey.data=example.survey,
+                                       known.popns=kp.vec,
+                                       missing="complete.obs",
+                                       killworth.se=FALSE,
+                                       weights="indweight",
+                                       total.popn.size=tot.pop.size,
+                                       kp.method=TRUE,
+                                       return.plot=TRUE)
+```
+
+Now `ic.result` is a list that has a summary of the results in the entry `results`
+
+```{r}
+ic.result$results
+```
+
+Let's make a plot to visualize these results more easily:
+
+```{r}
+toplot <- ic.result$results
+custom.ic.plot <- ggplot(toplot) +
+               geom_point(aes(x=known.size, y=nsum.holdout.est),
+                         size=3) +
+               coord_equal(ratio=1) +
+               xlim(with(toplot,
+                         range(known.size,nsum.holdout.est,na.rm=TRUE))) +
+               ylim(with(toplot,
+                         range(known.size,nsum.holdout.est,na.rm=TRUE))) +
+               geom_abline(intercept=0, slope=1, color='grey') +
+               ggtitle(paste("Hold-out estimate versus known popn size")) +
+               xlab("known population size") +
+               ylab("hold-out NSUM estimate\nof popn size")
+custom.ic.plot
+```
+
+## Sensitivity analysis
+
+Finally, you may not believe that all of the conditions required by the scale-up estimator
+hold in your study. Thus, it might be useful to conduct a sensitivity analysis to get a sense
+for how much violating the various conditions would impact your estimates.
+
+The papers have a full derivation of the sensitivity framework for network
+scale-up; to illustrate this approach, you can use the following Shiny widget to
+conduct a partial sensitivity analysis yourself:
+
+```{r}
+shiny::runGitHub( "gnsum-sensitivity-widget", "dfeehan") 
+```
+
+
+## Sign up for the group!
+
+I created an email list that you can access [here](https://groups.google.com/d/forum/networkreporting).
+If you are interested in network reporting,
+please sign up!
+
+Also, if you use this package, please cite us. You can get a citation in R by typing:
+
+```{r}
+citation('networkreporting')
+citation('surveybootstrap')
+```
+
+## Selected references
+
+Here are a few selected references, but there is more relevant literature; please see the papers for more.
+
+* Bernard, H. R., Johnsen, E. C., Killworth, P. D., & Robinson, S. (1989). Estimating the size of an average personal network and of an event subpopulation. In M. Kochen (Ed.), The Small World (pp. 159–175). Norwood, NJ: Ablex Publishing.
+* Feehan, D. M. (2015). Network reporting methods (PhD thesis). Princeton University.
+* Feehan, D. M., & Salganik, M. J. (2016). Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations. Sociological Methodology.
+* Feehan, Dennis M., Aline Umubyeyi, Mary Mahy, Wolfgang Hladik, and Matthew J. Salganik. 2016. “Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method.” American Journal of Epidemiology, March
+* Feehan, D. M., Mahy, M., & Salganik, M. J. (2017). The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda. Demography, 54(4), 1503–1528.
+* Maltiel, Rachael, Adrian E. Raftery, Tyler H. McCormick, and Aaron J. Bara . 2015. “Estiating Population Size Using the Network Scale up Method.” Annals of Applied Statistics 9 (3): 1247–77.
+* Rao, J. N. K., & Wu, C. F. J. (1988). Resampling inference with complex survey data. Journal of the American Statistical Association, 83(401), 231–241.
+* Sirken, M. G. (1970). Household surveys with multiplicity. Journal of the American Statistical Association, 65(329), 257–266.
+
+
+
+
+
+
+
+
