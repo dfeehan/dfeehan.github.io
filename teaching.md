@@ -5,6 +5,10 @@ title: Teaching
 
 * Spring 2019: [Demography 180: Social networks (undergrad)](teaching/2019sp_demog180.html)
 * Spring 2018: [Demography 260/Sociology 273N: Social networks (grad)](teaching/2019sp_demog260.html)
+  
+Previously taught:  
+  
+
 * Fall 2018: [L&S 88 - Data Science Connector: Demography (undergrad)](teaching/2018fa_ls88.html)
 * Spring 2018: [Demography 180: Social networks (undergrad)](teaching/2018sp_demog180.html)
 * Spring 2018: [Demography 260: Social networks (grad)](teaching/2018sp_demog260.html)
