@@ -342,20 +342,23 @@ Spring 2019</h1>
 
 
 <p><strong>NB: this syllabus will change - please check back regularly</strong></p>
-<p><strong>Professor Dennis Feehan</strong><BR> Office: 2232 Piedmont Ave, Room 210<BR> Email: my last name at berkeley.edu<BR> Class meetings Tu/Th 9:30am-11:00am, 141 McCone<BR> Class number: 41045<BR> Office hours: Tu 3-4pm, 210 Dept. of Demography<BR></p>
+<p><strong>Professor Dennis Feehan</strong><BR> Office: 2232 Piedmont Ave, Room 210<BR> Email: my last name at berkeley.edu<BR> Class meetings Tu/Th 9:30am-11:00am, 141 McCone<BR> Class number: 41045<BR> Office hours: Tu 3-4pm, 210 Dept. of Demography<BR><br />
+Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <p><BR> <!-- [Piazza page](https://piazza.com/class/jcgtusuzymr5f7?cid=6)<BR> --> <a href="https://piazza.com/class/jqo5m28i9p02lm">Piazza page</a><br />
 <a href="https://bcourses.berkeley.edu/courses/1479761">Bcourses page</a><br />
 <a href="https://drive.google.com/open?id=1lQAHAYhKrXBsoNQLPI6-g40G1u2Whlc4">Lecture slides</a></p>
 <h2 id="overview">Overview</h2>
 <p>The science of social networks focuses on measuring, modeling, and understanding the different ways that people are connected to one another. In this class, we will use a broad toolkit of theories and methods drawn from the social, natural, and mathematical sciences to learn what a social network is, to understand how to work with social network data, and to illustrate some of the ways that social networks can be useful in theory and in practice. We will see that network ideas are powerful enough to be used everywhere from CDC and UNAIDS, where network models help epidemiologists prevent the spread of HIV, to Silicon Valley, where data scientists use network ideas to build products that enable people all across the globe to connect with one another.</p>
 <h2 id="calendar">Calendar</h2>
-<table>
+<table style="width:100%;">
 <colgroup>
-<col style="width: 32%" />
-<col style="width: 5%" />
-<col style="width: 8%" />
-<col style="width: 39%" />
-<col style="width: 13%" />
+<col style="width: 25%" />
+<col style="width: 4%" />
+<col style="width: 6%" />
+<col style="width: 31%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -363,7 +366,9 @@ Spring 2019</h1>
 <th>Week</th>
 <th>Date</th>
 <th>Topic</th>
-<th>Materials</th>
+<th>Lecture</th>
+<th>Lab</th>
+<th>Hwk</th>
 </tr>
 </thead>
 <tbody>
@@ -372,111 +377,143 @@ Spring 2019</h1>
 <td>1</td>
 <td>1/22</td>
 <td>Intro / what social networks are / class info</td>
+<td></td>
 <td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=labs/Lab0/lab0.ipynb">Lab 0</a></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>1/24</td>
-<td>Personal networks; social connectedness and social isolation in America; survey data collection</td>
+<td>Basic graph theory: definitions, types of networks, types of network data; survey data collection</td>
 <td></td>
+<td></td>
+<td><a href="#sec:hwk1">Hwk 1</a></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:homophilyI">Homophily / Tie strength I</a></td>
+<td><a href="#sec:personal">Personal networks</a></td>
 <td>2</td>
 <td>1/29</td>
-<td>Basic graph theory: definitions, types of networks, types of network data</td>
+<td>Personal networks; social connectedness and social isolation in America</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>1/31</td>
-<td>Strength of weak ties; social capital</td>
+<td>Working with personal network data; our survey results</td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/01%20-%20personal%20networks/01_ucb_personal_networks.ipynb">Demo 1</a></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:homophilyII">Homophily / Tie strength II</a></td>
+<td><a href="#sec:complete">Complete network data</a></td>
 <td>3</td>
 <td>2/5</td>
-<td>Networks in context; homophily</td>
+<td>Working with entire network data; quantifying network structure</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
+<td><a href="#sec:models">Network models: the ER model</a></td>
 <td></td>
 <td>2/7</td>
-<td>Positive and negative relationships</td>
+<td>Intro to mathematical network models; the Erdos-Renyi model and its predictions</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:affiliation">Affiliation networks</a></td>
+<td><a href="#sec:homophily">Homophily / Tie strength</a></td>
 <td>4</td>
 <td>2/12</td>
-<td>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</td>
+<td>Strength of weak ties; social capital</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>2/14</td>
-<td>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</td>
+<td>Networks in context; homophily</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:models">Network models</a></td>
+<td><a href="#sec:TODO">Balance theory</a></td>
 <td>5</td>
 <td>2/19</td>
-<td>Intro to mathematical network models; the Erdos-Renyi model and its predictions</td>
+<td>Positive and negative relationships</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
+<td><a href="#sec:affiliation">Affiliation networks and foci</a></td>
 <td></td>
 <td>2/21</td>
-<td>Intro to mathematical network models; the Erdos-Renyi model and its predictions</td>
+<td>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:smallworlds">Small worlds</a></td>
+<td></td>
 <td>6</td>
 <td>2/26</td>
-<td>Small worlds</td>
+<td>[buffer]</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>2/28</td>
-<td>Search in small worlds / Scale-free networks</td>
+<td>Midterm review</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>7</td>
 <td>3/5</td>
-<td>Midterm review</td>
+<td>Midterm</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
+<td><a href="#sec:smallworlds">Small worlds</a></td>
 <td></td>
 <td>3/7</td>
-<td>Midterm</td>
+<td>Midterm recap; small worlds</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="#sec:scalefree">Search in small worlds, scale-free networks</a></td>
+<td></td>
 <td>8</td>
 <td>3/12</td>
-<td>Midterm recap; finish search in small worlds</td>
+<td>Small worlds and search in small worlds</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
+<td><a href="#sec:scalefree">Search in small worlds, scale-free networks</a></td>
 <td></td>
 <td>3/14</td>
 <td>Scale-free networks</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -485,12 +522,16 @@ Spring 2019</h1>
 <td>3/19</td>
 <td>Diseases and simple contagion in general; SIR model</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>3/21</td>
 <td>SIR model on networks</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -499,12 +540,16 @@ Spring 2019</h1>
 <td>3/26</td>
 <td>SPRING BREAK</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>3/28</td>
 <td>SPRING BREAK</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -513,12 +558,16 @@ Spring 2019</h1>
 <td>4/2</td>
 <td>Centrality, influence, and network disease models</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>4/4</td>
 <td>Sexual networks, concurrency, and HIV</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -527,12 +576,16 @@ Spring 2019</h1>
 <td>4/9</td>
 <td>Social influence, herding, and cascades</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>4/11</td>
 <td>Threshold models and complex contagion</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -541,12 +594,16 @@ Spring 2019</h1>
 <td>4/16</td>
 <td>Complex contagion cont.</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><a href="#sec:empiricalcontagion">Empirical studies of contagion</a></td>
 <td></td>
 <td>4/18</td>
 <td>Complex contagion cont.</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -555,12 +612,16 @@ Spring 2019</h1>
 <td>4/23</td>
 <td>Can your friends make you fat? Experimental and observational studies of complex contagion</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><a href="#sec:cooperation">Cooperation and collaboration</a></td>
 <td></td>
 <td>4/25</td>
 <td>Cooperation and collaboration</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -569,12 +630,16 @@ Spring 2019</h1>
 <td>4/30</td>
 <td>TBA</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td>5/2</td>
 <td>TBA</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -583,6 +648,8 @@ Spring 2019</h1>
 <td>5/7</td>
 <td>READING WEEK</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -590,12 +657,16 @@ Spring 2019</h1>
 <td>5/9</td>
 <td>READING WEEK</td>
 <td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
-<td>TBA</td>
-<td>Final exam! Time and place TBA</td>
+<td>5/15</td>
+<td>Final exam! 11:30am-2:30pm (Location TBD)</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -610,11 +681,11 @@ Spring 2019</h1>
 <p>The readings serve two purposes: (1) they provide an introduction and reference for key concepts that we will need to study social networks; (2) they illustrate how social network ideas get used in real world research and applications across many different disciplines. You are expected to do the reading before each class.</p>
 <p>PDFs of each of the readings will be posted on the bCourses site.</p>
 <h3 id="labs">Labs</h3>
-<p>There will be a total of 9 labs, each based on a series of exercises in a Jupyter notebook. The labs are intended to give you a chance to explore how the concepts we cover in lecture can be applied to the analysis of real and simulated datasets. The labs are also intended to help prepare you for the homework assignments. You will turn labs in electronically; they will be graded for effort, but not correctness.</p>
+<p>There will be a total of about 9 labs, each based on a series of exercises in a Jupyter notebook. The labs are intended to give you a chance to explore how the concepts we cover in lecture can be applied to the analysis of real and simulated datasets. The labs are also intended to help prepare you for the homework assignments. You will turn labs in electronically; they will be graded for effort, but not correctness.</p>
 <h3 id="homework">Homework</h3>
 <p>There will be a total of 5 to 7 homework assignments. You can drop the homework with the lowest score. Together, the homeworks are worth 40% of your final grade. These homeworks are a critical part of the learning you will do in this class: they give you an opportunity to explore the topics we cover in the readings and in lecture on your own. They also give you a chance to practice your writing and your data analysis and programming skills. The format for each homework will ask you to provide some written arguments and to solve some problems by writing Python code in a Jupyter notebook. It can be helpful and educational to discuss the assignments with other students in the class, but (1) all of the work should be your own (i.e., you are not allowed to just copy code, answers, or arguments); (2) you should make a note of the names of the other students you worked with when handing your assignments in.</p>
 <h3 id="exams">Exams</h3>
-<p>There will be two in-class closed book examinations. The mid-term examination will be held on March 1, 2018 during normal class time in our normal classroom; the timing of this midterm is designed to assess your mastery of the core concepts in social networks. The final will be held during the final exam period (exact date/time TBD). The final exam will be cumulative.</p>
+<p>There will be two in-class closed book examinations. The mid-term examination will be held on March 7, 2019 during normal class time in our normal classroom; the timing of this midterm is designed to assess your mastery of the core concepts in social networks. The final will be held during the final exam period (May 15, at 11:30am). The final exam will be cumulative.</p>
 <h3 id="quizzes">Quizzes</h3>
 <p>I will post a small number (4-5) quizzes on bCourses over the semester. These quizzes will be 5-10 multiple choice questions; the goal of these quizzes will be to ensure that you are staying up to date with the reading and lecture materials covered in the class. The quizzes will be a total of 10% of your grade.</p>
 <!--### Sections                                                                                                                                                                                                                       -->
@@ -650,14 +721,15 @@ Spring 2019</h1>
 </tr>
 </tbody>
 </table>
-<h2 id="detailed-schedule">Detailed schedule</h2>
+<h2 id="detailed-modules">Detailed modules</h2>
 <div class="singlespace">
-<h3 id="sec:intro">Week 1: Introduction to social networks</h3>
+<h3 id="sec:intro">Introduction to social networks</h3>
 <p>Intro to mathematical network models; the Erdos-Renyi model and its predictions</p>
 <p>Lectures:</p>
 <ul>
 <li>Intro / what social networks are / class info</li>
 <li>Personal networks; social connectedness and social isolation in America; survey data collection</li>
+<li>Lab 0: some Python basics</li>
 </ul>
 <p>Reading:</p>
 <ul>
@@ -670,57 +742,65 @@ Spring 2019</h1>
 <li><a href="https://goo.gl/forms/C52QXKm3rlZAAmVq2">Data entry</a></li>
 <li><a href="https://tinyurl.com/ya6qlma2">Survey form</a></li>
 </ul>
-<h3 id="sec:homophilyI">Week 2: Homophily and tie strength I</h3>
+<h3 id="sec:personal">Personal networks</h3>
 <p>Lectures:</p>
 <ul>
 <li>Basic graph theory: definitions, types of networks</li>
 <li>Strength of weak ties; social capital</li>
-<li>Personal networks lecture notebook (to be posted)</li>
+<li>Lecture notebook: Personal networks of Berkeley students</li>
 </ul>
 <p>Reading:</p>
 <!--* TODO NEWSPAPER-->
 <ul>
 <li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.3</li>
 </ul>
-<h3 id="sec:homophilyII">Week 3: Homophily and tie strength II</h3>
+<h4 id="sec:hwk2">Homework 2</h4>
+<ul>
+<li>Homework 2 (to be posted)</li>
+</ul>
+<h3 id="sec:complete">Working with complete network data</h3>
+<ul>
+<li>Lecture notebook: Working with whole network data</li>
+</ul>
+<h3 id="sec:models">Network models: the ER model</h3>
+<p>Lectures:</p>
+<ul>
+<li>Intro to mathematical network models; the Erdos-Renyi model and its predictions</li>
+<li>Lecture notebook: Erdos-Renyi random networks notebook (to be posted)</li>
+</ul>
+<p>Readings:</p>
+<ul>
+<li><span class="citation" data-cites="watts_six_2003">Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 2</li>
+</ul>
+<h3 id="sec:homophily">Homophily and tie strength</h3>
 <p>Lectures:</p>
 <ul>
 <li>Networks in context; homophily: choice and structure; social implications; patterns of homophily in students’ survey results</li>
 <li>Positive and negative relationships</li>
-<li>Working with whole network data notebook (to be posted)</li>
+<li>Using the ER model to analyze empirical data; homophily example</li>
 </ul>
 <p>Reading:</p>
 <!--* TODO NEWSPAPER-->
 <ul>
 <li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.1-4.2; Ch.5.1-5.2</li>
 </ul>
-<h3 id="sec:affiliation">Week 4: Affiliation networks</h3>
+<h3 id="sec:affiliation">Affiliation networks</h3>
 <p>Lectures:</p>
 <ul>
 <li>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</li>
 <li>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</li>
-<li>Structural balance notebook (to be posted)</li>
+<li>Lecture notebook: structural balance</li>
 </ul>
 <p>Readings:</p>
 <ul>
 <li><span class="citation" data-cites="easley_networks_2010">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.3-4.4</li>
 </ul>
-<h3 id="sec:models">Week 5: Network models</h3>
+<h3 id="sec:midterm">Catch-up, review, and midterm</h3>
 <p>Lectures:</p>
 <ul>
-<li>Intro to mathematical network models; the Erdos-Renyi model and its predictions</li>
-<li>Using the ER model to analyze empirical data; homophily example</li>
-<li>Erdos-Renyi random networks notebook (to be posted)</li>
+<li>Catch-up and midterm review</li>
 </ul>
-<p>Readings:</p>
-<ul>
-<li><span class="citation" data-cites="watts_six_2003">Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 2</li>
-</ul>
-<h4 id="sec:hwk2">Homework 2</h4>
-<ul>
-<li>Homework 2 (to be posted)</li>
-</ul>
-<h3 id="sec:smallworlds">Week 6-7: Small worlds</h3>
+<h3 id="sec:smallworlds">Small worlds</h3>
 <p>Lectures:</p>
 <ul>
 <li>The small world phenomenon</li>
@@ -730,12 +810,7 @@ Spring 2019</h1>
 <ul>
 <li><span class="citation" data-cites="watts_six_2003">Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 3-4</li>
 </ul>
-<h3 id="sec:midterm">Week 7: Catch-up, review, and midterm</h3>
-<p>Lectures:</p>
-<ul>
-<li>Catch-up and midterm review</li>
-</ul>
-<h3 id="sec:scalefree">Week 8: Search in small worlds and scale-free networks</h3>
+<h3 id="sec:scalefree">Search in small worlds and scale-free networks</h3>
 <p>Lectures:</p>
 <ul>
 <li>Midterm answers; search in small world</li>
@@ -750,7 +825,7 @@ Spring 2019</h1>
 <ul>
 <li>Homework 3 (to be posted)</li>
 </ul>
-<h3 id="sec:simplecontagion">Weeks 9-10: Simple contagion</h3>
+<h3 id="sec:simplecontagion">Simple contagion</h3>
 <p>Lectures:</p>
 <ul>
 <li>SIR model, types of centrality</li>
@@ -769,7 +844,7 @@ Spring 2019</h1>
 <ul>
 <li>Homework 4 - SIR models and centrality (to be posted)</li>
 </ul>
-<h3 id="sec:complexcontagion">Weeks 12-13: Complex contagion</h3>
+<h3 id="sec:complexcontagion">Complex contagion</h3>
 <p>Lectures:</p>
 <ul>
 <li>Complex contagion; social influence, decisions, threshold models</li>
@@ -785,7 +860,7 @@ Spring 2019</h1>
 <ul>
 <li>Homework 5 - Small worlds (to be posted)</li>
 </ul>
-<h3 id="sec:empiricalcontagion">Week 14: Empirical studies of contagion</h3>
+<h3 id="sec:empiricalcontagion">Empirical studies of contagion</h3>
 <p>Reading:</p>
 <ul>
 <li><a href="https://opinionator.blogs.nytimes.com/2012/09/17/friends-you-can-count-on/">Friends you can count on</a></li>
