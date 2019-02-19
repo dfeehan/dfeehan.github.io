@@ -347,6 +347,7 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <p><BR> <!-- [Piazza page](https://piazza.com/class/jcgtusuzymr5f7?cid=6)<BR> --> <a href="https://piazza.com/class/jqo5m28i9p02lm">Piazza page</a><br />
 <a href="https://bcourses.berkeley.edu/courses/1479761">Bcourses page</a><br />
 <a href="https://drive.google.com/open?id=1lQAHAYhKrXBsoNQLPI6-g40G1u2Whlc4">Lecture slides</a></p>
+<!-- LINK REFERENCES -->
 <h2 id="overview">Overview</h2>
 <p>The science of social networks focuses on measuring, modeling, and understanding the different ways that people are connected to one another. In this class, we will use a broad toolkit of theories and methods drawn from the social, natural, and mathematical sciences to learn what a social network is, to understand how to work with social network data, and to illustrate some of the ways that social networks can be useful in theory and in practice. We will see that network ideas are powerful enough to be used everywhere from CDC and UNAIDS, where network models help epidemiologists prevent the spread of HIV, to Silicon Valley, where data scientists use network ideas to build products that enable people all across the globe to connect with one another.</p>
 <h2 id="calendar">Calendar</h2>
@@ -413,7 +414,7 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <td>3</td>
 <td>2/5</td>
 <td>Working with entire network data; quantifying network structure</td>
-<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/02_working_with_entire_network_data/02_intro_to_whole_network_data.ipynb">Demo 2</a></td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/01%20-%20personal%20networks/01_ucb_personal_networks.ipynb">Demo 2</a></td>
 <td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=labs/Lab1">Lab 1</a></td>
 <td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=hwk/hw2/hw02.ipynb">Hwk 2</a></td>
 </tr>
@@ -442,7 +443,7 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <td>Networks in context; homophily</td>
 <td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/04_sowt/sowt_wiki_talk.ipynb">Demo 4</a></td>
 <td></td>
-<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=hwk/hw3/hw03.ipynb">Hwk 3</a></td>
+<td><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=hwk/hw2/hw02.ipynb">Hwk 3</a></td>
 </tr>
 <tr class="odd">
 <td><a href="#sec:balance">Balance theory</a></td>
@@ -724,12 +725,15 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <h2 id="detailed-modules">Detailed modules</h2>
 <div class="singlespace">
 <h3 id="sec:intro">Introduction to social networks</h3>
-<p>Intro to mathematical network models; the Erdos-Renyi model and its predictions</p>
+<p>Intro to social networks; course overview</p>
 <p>Lectures:</p>
 <ul>
 <li>Intro / what social networks are / class info</li>
-<li>Personal networks; social connectedness and social isolation in America; survey data collection</li>
-<li>Lab 0: some Python basics</li>
+<li>Basic graph theory: definitions, types of networks</li>
+</ul>
+<p>Other resources:</p>
+<ul>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=labs/Lab0/lab0.ipynb">Lab 0: some Python basics</a></li>
 </ul>
 <p>Reading:</p>
 <ul>
@@ -745,28 +749,37 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <h3 id="sec:personal">Personal networks</h3>
 <p>Lectures:</p>
 <ul>
-<li>Basic graph theory: definitions, types of networks</li>
-<li>Lecture notebook: Personal networks of Berkeley students, patterns of homophily in student surveys</li>
+<li>Personal networks; social connectedness and social isolation in America; survey data collection</li>
 <li>Sampling variation and the bootstrap; null models and a permutation test</li>
+<li>Patterns of homophily in Berkeley students' personal networks</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/01%20-%20personal%20networks/01_ucb_personal_networks.ipynb">Lecture demo: Personal networks of Berkeley students</a></li>
+</ul>
+<p>Other resources:</p>
+<ul>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=labs/Lab1">Lab: Analyzing personal networks</a></li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=hwk/hw2/hw02.ipynb">Homework 2: Analyzing personal networks</a></li>
 </ul>
 <p>Reading:</p>
 <!--* TODO NEWSPAPER-->
 <ul>
 <li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.2 (Graphs)</li>
 </ul>
-<h4 id="sec:hwk2">Homework 2</h4>
-<ul>
-<li>Homework 2 (to be posted)</li>
-</ul>
 <h3 id="sec:complete">Working with complete network data</h3>
+<p>Lectures:</p>
 <ul>
-<li>Lecture notebook: Working with whole network data</li>
+<li>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/01%20-%20personal%20networks/01_ucb_personal_networks.ipynb">Lecture demo: Working with complete network data</a></li>
+</ul>
+<p>Other resources:</p>
+<ul>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=labs/Lab2">Lab 2: Working with complete network data</a></li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=hwk/hw2/hw02.ipynb">Hwk 3: Calculating average clustering in complete networks</a></li>
 </ul>
 <h3 id="sec:models">Network models: the ER model</h3>
 <p>Lectures:</p>
 <ul>
 <li>Intro to mathematical network models; the Erdos-Renyi model and its predictions</li>
-<li>Lecture notebook: <a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/03_er_random_networks/03_er_random_networks.ipynb">Erdos-Renyi random networks notebook</a></li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/03_er_random_networks/03_er_random_networks.ipynb">Lecture demo: Erdos-Renyi random networks notebook</a></li>
 </ul>
 <p>Readings:</p>
 <ul>
@@ -776,8 +789,13 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <p>Lectures:</p>
 <ul>
 <li>Strength of weak ties; social capital</li>
-<li>Networks in context; homophily: choice and structure; social implications; patterns of homophily in students' survey results</li>
-<li>Using the ER model to analyze empirical data; homophily example</li>
+<li>Networks in context; homophily: choice and structure; social implications</li>
+<li>Using a null model to analyze empirical data; homophily example</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/04_sowt/sowt_wiki_talk.ipynb">Lecture demo: Strength of weak ties in the wiki talk network</a></li>
+</ul>
+<p>Other resources:</p>
+<ul>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=labs/Lab3/lab3.ipynb">Lab: Using the assortativity coefficient to quantify homophily</a></li>
 </ul>
 <p>Reading:</p>
 <!--* TODO NEWSPAPER-->
@@ -790,27 +808,20 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <p>Lectures:</p>
 <ul>
 <li>Positive and negative relationships</li>
-<li>Lecture notebook</li>
+<li><a href="http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&amp;repo=demog180-sp2019&amp;branch=master&amp;path=lecture/05_structural_balance/05_structural_balance_in_the_small_slashdot_network.ipynb">Lecture demo: Structural balance in the small slashdot network</a></li>
 </ul>
 <p>Reading:</p>
 <ul>
-<li>Positive and negative relationships: <span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.5.1-5.2</li>
+<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.5.1-5.2 (Positive and negative relationships)</li>
 </ul>
 <h3 id="sec:affiliation">Affiliation networks</h3>
 <p>Lectures:</p>
 <ul>
-<li>Working with entire network data; quantifying network structure: degree distributions, average path length, clustering</li>
 <li>Affiliation networks; foci; group membership; one-mode projections of bipartite networks</li>
-<li>Lecture notebook: structural balance</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.3-4.4</li>
-</ul>
-<h3 id="sec:midterm">Catch-up, review, and midterm</h3>
-<p>Lectures:</p>
-<ul>
-<li>Catch-up and midterm review</li>
+<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch.4.3-4.4 (Affiliation networks)</li>
 </ul>
 <h3 id="sec:smallworlds">Small worlds</h3>
 <p>Lectures:</p>
@@ -820,7 +831,12 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <p>Readings:</p>
 <ul>
 <li><span class="citation">Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 3-4</li>
-<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch. 20.1-20.2</li>
+<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch. 20.1-20.2 (Small worlds)</li>
+</ul>
+<h3 id="sec:midterm">Catch-up, review, and midterm</h3>
+<p>Lectures:</p>
+<ul>
+<li>Catch-up and midterm review</li>
 </ul>
 <h3 id="sec:scalefree">Search in small worlds and scale-free networks</h3>
 <p>Lectures:</p>
@@ -831,12 +847,8 @@ Final exam: Wednesday, May 15th, 11:30am-2:30pm (location TBD)</p>
 <p>Readings:</p>
 <ul>
 <li><span class="citation">Watts (<a href="#ref-watts_six_2003">2003</a>)</span> Ch. 4-5</li>
-<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch. 20.3-20.5 (search in small worlds)</li>
-<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch. 18.1-18.5 (scale-free networks)</li>
-</ul>
-<h4 id="sec:hwk3">Homework 3</h4>
-<ul>
-<li>Homework 3 (to be posted)</li>
+<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch. 20.3-20.5 (Search in small worlds)</li>
+<li><span class="citation">Easley and Kleinberg (<a href="#ref-easley_networks_2010">2010</a>)</span> Ch. 18.1-18.5 (Scale-free networks)</li>
 </ul>
 <h3 id="sec:simplecontagion">Simple contagion</h3>
 <p>Lectures:</p>
