@@ -43,11 +43,12 @@ I spent the fall of 2015 as a Research Scientist at
 <a href="https://www.facebook.com/data">Facebook</a>.
 
 
-<!-- **Working papers** -->
+**Working papers**  
+
+* [Using an online sample to learn about an offline population](https://arxiv.org/abs/1902.08289)
 
 
-
-**Recent publications / forthcoming**
+**Recent publications**
 
 * [Separating the signal from the noise: Evidence for deceleration in old-age death rates](https://link.springer.com/article/10.1007/s13524-018-0728-x); [arxiv version](https://arxiv.org/pdf/1707.09433.pdf); [R package](https://github.com/dfeehan/mortfit) and [code](https://github.com/dfeehan/oldage-paper-code-released)
 
