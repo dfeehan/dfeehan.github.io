@@ -3,19 +3,24 @@ layout: page
 title: Research
 ---
 
+**Working papers**  
 
-Working papers:
+* [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000)
 
-* [Testing theories of old-age mortality using model selection techniques](https://arxiv.org/pdf/1707.09433.pdf)
+* [Using an online sample to learn about an offline population](https://arxiv.org/abs/1902.08289)
 
 
-Recent publications / forthcoming:
+**Recent publications**
 
-* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](http://dx.doi.org/10.1007/s13524-017-0594-y)
+* [Separating the signal from the noise: Evidence for deceleration in old-age death rates](https://link.springer.com/article/10.1007/s13524-018-0728-x); [arxiv version](https://arxiv.org/pdf/1707.09433.pdf); [R package](https://github.com/dfeehan/mortfit) and [code](https://github.com/dfeehan/oldage-paper-code-released)
+
+* [The network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda](https://link.springer.com/article/10.1007/s13524-017-0594-y)
 
 * [Quantity Versus Quality: A Survey Experiment to Improve the Network Scale-up Method](https://doi.org/10.1093/aje/kwv287)
 
 * [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](https://doi.org/10.1177/0081175016665425)
+
+
 
 ### Dissertation
 
