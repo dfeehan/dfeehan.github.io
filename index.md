@@ -47,7 +47,7 @@ I spent the fall of 2015 as a Research Scientist at
 
 * [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000)
 
-* [Using an online sample to learn about an offline population](https://arxiv.org/abs/1902.08289)
+* [Using an online sample to learn about an offline population](https://arxiv.org/abs/1902.08289) (Accepted at *Demography*)
 
 
 **Recent publications**
