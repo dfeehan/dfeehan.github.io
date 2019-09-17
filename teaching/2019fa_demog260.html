@@ -264,6 +264,116 @@ h6 {
 }
 </style>
 
+<style type="text/css">
+body, td {
+font-family: sans-serif;
+background-color: white;
+font-size: 13px;
+}
+body {
+max-width: 800px;
+margin: auto;
+padding: 1em;
+line-height: 20px;
+}
+tt, code, pre {
+font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+h1 {
+font-size:2.2em;
+}
+h2 {
+font-size:1.8em;
+}
+h3 {
+font-size:1.4em;
+}
+h4 {
+font-size:1.0em;
+}
+h5 {
+font-size:0.9em;
+}
+h6 {
+font-size:0.8em;
+}
+a:visited {
+color: rgb(50%, 0%, 50%);
+}
+pre, img {
+max-width: 100%;
+}
+pre {
+overflow-x: auto;
+}
+pre code {
+display: block; padding: 0.5em;
+}
+code {
+font-size: 92%;
+border: 1px solid #ccc;
+}
+code[class] {
+background-color: #F8F8F8;
+}
+table, td, th {
+border: none;
+}
+blockquote {
+color:#666666;
+margin:0;
+padding-left: 1em;
+border-left: 0.5em #EEE solid;
+
+font-size: unset; }
+hr {
+height: 0px;
+border-bottom: none;
+border-top-width: thin;
+border-top-style: dotted;
+border-top-color: #999999;
+}
+@media print {
+* {
+background: transparent !important;
+color: black !important;
+filter:none !important;
+-ms-filter: none !important;
+}
+body {
+font-size:12pt;
+max-width:100%;
+}
+a, a:visited {
+text-decoration: underline;
+}
+hr {
+visibility: hidden;
+page-break-before: always;
+}
+pre, blockquote {
+padding-right: 1em;
+page-break-inside: avoid;
+}
+tr, img {
+page-break-inside: avoid;
+}
+img {
+max-width: 100% !important;
+}
+@page :left {
+margin: 15mm 20mm 15mm 10mm;
+}
+@page :right {
+margin: 15mm 10mm 15mm 20mm;
+}
+p, h2, h3 {
+orphans: 3; widows: 3;
+}
+h2, h3 {
+page-break-after: avoid;
+}
+}</style>
 
 
 
@@ -279,7 +389,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -387,12 +496,17 @@ NOTES:
 WISHLIST:
 - be able to generate pdf version (right now, the table looks wonky - links don't render, NAs, etc)
 -->
-<p>(Syllabus last updated: 2019-September-03)</p>
-<p>Class meetings: Tuesdays, 12.30-3.30pm Demography Seminar Room<br />
-Office hours: by appointment (please send me an email and we can find a time)<br />
-Email: feehan [at] berkeley.edu<br />
-Web: <a href="www.dennisfeehan.org/teaching">www.dennisfeehan.org/teaching</a><br />
-Piazza: <a href="https://bit.ly/2lsHm8p">https://bit.ly/2lsHm8p</a></p>
+<style type="text/css">
+/*body {
+ * color: red;
+ */}
+</style>
+<p>(Syllabus last updated: 2019-September-17)</p>
+<p><strong>Class meetings: Tuesdays, 12.30-3.30pm Demography Seminar Room</strong><br />
+<strong>Office hours</strong>: by appointment (please send me an email and we can find a time)<br />
+<strong>Email</strong>: feehan [at] berkeley.edu<br />
+<strong>Web</strong>: <a href="www.dennisfeehan.org/teaching">www.dennisfeehan.org/teaching</a><br />
+<strong>Piazza</strong>: <a href="https://bit.ly/2lsHm8p">https://bit.ly/2lsHm8p</a></p>
 <div id="overview" class="section level3">
 <h3>Overview</h3>
 <p>This class will cover topics in the design and implementation of field research for quantitative social science. We will consider studies whose aim is measurement (including surveys), causal inference (including experiments), and prediction (including machine learning). Our goal is to focus on issues of study design and execution, rather than the details of specific tools or methodologies. We will consider examples from a diverse range of different ‘fields’, both digital and physical. Our approach will be to conceptually understand key design and implementation issues for several different types of study design, but it will often be necessary to sacrifice depth for breadth. Thus, our discussion of each design will provide interested students with a useful starting point for deeper study. The class is designed for graduate students who have had at least some exposure to statistics, and who are starting to develop field research projects of their own.</p>
@@ -448,7 +562,7 @@ Fielding a survey in the real world: modes, interviewer training, questionnaire 
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
-Weighting a survey: non-response, post-stratification, calibration, MRP
+Complex sampling: stratification, clustering, and unequal probabilities of selection
 </td>
 <td style="text-align:left;">
 </td>
@@ -460,7 +574,7 @@ Weighting a survey: non-response, post-stratification, calibration, MRP
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
-Nonprobability sampling designs and other exotic approaches
+Weighting a survey: non-response, post-stratification, calibration, MRP
 </td>
 <td style="text-align:left;">
 </td>
@@ -468,6 +582,18 @@ Nonprobability sampling designs and other exotic approaches
 <tr>
 <td style="text-align:left;">
 2019-10-01
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Nonprobability sampling designs and other exotic approaches
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2019-10-08
 </td>
 <td style="text-align:left;">
 <a href="#sec:linkage">Linking different data sources</a>
@@ -480,25 +606,13 @@ Record linkage framework; errors and inference
 </tr>
 <tr>
 <td style="text-align:left;">
-2019-10-08
+2019-10-15
 </td>
 <td style="text-align:left;">
 <a href="#sec:digital">Digital data collection</a>
 </td>
 <td style="text-align:left;">
-Digital traces; mTurk; scraping and APIs; writing an app
-</td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2019-10-15
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:left;">
-Digital surveys
+Online surveys; Digital traces; mTurk; scraping and APIs; writing an app
 </td>
 <td style="text-align:left;">
 </td>
@@ -613,11 +727,11 @@ The purpose of this paper is to connect the topics of this class to your actual 
 <div id="sec:intro" class="section level4">
 <h4>Overview and introduction to measurement</h4>
 <p><strong>Tue, Sep 3</strong></p>
-<p>Background:</p>
+<p>Background for lecture:</p>
 <ul>
 <li><span class="citation">Robert M. Groves et al., <em>Survey Methodology</em>, vol. 561 (John Wiley &amp; Sons, 2011), Ch. 2.</span></li>
-<li><span class="citation">C. E. Sarndal, B. Swensson, and J. Wretman, <em>Model Assisted Survey Sampling</em> (Springer Verlag, 2003), <a href="http://books.google.com/books?hl=en\&amp;lr=\&amp;id=ufdONK3E1TcC\&amp;oi=fnd\&amp;pg=PR5\&amp;dq=sarndal+swensson+wretman+model+assisted\&amp;ots=7eZV4u7FOC\&amp;sig=tdK954DVTis0gvMz7r4SapBVnYg">http://books.google.com/books?hl=en\&amp;lr=\&amp;id=ufdONK3E1TcC\&amp;oi=fnd\&amp;pg=PR5\&amp;dq=sarndal+swensson+wretman+model+assisted\&amp;ots=7eZV4u7FOC\&amp;sig=tdK954DVTis0gvMz7r4SapBVnYg</a>, Ch. 2.</span></li>
-<li><span class="citation">S. L Lohr, <em>Sampling: Design and Analysis</em> (Duxbury Press, 1999), Ch. 1.</span></li>
+<li><span class="citation">C. E. Sarndal, B. Swensson, and J. Wretman, <em>Model Assisted Survey Sampling</em> (Springer Verlag, 2003), Ch. 2.</span></li>
+<li><span class="citation">S. L Lohr, <em>Sampling: Design and Analysis</em> (Duxbury Press, 1999), <a href="https://www-taylorfrancis-com.libproxy.berkeley.edu/books/9780429296284">https://www-taylorfrancis-com.libproxy.berkeley.edu/books/9780429296284</a>, Ch. 1.</span></li>
 </ul>
 <!--
 * SSW
@@ -639,8 +753,13 @@ The purpose of this paper is to connect the topics of this class to your actual 
 </div>
 <div id="sec:surveys" class="section level4">
 <h4>Designing measurement with surveys</h4>
+<!-- **Tue, Sep 10 - Fielding a survey**   -->
 <p><strong>Tue, Sep 10 - Fielding a survey</strong></p>
-<p>TBA</p>
+<p>Background for lecture:</p>
+<ul>
+<li><span class="citation">Groves et al., <em>Survey Methodology</em>, Ch. 8-9.</span></li>
+<li>design-based sampling material we discussed last week</li>
+</ul>
 <!--
 * survey modes
 * interviewer training
@@ -660,15 +779,68 @@ ACTIVITY:
 
 - use Qualtrics to put a survey togeteher (?)
 -->
-<!-- **Tue, Sep 17 - Weighting a survey**   -->
+<p><strong>Tue, Sep 17 - Complex sampling designs</strong></p>
+<ul>
+<li>Topics for lecture:
+<ul>
+<li>stratified sampling</li>
+<li>cluster sampling</li>
+<li>unequal probability designs</li>
+<li>(time permitting) multistage sampling</li>
+</ul>
+<blockquote>
+<p><strong>Possible papers to present on Tue, Oct 1:</strong></p>
+<p><strong>NB: In order to claim the specific paper you want to present, please post to the Piazza thread</strong></p>
+<p>STM for open-ended survey responses</p>
+<ul>
+<li><span class="citation">Margaret E. Roberts et al., “Structural Topic Models for Open-Ended Survey Responses,” <em>American Journal of Political Science</em> 58, no. 4 (2014): 1064–1082, <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12103">https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12103</a>.</span></li>
+</ul>
+<p>List experiments</p>
+<ul>
+<li><span class="citation">Graeme Blair and Kosuke Imai, “Statistical Analysis of List Experiments,” <em>Political Analysis</em> 20, no. 1 (2012): 47–77, <a href="https://www.cambridge.org/core/journals/political-analysis/article/statistical-analysis-of-list-experiments/6AEE6C9D3AB6DA410D602CB035D5959A">https://www.cambridge.org/core/journals/political-analysis/article/statistical-analysis-of-list-experiments/6AEE6C9D3AB6DA410D602CB035D5959A</a>.</span></li>
+<li><span class="citation">Graeme Blair, Kosuke Imai, and Jason Lyall, “Comparing and Combining List and Endorsement Experiments: Evidence from Afghanistan,” <em>American Journal of Political Science</em> 58, no. 4 (2014): 1043–1063, <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12086">https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12086</a>.</span></li>
+<li><span class="citation">Jeffrey R. Lax, Justin H. Phillips, and Alissa F. Stollwerk, “Are Survey Respondents Lying About Their Support for Same-Sex Marriage? Lessons from a List Experiment,” <em>Public Opinion Quarterly</em> 80, no. 2 (January 2016): 510–533, <a href="https://academic.oup.com/poq/article/80/2/510/2588811">https://academic.oup.com/poq/article/80/2/510/2588811</a>.</span> (Combine with methodological paper)</li>
+</ul>
+<p>Anchoring Vignettes</p>
+<ul>
+<li><span class="citation">Daniel J. Hopkins and Gary King, “Improving Anchoring VignettesDesigning Surveys to Correct Interpersonal Incomparability,” <em>Public Opinion Quarterly</em> 74, no. 2 (January 2010): 201–222, <a href="https://academic.oup.com/poq/article/74/2/201/1936649">https://academic.oup.com/poq/article/74/2/201/1936649</a>.</span></li>
+<li><span class="citation">Gary King and Jonathan Wand, “Comparing Incomparable Survey Responses: Evaluating and Selecting Anchoring Vignettes,” <em>Political Analysis</em> 15, no. 1 (n.d.): 46–66, <a href="https://www.cambridge.org/core/journals/political-analysis/article/comparing-incomparable-survey-responses-evaluating-and-selecting-anchoring-vignettes/AA12FD1F8DD8BF9A58BA10EC89C5F3B1">https://www.cambridge.org/core/journals/political-analysis/article/comparing-incomparable-survey-responses-evaluating-and-selecting-anchoring-vignettes/AA12FD1F8DD8BF9A58BA10EC89C5F3B1</a>.</span></li>
+</ul>
+<p>Survey experiments</p>
+<ul>
+<li><span class="citation">Luke W. Miratrix et al., “Worth Weighting? How to Think About and Use Weights in Survey Experiments,” <em>Political Analysis</em> 26, no. 3 (July 2018): 275–291, <a href="https://www.cambridge.org/core/journals/political-analysis/article/worth-weighting-how-to-think-about-and-use-weights-in-survey-experiments/C22485D7BA0F76400B75E02559F110E2">https://www.cambridge.org/core/journals/political-analysis/article/worth-weighting-how-to-think-about-and-use-weights-in-survey-experiments/C22485D7BA0F76400B75E02559F110E2</a>.</span></li>
+</ul>
+</blockquote></li>
+</ul>
+<!-- TODO - OTHER? -->
+<!-- * Ethics/IRB -->
+<!-- * sampling -->
+<!--   - pps -->
+<!--   - stratified sampling -->
+<!--   - cluster sampling -->
+<!--   - multistage sampling -->
+<!-- * survey cost structure -->
+<!-- * nonresponse -->
+<!-- * modes -->
+<!-- * Paradata? -->
+<!-- * Adaptive surveys? -->
+<!-- TODO - LATER WEEKS -->
+<!-- * AAPOR reports and Pew reports? -->
+<!-- * Wikisurveys (with digital surveys) -->
+<!-- * Ecological momentary assessment -->
+<!-- * My scale-up/inet stuff -->
+<!-- * Harvard stats guy on decomposing error -->
+<!-- * GWAS stuff -->
+<!-- RESOURCES -->
+<!-- * [Website for Lohr book](https://www.sharonlohr.com/sampling-design-and-analysis); see also Verbeke's R package [SDaA](https://cran.r-project.org/package=SDaA). -->
 <!-- TBA -->
-<!--
-* non-response
-* AAPOR nonresponse rates
-* post-stratification / calibration
-* MRP
--->
-<!-- **Tue, Sep 24 - Nonprobability designs and other exotic approaches**   -->
+<!-- **Tue, Sep 24 - Weighting a survey, non-response, calibration and post-stratification** -->
+<!-- TODO -->
+<!-- * non-response -->
+<!-- * AAPOR nonresponse rates -->
+<!-- * post-stratification / calibration -->
+<!-- * MRP -->
+<!-- **Tue, Oct 1 - Nonprobability designs and other exotic approaches** -->
 <!-- TBA -->
 <!--
 * RDS
@@ -676,6 +848,7 @@ ACTIVITY:
 * scale-up
 * capture-recapture
 -->
+<!-- **Tue, Sep 24 - Nonprobability designs and other exotic approaches**   -->
 <!-- #### Linking different data sources {#sec:linkage} -->
 <!-- **Tue, Oct 1**   -->
 <!-- TBA -->
@@ -746,25 +919,15 @@ ADDITIONAL SURVEY EXPERIMENT STUFF:
 * ? Chris Muller?
 -->
 <hr />
-</div>
-<div id="religious-accommodations" class="section level4">
-<h4>Religious Accommodations</h4>
+<p><strong>Religious Accommodations</strong></p>
 <p>Requests to accommodate a student’s religious creed by scheduling tests or examinations at alternative times should be submitted directly to the instructor. Reasonable common sense, judgment and the pursuit of mutual goodwill should result in the positive resolution of scheduling conflicts. The regular campus appeals process applies if a mutually satisfactory arrangement cannot be achieved.</p>
-</div>
-<div id="statement-on-academic-freedom" class="section level4">
-<h4>Statement on Academic Freedom</h4>
+<p><strong>Statement on Academic Freedom</strong></p>
 <p>Both students and instructors have rights to academic freedom. Please respect the rights of others to express their points of view in the classroom.</p>
-</div>
-<div id="dsp-accommodations" class="section level4">
-<h4>DSP Accommodations</h4>
+<p><strong>DSP Accommodations</strong></p>
 <p>Please see the instructor to discuss accommodations for physical disabilities, medical disabilities and learning disabilities.</p>
-</div>
-<div id="student-resources" class="section level4">
-<h4>Student Resources</h4>
+<p><strong>Student Resources</strong></p>
 <p>The Student Learning Center provides a wide range of resources to promote learning and academic success for students. For information regarding these services, please consult the Student Learning Center Website: <a href="https://slc.berkeley.edu/" class="uri">https://slc.berkeley.edu/</a></p>
-</div>
-<div id="academic-integrity" class="section level4">
-<h4>Academic Integrity</h4>
+<p><strong>Academic Integrity</strong></p>
 <p>The high academic standard at the University of California, Berkeley, is reflected in each degree that is awarded. As a result, every student is expected to maintain this high standard by ensuring that all academic work reflects unique ideas or properly attributes the ideas to the original sources.</p>
 <p>These are some basic expectations of students with regards to academic integrity:</p>
 <ul>
