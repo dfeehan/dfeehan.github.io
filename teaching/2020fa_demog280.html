@@ -230,6 +230,192 @@ color: #d14;
     }
 });
 </script>
+<style type="text/css">
+.lightable-minimal {
+border-collapse: separate;
+border-spacing: 16px 1px;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-minimal td {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal th {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal thead tr:last-child th {
+border-bottom: 2px solid #00000050;
+empty-cells: hide;
+}
+.lightable-minimal tbody tr:first-child td {
+padding-top: 0.5em;
+}
+.lightable-minimal.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-minimal.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic {
+border-top: 0.16em solid #111111;
+width: 100%;
+margin-bottom: 10px;
+margin: 10px 5px;
+}
+.lightable-classic caption {
+color: #222222;
+}
+.lightable-classic td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic thead tr:last-child th {
+border-bottom: 0.10em solid #111111;
+}
+.lightable-classic tbody tr:last-child td {
+border-bottom: 0.14em solid #111111;
+}
+.lightable-classic.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic-2 {
+border-top: 3px double #111111;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-classic-2 caption {
+color: #222222;
+}
+.lightable-classic-2 td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic-2 th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic-2 tbody tr:last-child td {
+border-bottom: 3px double #111111;
+}
+.lightable-classic-2 thead tr:last-child th {
+border-bottom: 1px solid #111111;
+}
+.lightable-classic-2.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic-2.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #EEE;
+border-collapse: collapse;
+margin-bottom: 10px;
+}
+.lightable-material th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+}
+.lightable-material td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+border-top: 1px solid #eeeeee;
+}
+.lightable-material.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #ddd;
+}
+.lightable-material-dark {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #FFFFFF12;
+border-collapse: collapse;
+margin-bottom: 10px;
+background-color: #363640;
+}
+.lightable-material-dark th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF60;
+}
+.lightable-material-dark td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF;
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark.lightable-hover tbody tr:hover {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody tr:nth-child(even) {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material-dark.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #FFFFFF12;
+}
+.lightable-paper {
+width: 100%;
+margin-bottom: 10px;
+color: #444;
+}
+.lightable-paper thead tr:last-child th {
+color: #666;
+vertical-align: bottom;
+border-bottom: 1px solid #00000020;
+line-height: 1.15em;
+padding: 10px 5px;
+}
+.lightable-paper td {
+vertical-align: middle;
+border-bottom: 1px solid #00000010;
+line-height: 1.15em;
+padding: 7px 5px;
+}
+.lightable-paper.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-paper.lightable-striped tbody tr:nth-child(even) {
+background-color: #00000008;
+}
+.lightable-paper.lightable-striped tbody td {
+border: 0;
+}
+</style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -514,7 +700,7 @@ WISHLIST:
  * color: red;
  */}
 </style>
-<p>(Syllabus last updated: 2020-September-15)</p>
+<p>(Syllabus last updated: 2020-September-29)</p>
 <p><strong>Class meetings: Tuesdays, 2-5pm</strong><br />
 <strong>Office hours</strong>: by appointment (please send me an email and we can find a time)<br />
 <strong>Email</strong>: feehan [at] berkeley.edu<br />
@@ -871,12 +1057,15 @@ The purpose of this paper is to connect the topics of this class to your actual 
 <li><span class="citation">Duncan J. Watts, Peter Sheridan Dodds, and Mark EJ Newman, “Identity and Search in Social Networks,” <em>Science</em> 296, no. 5571 (2002): 1302–1305, <a href="http://science.sciencemag.org/content/296/5571/1302.short" role="doc-biblioref">http://science.sciencemag.org/content/296/5571/1302.short</a>.</span></li>
 <li><span class="citation">P. S. Dodds, R. Muhamad, and D. J. Watts, “An Experimental Study of Search in Global Social Networks,” <em>Science</em> 301, no. 5634 (2003): 827, Äì–829, <a href="http://www.sciencemag.org/content/301/5634/827.short" role="doc-biblioref">http://www.sciencemag.org/content/301/5634/827.short</a>.</span></li>
 </ul>
+<p>Some fairly recent online discussion of the small world hypothesis:</p>
+<ul>
+<li>a relevant <a href="https://research.facebook.com/blog/three-and-a-half-degrees-of-separation/">Facebook research note</a></li>
+<li>and a <a href="https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba#.vlogrknh1">relevant comment by Duncan Watts</a></li>
+</ul>
 <p>Background and related:</p>
 <ul>
 <li><span class="citation">D. J. Watts, <em>Six Degrees: The Science of a Connected Age</em> (WW Norton &amp; Company, 2003), <a href="http://books.google.com/books?hl=en\&amp;lr=\&amp;id=1gueFWR7qjoC\&amp;oi=fnd\&amp;pg=PA14\&amp;dq=watts+six+degrees\&amp;ots=6vgFpS1ml6\&amp;sig=wVsnWDkLuMsLJnUC5j8v1t5WpbE" role="doc-biblioref">http://books.google.com/books?hl=en\&amp;lr=\&amp;id=1gueFWR7qjoC\&amp;oi=fnd\&amp;pg=PA14\&amp;dq=watts+six+degrees\&amp;ots=6vgFpS1ml6\&amp;sig=wVsnWDkLuMsLJnUC5j8v1t5WpbE</a>, ch. 1-3.</span></li>
 <li><span class="citation">Seth A. Marvel et al., “The Small-World Effect Is a Modern Phenomenon,” <em>arXiv Preprint arXiv:1310.2636</em> (2013), <a href="http://arxiv.org/abs/1310.2636" role="doc-biblioref">http://arxiv.org/abs/1310.2636</a>.</span></li>
-<li>a relevant <a href="https://research.facebook.com/blog/three-and-a-half-degrees-of-separation/">Facebook research note</a></li>
-<li>and a <a href="https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba#.vlogrknh1">relevant comment by Duncan Watts</a></li>
 <li><span class="citation">Brian Uzzi and Jarrett Spiro, “Collaboration and Creativity: The Small World Problem,” <em>American Journal of Sociology</em> 111, no. 2 (2005): 447–504, <a href="http://www.jstor.org/stable/10.1086/432782" role="doc-biblioref">http://www.jstor.org/stable/10.1086/432782</a>.</span></li>
 <li><span class="citation">David Liben-Nowell et al., “Geographic Routing in Social Networks,” <em>Proceedings of the National Academy of Sciences of the United States of America</em> 102, no. 33 (2005): 11623–11628, <a href="http://www.pnas.org/content/102/33/11623.short" role="doc-biblioref">http://www.pnas.org/content/102/33/11623.short</a>.</span></li>
 <li><span class="citation">Mark Granovetter, “Ignorance, Knowledge, and Outcomes in a Small World,” <em>Science</em> 301, no. 5634 (2003): 773–774, <a href="http://science.sciencemag.org/content/301/5634/773.short" role="doc-biblioref">http://science.sciencemag.org/content/301/5634/773.short</a>.</span></li>
@@ -901,6 +1090,8 @@ The purpose of this paper is to connect the topics of this class to your actual 
 <li><span class="citation">R. S. Burt, “Structural Holes and Good Ideas,” <em>American Journal of Sociology</em> 110, no. 2 (2004): 349—399, <a href="http://www.jstor.org/stable/10.1086/421787?journalCode=ajs" role="doc-biblioref">http://www.jstor.org/stable/10.1086/421787?journalCode=ajs</a>.</span></li>
 <li><span class="citation">Nathan Eagle, Michael Macy, and Rob Claxton, “Network Diversity and Economic Development,” <em>Science</em> 328, no. 5981 (2010): 1029–1031, <a href="http://science.sciencemag.org/content/328/5981/1029.short" role="doc-biblioref">http://science.sciencemag.org/content/328/5981/1029.short</a>.</span></li>
 <li><span class="citation">Sinan Aral and Marshall Van Alstyne, “The Diversity-Bandwidth Trade-Off,” <em>American Journal of Sociology</em> 117, no. 1 (July 2011): 90–171, doi:<a href="https://doi.org/10.1086/661238" role="doc-biblioref">10.1086/661238</a>.</span></li>
+<li><span class="citation">Maarit Kauppi et al., “Characteristics of Social Networks and Mortality Risk: Evidence from 2 Prospective Cohort Studies,” <em>American Journal of Epidemiology</em> 187, no. 4 (April 2018): 746–753, doi:<a href="https://doi.org/10.1093/aje/kwx301" role="doc-biblioref">10.1093/aje/kwx301</a>.</span></li>
+<li><span class="citation">Patricia M. Eng et al., “Social Ties and Change in Social Ties in Relation to Subsequent Total and Cause-Specific Mortality and Coronary Heart Disease Incidence in Men,” <em>American Journal of Epidemiology</em> 155, no. 8 (April 2002): 700–709, doi:<a href="https://doi.org/10.1093/aje/155.8.700" role="doc-biblioref">10.1093/aje/155.8.700</a>.</span></li>
 </ul>
 <p>Demography-specific:</p>
 <ul>
@@ -913,10 +1104,10 @@ The purpose of this paper is to connect the topics of this class to your actual 
 <li><span class="citation">Jure Leskovec, Daniel Huttenlocher, and Jon Kleinberg, “Signed Networks in Social Media,” in <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em> (ACM, 2010), 1361–1370, <a href="https://dl.acm.org/citation.cfm?id=1753532" role="doc-biblioref">https://dl.acm.org/citation.cfm?id=1753532</a>.</span></li>
 <li><span class="citation">Thomas A. DiPrete et al., “Segregation in Social Networks Based on Acquaintanceship and Trust,” <em>American Journal of Sociology</em> 116, no. 4 (2011): 1234–83, <a href="http://www.jstor.org/stable/10.1086/659100" role="doc-biblioref">http://www.jstor.org/stable/10.1086/659100</a>.</span></li>
 <li><span class="citation">Mark EJ Newman and Michelle Girvan, “Finding and Evaluating Community Structure in Networks,” <em>Physical Review E</em> 69, no. 2 (2004): 026113, <a href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.026113" role="doc-biblioref">http://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.026113</a>.</span></li>
-<li><span class="citation">Amir Goldberg, “Mapping Shared Understandings Using Relational Class Analysis: The Case of the Cultural Omnivore Reexamined,” <em>American Journal of Sociology</em> 116, no. 5 (2011): 1397–1436, <a href="http://www.jstor.org/stable/10.1086/657976" role="doc-biblioref">http://www.jstor.org/stable/10.1086/657976</a>.</span></li>
 </ul>
 <p>Also interesting (but we won’t have time to discuss in class):</p>
 <ul>
+<li><span class="citation">Amir Goldberg, “Mapping Shared Understandings Using Relational Class Analysis: The Case of the Cultural Omnivore Reexamined,” <em>American Journal of Sociology</em> 116, no. 5 (2011): 1397–1436, <a href="http://www.jstor.org/stable/10.1086/657976" role="doc-biblioref">http://www.jstor.org/stable/10.1086/657976</a>.</span></li>
 <li><span class="citation">Brian Karrer and Mark EJ Newman, “Stochastic Blockmodels and Community Structure in Networks,” <em>Physical Review E</em> 83, no. 1 (2011): 016107, <a href="http://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.016107" role="doc-biblioref">http://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.016107</a>.</span></li>
 <li><span class="citation">R. L. Breiger, “The Duality of Persons and Groups,” <em>Social Forces</em> 53, no. 2 (1974): 181—190, <a href="http://sf.oxfordjournals.org/content/53/2/181.short" role="doc-biblioref">http://sf.oxfordjournals.org/content/53/2/181.short</a>.</span></li>
 <li><span class="citation">Laura Katherine Gee, Jason J. Jones, and Moira Burke, “Social Networks and Labor Markets: How Strong Ties Relate to Job Finding on Facebook’s Social Network” (2016), <a href="http://www.journals.uchicago.edu/doi/pdfplus/10.1086/686225" role="doc-biblioref">http://www.journals.uchicago.edu/doi/pdfplus/10.1086/686225</a>.</span></li>
@@ -937,6 +1128,7 @@ The purpose of this paper is to connect the topics of this class to your actual 
 <li><span class="citation">G. Kossinets and D. J. Watts, “Origins of Homophily in an Evolving Social Network,” <em>American Journal of Sociology</em> 115, no. 2 (2009): 405—450, <a href="http://www.jstor.org/stable/10.1086/599247?ai=s6\&amp;af=R" role="doc-biblioref">http://www.jstor.org/stable/10.1086/599247?ai=s6\&amp;af=R</a>.</span></li>
 <li><span class="citation">Sergio Currarini, Matthew O. Jackson, and Paolo Pin, “Identifying the Roles of Race-Based Choice and Chance in High School Friendship Network Formation,” <em>Proceedings of the National Academy of Sciences</em> 107, no. 11 (2010): 4857–4861, <a href="http://www.pnas.org/content/107/11/4857.short" role="doc-biblioref">http://www.pnas.org/content/107/11/4857.short</a>.</span></li>
 <li><span class="citation">Jukka-Pekka Onnela et al., “Geographic Constraints on Social Network Groups,” <em>PLoS One</em> 6, no. 4 (2011): e16939, <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016939" role="doc-biblioref">http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0016939</a>.</span></li>
+<li><span class="citation"><span class="citeproc-not-found" data-reference-id="bruch_aspirational_2018"><strong>???</strong></span></span></li>
 </ul>
 <p>Also interesting, but we will not have time to discuss:</p>
 <ul>
@@ -981,10 +1173,15 @@ The purpose of this paper is to connect the topics of this class to your actual 
 <li><span class="citation">Elisabeth Noelle-Neumann, “Turbulences in the Climate of Opinion: Methodological Applications of the Spiral of Silence Theory,” <em>Public Opinion Quarterly</em> 41, no. 2 (January 1977): 143–158, doi:<a href="https://doi.org/10.1086/268371" role="doc-biblioref">10.1086/268371</a>.</span></li>
 <li><span class="citation">Diana C. Mutz, “Cross-Cutting Social Networks: Testing Democratic Theory in Practice,” <em>American Political Science Review</em> 96, no. 1 (2002): 111–126, <a href="http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=208465" role="doc-biblioref">http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=208465</a>.</span></li>
 <li><span class="citation">Dietram A. Scheufle and Patricia Moy, “Twenty-Five Years of the Spiral of Silence: A Conceptual Review and Empirical Outlook,” <em>International Journal of Public Opinion Research</em> 12, no. 1 (March 2000): 3–28, doi:<a href="https://doi.org/10.1093/ijpor/12.1.3" role="doc-biblioref">10.1093/ijpor/12.1.3</a>.</span></li>
-<li><span class="citation">Delia Baldassarri and Peter Bearman, “Dynamics of Political Polarization,” <em>American Sociological Review</em> 72, no. 5 (October 2007): 784–811, doi:<a href="https://doi.org/10.1177/000312240707200507" role="doc-biblioref">10.1177/000312240707200507</a>.</span></li>
 <li><span class="citation">Matthew O. Jackson, “The Friendship Paradox and Systematic Biases in Perceptions and Social Norms,” <em>Journal of Political Economy</em> 127, no. 2 (October 2018): 777–818, doi:<a href="https://doi.org/10.1086/701031" role="doc-biblioref">10.1086/701031</a>.</span></li>
 <li><span class="citation">Sandra González-Bailón and Ning Wang, “Networked Discontent: The Anatomy of Protest Campaigns in Social Media,” <em>Social Networks</em> 44 (January 2016): 95–104, doi:<a href="https://doi.org/10.1016/j.socnet.2015.07.003" role="doc-biblioref">10.1016/j.socnet.2015.07.003</a>.</span></li>
 <li><span class="citation">Pablo Barberá et al., “Who Leads? Who Follows? Measuring Issue Attention and Agenda Setting by Legislators and the Mass Public Using Social Media Data,” <em>American Political Science Review</em> 113, no. 4 (November 2019): 883–901, doi:<a href="https://doi.org/10.1017/S0003055419000352" role="doc-biblioref">10.1017/S0003055419000352</a>.</span></li>
+<li><span class="citation">Andrew Guess, Jonathan Nagler, and Joshua Tucker, “Less Than You Think: Prevalence and Predictors of Fake News Dissemination on Facebook,” <em>Science Advances</em> 5, no. 1 (January 2019): eaau4586, doi:<a href="https://doi.org/10.1126/sciadv.aau4586" role="doc-biblioref">10.1126/sciadv.aau4586</a>.</span></li>
+<li><span class="citation"><span class="citeproc-not-found" data-reference-id="vicario_spreading_2016"><strong>???</strong></span></span></li>
+</ul>
+<p>Also interesting (but we won’t have time to discuss):</p>
+<ul>
+<li><span class="citation">Delia Baldassarri and Peter Bearman, “Dynamics of Political Polarization,” <em>American Sociological Review</em> 72, no. 5 (October 2007): 784–811, doi:<a href="https://doi.org/10.1177/000312240707200507" role="doc-biblioref">10.1177/000312240707200507</a>.</span></li>
 </ul>
 </div>
 <div id="sec:contagion" class="section level3">
