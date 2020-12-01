@@ -55,6 +55,7 @@ I spent the fall of 2015 as a Research Scientist at
 **Recent and forthcoming publications**
 
 * [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
+
 * [Using an online sample to learn about an offline population](http://link.springer.com/article/10.1007/s13524-019-00840-z); [arxiv version](https://arxiv.org/abs/1902.08289)
 
 * [Separating the signal from the noise: Evidence for deceleration in old-age death rates](https://link.springer.com/article/10.1007/s13524-018-0728-x); [arxiv version](https://arxiv.org/pdf/1707.09433.pdf); [R package](https://github.com/dfeehan/mortfit) and [code](https://github.com/dfeehan/oldage-paper-code-released)
