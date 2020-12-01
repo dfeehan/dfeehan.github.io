@@ -46,15 +46,15 @@ I spent the fall of 2015 as a Research Scientist at
 **Working papers**  
 
 * [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://www.medrxiv.org/content/10.1101/2020.04.13.20064014v2) (under review)
-* [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
-* How do populations aggregate? (Under review)
+* How do populations aggregate? (Accepted at *Demographic Research*)
 * In a stationary population, the average lifespan of the living is a length-biased life expectancy (Under review)
 * Survey methods for estimating the size of weak-tie networks: Evidence from a network scale-up study in Vietnam (Working paper coming soon) 
 
-**Recent publications**
+**Recent and forthcoming publications**
 
+* [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
 * [Using an online sample to learn about an offline population](http://link.springer.com/article/10.1007/s13524-019-00840-z); [arxiv version](https://arxiv.org/abs/1902.08289)
 
 * [Separating the signal from the noise: Evidence for deceleration in old-age death rates](https://link.springer.com/article/10.1007/s13524-018-0728-x); [arxiv version](https://arxiv.org/pdf/1707.09433.pdf); [R package](https://github.com/dfeehan/mortfit) and [code](https://github.com/dfeehan/oldage-paper-code-released)
