@@ -55,7 +55,7 @@ I spent the fall of 2015 as a Research Scientist at
 
 * [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
 
-* [How do populations aggregate?](https://osf.io/preprints/socarxiv/2fkw3/) (Accepted at *Demographic Research*)
+* [How do populations aggregate?](https://osf.io/preprints/socarxiv/2fkw3/) (accepted at *Demographic Research*)
 
 * [Using an online sample to learn about an offline population](http://link.springer.com/article/10.1007/s13524-019-00840-z); [arxiv version](https://arxiv.org/abs/1902.08289)
 
