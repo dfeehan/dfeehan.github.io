@@ -48,13 +48,14 @@ I spent the fall of 2015 as a Research Scientist at
 * [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://www.medrxiv.org/content/10.1101/2020.04.13.20064014v2) (under review)
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
-* How do populations aggregate? (Accepted at *Demographic Research*)
 * In a stationary population, the average lifespan of the living is a length-biased life expectancy (Under review)
 * Survey methods for estimating the size of weak-tie networks: Evidence from a network scale-up study in Vietnam (Working paper coming soon) 
 
 **Recent and forthcoming publications**
 
 * [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
+
+* [How do populations aggregate?](https://osf.io/preprints/socarxiv/2fkw3/) (Accepted at *Demographic Research*)
 
 * [Using an online sample to learn about an offline population](http://link.springer.com/article/10.1007/s13524-019-00840-z); [arxiv version](https://arxiv.org/abs/1902.08289)
 
