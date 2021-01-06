@@ -45,7 +45,6 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Working papers**  
 
-* [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://www.medrxiv.org/content/10.1101/2020.04.13.20064014v2) (under review)
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
 * In a stationary population, the average lifespan of the living is a length-biased life expectancy (Under review)
@@ -53,6 +52,7 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Recent and forthcoming publications**
 
+* [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://www.medrxiv.org/content/10.1101/2020.04.13.20064014v2) (accepted at *Nature Communications*)
 * [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
 
 * [How do populations aggregate?](https://osf.io/preprints/socarxiv/2fkw3/) (accepted at *Demographic Research*)
