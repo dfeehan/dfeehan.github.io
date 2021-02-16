@@ -52,10 +52,11 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Recent and forthcoming publications**
 
-* [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://www.medrxiv.org/content/10.1101/2020.04.13.20064014v2) (accepted at *Nature Communications*)
 * [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
 
-* [How do populations aggregate?](https://osf.io/preprints/socarxiv/2fkw3/) (accepted at *Demographic Research*)
+* [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://doi.org/10.1038/s41467-021-20990-2)
+
+* [How do populations aggregate?](https://www.demographic-research.org/volumes/vol44/15/default.htm) 
 
 * [Using an online sample to learn about an offline population](http://link.springer.com/article/10.1007/s13524-019-00840-z); [arxiv version](https://arxiv.org/abs/1902.08289)
 
