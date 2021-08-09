@@ -5,8 +5,8 @@ title: Teaching
 
 Current:  
   
-* Fall 2021: Demography 180: Social networks (undergrad)
-* Fall 2021: Demography 280/Sociology 273N: Social networks (grad)
+* [Fall 2021: Demography 180: Social networks (undergrad)](teaching/2021fa_demog180.html)
+* [Fall 2021: Demography 280/Sociology 273N: Social networks (grad)](teaching/2021fa_demog280.html)
   
 Previously taught:  
   
