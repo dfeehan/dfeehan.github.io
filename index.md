@@ -53,7 +53,7 @@ I spent the fall of 2015 as a Research Scientist at
 
 * [In a stationary population, the average lifespan of the living is a length-biased life expectancy](https://assets.ipums.org/_files/mpc/wp2020-07.pdf) (Accepted at *Demography*) 
 
-* [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000) (accepted at *Demography*)
+* [Estimating adult death rates from sibling histories: A network approach](https://read.dukeupress.edu/demography/article/58/4/1525/174066/Estimating-Adult-Death-Rates-From-Sibling)
 
 * [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://doi.org/10.1038/s41467-021-20990-2)
 
