@@ -3,14 +3,24 @@ layout: page
 title: Research
 ---
 
+
 **Working papers**  
 
-* [Estimating adult death rates from sibling histories: A network approach](https://arxiv.org/abs/1906.12000)
+* [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
+* [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
+* [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/) 
 
-* [Using an online sample to learn about an offline population](https://arxiv.org/abs/1902.08289)
+**Recent and forthcoming publications**
 
+* [In a stationary population, the average lifespan of the living is a length-biased life expectancy](https://assets.ipums.org/_files/mpc/wp2020-07.pdf) (Accepted at *Demography*) 
 
-**Recent publications**
+* [Estimating adult death rates from sibling histories: A network approach](https://read.dukeupress.edu/demography/article/58/4/1525/174066/Estimating-Adult-Death-Rates-From-Sibling)
+
+* [Quantifying population contact patterns in the United States during the COVID-19 pandemic](https://doi.org/10.1038/s41467-021-20990-2)
+
+* [How do populations aggregate?](https://www.demographic-research.org/volumes/vol44/15/default.htm) 
+
+* [Using an online sample to learn about an offline population](http://link.springer.com/article/10.1007/s13524-019-00840-z); [arxiv version](https://arxiv.org/abs/1902.08289)
 
 * [Separating the signal from the noise: Evidence for deceleration in old-age death rates](https://link.springer.com/article/10.1007/s13524-018-0728-x); [arxiv version](https://arxiv.org/pdf/1707.09433.pdf); [R package](https://github.com/dfeehan/mortfit) and [code](https://github.com/dfeehan/oldage-paper-code-released)
 
@@ -20,29 +30,6 @@ title: Research
 
 * [Generalizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations](https://doi.org/10.1177/0081175016665425)
 
-
-
-### Dissertation
-
-My dissertation focused on a new way to estimate adult mortality rates in poor
-countries where there are currently no reliable data on deaths. This problem is
-important because, as long as we can't figure out how to measure adult
-mortality in the world's poorest countries, we can't measure life expectancy,
-understand the full impact of the HIV/AIDS epidemic, or investigate
-socioeconomic differences in health. In my dissertation, I develop a new method
-for estimating adult death rates from a household survey. The new strategy --
-which builds on existing techniques from demography, sociology, and
-anthropology -- is based on the idea that we can ask survey respondents to tell
-us about deaths in their personal networks to learn about deaths in the general
-population. I apply the new method in a large household survey conducted in 27
-Brazilian cities (see below). I also apply the method in a
-nationally-representative household survey from Rwanda, which is a
-country where adult death rates aren't known, and new techniques are needed
-to estimate them (see below). Although my dissertation focuses on adult mortality, the new 
-technique could be applied to estimate many other quantities that are currently
-hard to measure.
-
-&nbsp;
 
 ### Data collection
 
@@ -88,4 +75,26 @@ to learn more about the methodology used to produce scale-up estimates.
 </td>
 </tr>
 </table>
+
+### Dissertation
+
+My dissertation focused on a new way to estimate adult mortality rates in poor
+countries where there are currently no reliable data on deaths. This problem is
+important because, as long as we can't figure out how to measure adult
+mortality in the world's poorest countries, we can't measure life expectancy,
+understand the full impact of the HIV/AIDS epidemic, or investigate
+socioeconomic differences in health. In my dissertation, I develop a new method
+for estimating adult death rates from a household survey. The new strategy --
+which builds on existing techniques from demography, sociology, and
+anthropology -- is based on the idea that we can ask survey respondents to tell
+us about deaths in their personal networks to learn about deaths in the general
+population. I apply the new method in a large household survey conducted in 27
+Brazilian cities (see below). I also apply the method in a
+nationally-representative household survey from Rwanda, which is a
+country where adult death rates aren't known, and new techniques are needed
+to estimate them (see below). Although my dissertation focuses on adult mortality, the new 
+technique could be applied to estimate many other quantities that are currently
+hard to measure.
+
+&nbsp;
 
