@@ -47,7 +47,7 @@ I spent the fall of 2015 as a Research Scientist at
 
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
-* [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/) 
+* [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/); revise and resubmit at *Sociological Methodology* 
 
 **Recent and forthcoming publications**
 
