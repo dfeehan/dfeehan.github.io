@@ -187,14 +187,14 @@ WISHLIST:
  */}
 </style>
 <p><strong>Class meetings: Tuesdays and Thursdays, 8:00-9:30AM</strong><br />
-<strong>Office hours</strong>: TBA<br />
+<strong>Office hours</strong>: (See Piazza post)<br />
 <strong>Email</strong>: feehan [at] berkeley.edu<br />
 <strong>Web</strong>: <a href="https://www.dennisfeehan.org/teaching/2021fa_demog180.html">https://www.dennisfeehan.org/teaching/2021fa_demog180.html</a><br />
 <BR> Piazza page: <a href="https://piazza.com/class/ksi2rumjbxd1k7">https://piazza.com/class/ksi2rumjbxd1k7</a><br />
 Gradescope page: <a href="https://www.gradescope.com/courses/291747">https://www.gradescope.com/courses/291747</a><br />
 Lecture slides: <a href="https://drive.google.com/drive/folders/1IFLnBquF2sbKD0p9p0fXyoa7S9i7upxS">https://drive.google.com/drive/folders/1IFLnBquF2sbKD0p9p0fXyoa7S9i7upxS</a><br />
 Bcourses page: <a href="https://bcourses.berkeley.edu/courses/1508297">https://bcourses.berkeley.edu/courses/1508297</a> <BR> Final exam: Wed, Dec 15, 3:00P - 6:00P (Exam Location TBD) <BR></p>
-<p>(Syllabus last updated: 2021-October-13)</p>
+<p>(Syllabus last updated: 2021-October-18)</p>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
 <p>The science of social networks focuses on measuring, modeling, and understanding the different ways that people are connected to one another. In this class, we will use a broad toolkit of theories and methods drawn from the social, natural, and mathematical sciences to learn what a social network is, to understand how to work with social network data, and to illustrate some of the ways that social networks can be useful in theory and in practice. We will see that network ideas are powerful enough to be used everywhere from CDC and UNAIDS, where network models help epidemiologists prevent the spread of HIV, to Silicon Valley, where data scientists use network ideas to build products that enable people all across the globe to connect with one another.</p>
@@ -492,6 +492,7 @@ Thu, Oct 7
 Scale-free networks
 </td>
 <td style="text-align:left;">
+<a href="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Networks/Preferential%20Attachment.nlogo">BA model</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -588,6 +589,7 @@ Tue, Oct 26
 SIR model on networks
 </td>
 <td style="text-align:left;">
+<a href="http://shiny.demog.berkeley.edu/dennis/shiny-SimNetwork/">network SIR demo</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -607,6 +609,7 @@ Thu, Oct 28
 Centrality, influence, and network disease models
 </td>
 <td style="text-align:left;">
+<a href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdfeehan%2Fdemog180-fa2021&amp;urlpath=tree%2Fdemog180-fa2021%2Flecture%2F07_sir_model%2Fsir_threshold_infectiousness.ipynb&amp;branch=main">threshold infectiousness demo</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -627,6 +630,7 @@ Tue, Nov 2
 Sexual networks, concurrency, and HIV
 </td>
 <td style="text-align:left;">
+<a href="http://shiny.demog.berkeley.edu/dennis/concurrency/">concurrency demo</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -643,7 +647,7 @@ Sexual networks, concurrency, and HIV
 Thu, Nov 4
 </td>
 <td style="text-align:left;">
-Guest speaker
+Guest speaker: Casey Breen, Quantifying interpersonal contact patterns; network-based sampling
 </td>
 <td style="text-align:left;">
 </td>
@@ -662,7 +666,7 @@ Guest speaker
 Tue, Nov 9
 </td>
 <td style="text-align:left;">
-Guest speaker
+Guest speaker: Ethan Roubenoff, Spatial Demography
 </td>
 <td style="text-align:left;">
 </td>
@@ -848,6 +852,7 @@ READING WEEK
 </tbody>
 </table>
 <!-- LINK REFERENCES -->
+<!-- http://datahub.berkeley.edu/user-redirect/interact?account=dfeehan&repo=demog180-sp2019&branch=master&path=lecture/07_sir_model/sir_threshold_infectiousness.ipynb -->
 </div>
 <div id="requirements" class="section level2">
 <h2>Requirements</h2>
@@ -1057,7 +1062,7 @@ READING WEEK
 <ul>
 <li>Search in small world</li>
 <li>Scale-free networks</li>
-<li><a href="!--%20https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Networks/Preferential%20Attachment.nlogo%20--">Netlogo demo of Barabasi-Albert model</a></li>
+<li><a href="https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Networks/Preferential%20Attachment.nlogo">Netlogo demo of Barabasi-Albert model</a></li>
 </ul>
 <p>Readings:</p>
 <ul>
@@ -1078,7 +1083,7 @@ READING WEEK
 <p>Lectures:</p>
 <ul>
 <li>SIR model, types of centrality</li>
-<li><span class="citation">Easley and Kleinberg <em>Networks, Crowds, and Markets</em>.</span> Ch. 14.1-14.3 (The SIR epidemic model)</li>
+<li><span class="citation">Easley and Kleinberg <em>Networks, Crowds, and Markets</em>.</span> Ch. 21.1-21.3 (The SIR epidemic model)</li>
 <li>Why your friends have more friends than you do; network structure and disease; measuring contact networks</li>
 </ul>
 <p>Reading:</p>
@@ -1093,16 +1098,16 @@ READING WEEK
 * Homework 4 - SIR models and centrality (to be posted)
 
 -->
-<!--
-
-### Concurrency in sexual networks {#sec:concurrency}
-
-* Sexual networks, concurrency, and HIV 
-* @epstein_invisible_2008 Ch.2-4
-* @lurie_concurrent_2010
-* NOTE: if you are interested in reading more of the debate over concurrency, [this issue](https://link.springer.com/journal/10461/14/1/page/1) of the journal that Lurie and Rosenthal published in has papers on both sides. (These additional papers are not required reading.)
-
--->
+</div>
+<div id="sec:concurrency" class="section level3">
+<h3>Concurrency in sexual networks</h3>
+<ul>
+<li>Sexual networks, concurrency, and HIV</li>
+<li><span class="citation">Epstein <em>The Invisible Cure</em>.</span> Ch.2-4</li>
+<li><span class="citation">Mark N. Lurie and Samantha Rosenthal <span>“Concurrent Partnerships as a Driver of the <span>HIV</span> Epidemic in Sub-<span>Saharan Africa</span>? <span>The</span> Evidence Is Limited,”</span> <em>AIDS and Behavior</em> 14, no. 1 (2010): 17–24.</span></li>
+<li>OPTIONAL: <span class="citation">Easley and Kleinberg <em>Networks, Crowds, and Markets</em>.</span> Ch. 21.6</li>
+<li>NOTE: if you are interested in reading more of the debate over concurrency, <a href="https://link.springer.com/journal/10461/14/1/page/1">this issue</a> of the journal that Lurie and Rosenthal published in has papers on both sides. (These additional papers are not required reading.)</li>
+</ul>
 <!--
 
 ### Cooperation {#sec:cooperation}
@@ -1118,53 +1123,47 @@ Reading:
 * @axelrod_evolution_1984 Ch. 1 (on bCourses)
 
 -->
-<!--
-
-### Social influence {#sec:socialinfluence}
-
-Lectures:
-
-* Social influence
-* Threshold models
-
-Reading:
-
-* @easley_networks_2010 Ch. 16.1-16.2; 16.7
-* @watts_six_2003 Ch. 7
-
--->
-<!--
-
-### Complex contagion {#sec:complexcontagion}
-
-Lectures:
-
-* Complex contagion; decisions, threshold models
-* Experimental studies of complex contagion
-* Can your friends make you fat? Observational studies of network contagion
-
-Reading:
-
-* @watts_six_2003 Ch. 8
-* @easley_networks_2010 Ch. 19.1-19.6
-
--->
+</div>
+<div id="sec:socialinfluence" class="section level3">
+<h3>Social influence</h3>
+<p>Lectures:</p>
+<ul>
+<li>Social influence</li>
+<li>Threshold models</li>
+</ul>
+<p>Reading:</p>
+<ul>
+<li><span class="citation">Easley and Kleinberg <em>Networks, Crowds, and Markets</em>.</span> Ch. 16.1-16.2; 16.7</li>
+<li><span class="citation">Watts <em>Six Degrees</em>.</span> Ch. 7</li>
+</ul>
+</div>
+<div id="sec:complexcontagion" class="section level3">
+<h3>Complex contagion</h3>
+<p>Lectures:</p>
+<ul>
+<li>Complex contagion; decisions, threshold models</li>
+<li>Experimental studies of complex contagion</li>
+<li>Is obesity contagious? Observational studies of network contagion</li>
+</ul>
+<p>Reading:</p>
+<ul>
+<li><span class="citation">Watts <em>Six Degrees</em>.</span> Ch. 8</li>
+<li><span class="citation">Easley and Kleinberg <em>Networks, Crowds, and Markets</em>.</span> Ch. 19.1-19.6</li>
+</ul>
 <!--
 #### Homework 5 {#sec:hwk5}
 
 * Homework 5 - Small worlds (to be posted)
 
 -->
-<!--
-
-### Empirical studies of contagion {#sec:empiricalcontagion}
-
-Reading:
-
-* [Friends you can count on](https://opinionator.blogs.nytimes.com/2012/09/17/friends-you-can-count-on/)
-* [Study says obesity can be contagious](https://www.nytimes.com/2007/07/25/health/25cnd-fat.html)
-
--->
+</div>
+<div id="sec:empiricalcontagion" class="section level3">
+<h3>Empirical studies of contagion</h3>
+<p>Reading:</p>
+<ul>
+<li><a href="https://opinionator.blogs.nytimes.com/2012/09/17/friends-you-can-count-on/">Friends you can count on</a></li>
+<li><a href="https://www.nytimes.com/2007/07/25/health/25cnd-fat.html">Study says obesity can be contagious</a></li>
+</ul>
 <!--
 
 #### Homework 6 {#sec:hwk6}
