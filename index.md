@@ -49,10 +49,10 @@ I spent the fall of 2015 as a Research Scientist at
 * [A sample size heuristic for network scale-up studies](https://arxiv.org/abs/2111.09684)
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
-* [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/); revise and resubmit at *Sociological Methodology* 
 
 **Recent and forthcoming publications**
 
+* [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/); accepted at *Sociological Methodology* 
 * [In a stationary population, the average lifespan of the living is a length-biased life expectancy](https://assets.ipums.org/_files/mpc/wp2020-07.pdf) (Accepted at *Demography*) 
 
 * [Estimating adult death rates from sibling histories: A network approach](https://read.dukeupress.edu/demography/article/58/4/1525/174066/Estimating-Adult-Death-Rates-From-Sibling)
