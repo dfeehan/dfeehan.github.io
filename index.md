@@ -74,6 +74,8 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Updates**
 
+I gave a talk at the United Nations Statistical Commision 53rd Session side event: "Use of surveys and censuses to fill adult mortality data gaps in the context of COVID-19." You can see a video of the event [here](https://www.youtube.com/watch?v=35NQM191tTo&list=WL&index=106).
+
 I co-organized the [IUSSP Expert Group Meeting on Population Data for the 21st Century](https://iussp.org/en/egm-population-data-21st-century) at UNFPA in New York. Slides and videos of the talks will be posted on the website soon.  
   
 I very much enjoyed giving a talk at a panel presentation for UCLA's Summer Institute in Computational Social Science.  
