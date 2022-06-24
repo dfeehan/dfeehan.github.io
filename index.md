@@ -35,7 +35,7 @@ I'm a demographer and quantitative social scientist. <br>
 <br>
 My research interests lie at the intersection of networks, demography, and
 quantitative methodology.
-I'm an Associate Professor of Demography at the
+I'm currently an Associate Professor of Demography at the
 <a href="https://www.demog.berkeley.edu">University of California, Berkeley</a>.
 In the summer of 2015, I finished my Ph.D. at Princeton's
 <a href="https://opr.princeton.edu">Office of Population Research</a>, and
@@ -74,7 +74,7 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Updates**
 
-I got promoted! As of July 1, I am an Associate Professor at UC Berkeley.
+I was promoted! As of July 1, I am an Associate Professor at UC Berkeley.
 
 I gave a talk estimating adult death rates from sibling histories on at the WHO Working Group on Mortality Estimation.
 
