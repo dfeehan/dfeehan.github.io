@@ -46,12 +46,12 @@ I spent the fall of 2015 as a Research Scientist at
 **Working papers**  
 
 * [Using Multilevel Regression with Poststratification for Estimating Subnational Age-Specific Contact Patterns](https://osf.io/preprints/socarxiv/87e32/)
-* [A sample size heuristic for network scale-up studies](https://arxiv.org/abs/2111.09684)
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
 
 **Recent and forthcoming publications**
 
+* [A sample size heuristic for network scale-up studies](https://arxiv.org/abs/2111.09684); accepted at *Sociological Methods and Research*
 * [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/); accepted at *Sociological Methodology* 
 * [In a stationary population, the average lifespan of the living is a length-biased life expectancy](https://assets.ipums.org/_files/mpc/wp2020-07.pdf) (Accepted at *Demography*) 
 
