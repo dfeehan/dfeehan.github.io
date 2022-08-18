@@ -5,14 +5,18 @@ title: Teaching
 
 Current:  
   
-* Spring 2022: on parental leave
+* Fall 2022: [Demography 180: Social networks (undergrad)](teaching/2022fa_demog180.html)
+* Fall 2022: [Demography 280/Sociology 273N: Social networks (grad)](teaching/2022fa_demog280.html)
+<!--* Fall 2022: [Demography 299 (grad)](teaching/2022fa_demog280.html)-->
   
 Previously taught:  
   
+* Spring 2022: on parental leave
 * Fall 2021: [Demography 180: Social networks (undergrad)](teaching/2021fa_demog180.html)
 * Fall 2021: [Demography 280/Sociology 273N: Social networks (grad)](teaching/2021fa_demog280.html)
 * Spring 2021: [Data 88: Data science and demography (Connector course)](teaching/2021sp_data88.html)
 * Fall 2020: [Demography 280/Sociology 273N: Social networks (grad)](teaching/2020fa_demog280.html)
+* Spring 2020: on parental leave
 * Fall 2019: [Demography 260: Field methods and research design](teaching/2019fa_demog260.html)
 * Spring 2019: [Demography 180: Social networks (undergrad)](teaching/2019sp_demog180.html)
 * Spring 2019: [Demography 260/Sociology 273N: Social networks (grad)](teaching/2019sp_demog260.html)
