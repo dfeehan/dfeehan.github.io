@@ -22,8 +22,7 @@ description: ""
    <br>
    Department of Demography<br>
    University of California, Berkeley<br>
-   2232 Piedmont Ave<br>
-   MC #2120<br>
+   394 Social Science Building<br>
    Berkeley, CA 94720-2120<br>
    </td>
 </tr>
