@@ -50,9 +50,11 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Recent and forthcoming publications**
 
-* [A sample size heuristic for network scale-up studies](https://arxiv.org/abs/2111.09684); accepted at *Sociological Methods and Research*
-* [Survey methods for estimating the size of weak-tie networks](https://osf.io/preprints/socarxiv/z2t4p/); accepted at *Sociological Methodology* 
-* [In a stationary population, the average lifespan of the living is a length-biased life expectancy](https://assets.ipums.org/_files/mpc/wp2020-07.pdf) (Accepted at *Demography*) 
+* [A sample size formula for network scale-up studies](https://journals.sagepub.com/doi/full/10.1177/00491241221122576?casa_token=VM0kwuq75d4AAAAA%3AK9EHBbnoWaDm2xrBnabok2BAJibv6JSTA_W9nCHXVbSWkX9-UYF11XZA78TZDuIDUK_wnkuNgP82GBI)
+
+* [Survey methods for estimating the size of weak-tie networks](https://journals.sagepub.com/doi/full/10.1177/00811750221109568)
+
+* [In a stationary population, the average lifespan of the living is a length-biased life expectancy](https://read.dukeupress.edu/demography/article/59/1/207/293327/In-a-Stationary-Population-the-Average-Lifespan-of) 
 
 * [Estimating adult death rates from sibling histories: A network approach](https://read.dukeupress.edu/demography/article/58/4/1525/174066/Estimating-Adult-Death-Rates-From-Sibling)
 
