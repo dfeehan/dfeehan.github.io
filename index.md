@@ -44,12 +44,12 @@ I spent the fall of 2015 as a Research Scientist at
 
 **Working papers**  
 
-* [Using Multilevel Regression with Poststratification for Estimating Subnational Age-Specific Contact Patterns](https://osf.io/preprints/socarxiv/87e32/)
 * [Pre-analysis plan for 'Estimating adult mortality using sampled social network data: evidence from Brazil'](https://osf.io/3t7cm/) (Working paper coming soon) 
 * [Inequality and fairness: A networked experiment](https://osf.io/preprints/socarxiv/at536/) 
 
 **Recent and forthcoming publications**
 
+* [Using Multilevel Regression with Poststratification for Estimating Subnational Age-Specific Contact Patterns](https://osf.io/preprints/socarxiv/87e32/) (*accepted at PLoS Computational Biology*)
 * [A sample size formula for network scale-up studies](https://journals.sagepub.com/doi/full/10.1177/00491241221122576?casa_token=VM0kwuq75d4AAAAA%3AK9EHBbnoWaDm2xrBnabok2BAJibv6JSTA_W9nCHXVbSWkX9-UYF11XZA78TZDuIDUK_wnkuNgP82GBI)
 
 * [Survey methods for estimating the size of weak-tie networks](https://journals.sagepub.com/doi/full/10.1177/00811750221109568)
