@@ -14,22 +14,10 @@ output:
   pdf_document: 
     output-file: feehan_cv.pdf
     toc: false
-    #pandoc_args: [
-    #              #"-F", "pandoc-include",
-    #              "--citeproc",
-    #              "-F", "pandoc-crossref", 
-    #              #"-F", "pandoc-citeproc"
-    #              ]
   html_document: 
     toc: true
     css: syllabus.css
-    #pandoc_args: [
-    #              #"-F", "pandoc-include",
-    #              "--citeproc",
-    #              "-F", "pandoc-crossref", 
-    #              #"-F", "pandoc-citeproc"
-    #              ]
-    format-links: [pdf]
+format-links: [pdf]
 ---
 
 ::: {.content-visible when-format='html'}
