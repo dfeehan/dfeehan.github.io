@@ -1,0 +1,84 @@
+---
+title: ""
+theme: simplex
+---
+::: {.grid}
+
+::: {.g-col-6}
+![](figures/picture-from-mcr.JPG)
+:::
+
+::: {.g-col-4}
+Dennis Feehan<br>
+<br>
+feehan {at} berkeley.edu<br>
+<br>
+Department of Demography<br>
+University of California, Berkeley<br>
+394 Social Science Building<br>
+Berkeley, CA 94720-2120<br>
+:::
+
+:::
+   
+&nbsp;          
+       
+I'm a demographer and quantitative social scientist.    
+    
+My [research interests](research.html) lie at the intersection of networks, demography, and
+quantitative methodology.   
+     
+I'm currently an Associate Professor of Demography at the
+[University of California, Berkeley](https://www.demog.berkeley.edu).
+
+<!--
+In the summer of 2015, I finished my Ph.D. at Princeton's
+[Office of Population Research](https://opr.princeton.edu), and
+I spent the fall of 2015 as a Research Scientist at 
+[Facebook](https://www.facebook.com/data).
+-->
+
+
+
+<!--
+**Updates**
+
+I was promoted! As of July 1, I am an Associate Professor at UC Berkeley.
+
+I gave a talk estimating adult death rates from sibling histories on at the WHO Working Group on Mortality Estimation.
+
+I co-organized the UC Berkeley Workshop in Formal Demography in May.
+
+I gave a talk at the United Nations Statistical Commision 53rd Session side event: "Use of surveys and censuses to fill adult mortality data gaps in the context of COVID-19." You can see a video of the event [here](https://www.youtube.com/watch?v=35NQM191tTo&list=WL&index=106).
+
+I co-organized the [IUSSP Expert Group Meeting on Population Data for the 21st Century](https://iussp.org/en/egm-population-data-21st-century) at UNFPA in New York. Slides and videos of the talks will be posted on the website soon.  
+  
+I very much enjoyed giving a talk at a panel presentation for UCLA's Summer Institute in Computational Social Science.  
+  
+I had a great visit to the University of Michigan, where I gave a talk for the Population Studies Center Brown Bag.
+  
+I had a wonderful visit to Ohio State, where I gave a talk at the PRI Seminar.
+  
+I'm thrilled to have been awarded the ASA Outstanding Article in Mathematical Sociology Award! Check out the paper, written with Matt Salganik, [here](https://goo.gl/Xcxino)  (arxiv version [here](https://arxiv.org/abs/1404.4009)). Congrats to co-winners Joscha Legewie and Merlin Schaeffer for their work on contested boundaries.
+
+I gave a keynote talk and tutorial at the pre-PAA workshop, 'Demographic Research in the Digital Age' (sponsored by IUSSP). I also gave two talks during the PAA conference. 
+
+I had a great visit to Duke, where I gave a talk at the DuPRI Seminar.
+
+I gave a talk at the Center for Statistics and the Social Sciences at the University of
+Washington, a wonderful group of researchers.
+
+In June, I was invited to the US State Department, where I gave a talk hosted by the Bureau of Intelligence and Research.
+
+I had a great visit to UW Madison, where I gave a talk in their [demography seminar](https://www.ssc.wisc.edu/cde/demsem/home.php) on March 14th.
+
+I was interviewed about our work on social network methods for estimating adult mortality 
+by the [Matrix](https://matrix.berkeley.edu/research/network-survival-method).
+
+
+Emilio Zagheni and I co-organized a workshop on 
+[Web, Social Media, and Cellphone Data for Demographic Research](http://projects.demog.berkeley.edu/socinfo2016/) at [SocInfo 2016](https://usa2016.socinfo.eu/).
+
+I very much enjoyed visiting and giving a talk at the Stanford [RAIN seminar series](https://rain.stanford.edu/) on November 2nd.
+
+-->

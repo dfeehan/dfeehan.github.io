@@ -1,0 +1,8 @@
+---
+title: "Social Science Matrix event"
+# ~ additional YAML options omitted for brevity ~
+#bibliography: references.bib
+---
+
+I had a great time at the Social Science Matrix event
+[tales from big data]()

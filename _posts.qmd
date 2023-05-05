@@ -1,0 +1,16 @@
+---
+title: ""
+listing: 
+  contents: posts # all Quarto docs in the `posts` directory will be included on your listing page
+  type: default # or `grid` or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories 
+---
+
+<!--
+
+Helpful links:
+https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
+https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/
+
+-->

@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dennis M. Feehan"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching 
+#      - href: data.qmd
+#        text: Data 
+      - href: software.qmd
+        text: Software 
+#      - href: bio.qmd
+#        text: Bio
+#      - href: posts.qmd
+#        text: Posts
+      - href: cv/cv.qmd
+        text: CV
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+editor: source
+

@@ -1,0 +1,380 @@
+---
+title: ""
+#author: "Dennis M. Feehan"
+pagetitle: "Dennis M. Feehan"
+bibliography: "feehan-cv.bib"
+csl: dmf-chicago-syllabus.csl
+link-citations: false
+citations-hover: false
+#csl: chicago-syllabus.csl
+#csl: demography.csl
+#csl: apa-cv.csl
+suppress-bibliography: True
+output:
+  pdf_document: 
+    output-file: feehan_cv.pdf
+    toc: false
+    #pandoc_args: [
+    #              #"-F", "pandoc-include",
+    #              "--citeproc",
+    #              "-F", "pandoc-crossref", 
+    #              #"-F", "pandoc-citeproc"
+    #              ]
+  html_document: 
+    toc: true
+    css: syllabus.css
+    #pandoc_args: [
+    #              #"-F", "pandoc-include",
+    #              "--citeproc",
+    #              "-F", "pandoc-crossref", 
+    #              #"-F", "pandoc-citeproc"
+    #              ]
+    format-links: [pdf]
+---
+
+::: {.content-visible when-format='html'}
+
+[PDF version of CV](cv.pdf)
+
+:::
+
+<!-- some helpful links
+https://www.andrewheiss.com/blog/2023/01/09/syllabus-csl-pandoc/
+-->
+
+<!-- (CV last updated: `r format(Sys.Date(), "%Y-%B-%d")`) -->
+
+:::: {layout="[0.6, 0.4]" align=left}
+
+::: {#first-column}
+\raggedright
+Dennis M. Feehan  
+Department of Demography  
+University of California, Berkeley  
+294 Social Science Building  
+Berkeley, CA 94720-2120  
+USA
+:::
+
+::: {#second-column}
+\raggedleft
+feehan\@berkeley.edu  
+<https://www.dennisfeehan.org>  
+:::
+
+::::
+
+## Current position
+
+-   Associate Professor (with tenure; July 2022-present)\
+    Department of Demography\
+    University of California, Berkeley
+
+## Previous positions
+
+-   Assistant Professor (January 2016 - July 2022)\   
+    Department of Demography\
+    University of California, Berkeley
+
+-   Research Scientist (Postdoc; Fall/Winter 2015)\   
+    Facebook\   
+    Menlo Park, California
+
+## Education
+
+-   **Ph.D. Demography, Princeton University** (2015)\
+    Dissertation: *Network reporting methods*\
+    Committee: Matthew J. Salganik (chair); Noreen Goldman; Scott Lynch; Doug Massey\
+    General exams: Demographic Methods; Mortality; and Mathematical and Statistical Methods in Population Health
+    
+-   **M.A. Demography, Princeton University** (2013)\
+
+-   **A.B. Mathematics, Harvard College** (2022)
+
+## Peer-reviewed publications
+
+-   @roubenoff_evaluating_2023
+
+-   @breen_novel_2022
+
+-   [@wrigley-field_stationary_2022]
+
+-   [@rossier_describing_2022]
+
+-   [@josephs_sample_2022]
+
+-   [@feehan_survey_2022]
+
+-   [@feehan_estimating_2021]
+
+-   [@feehan_quantifying_2021]
+
+-   [@feehan_how_2021]
+
+-   [@feehan_using_2019]
+
+-   [@feehan_separating_2018]
+
+-   [@feehan_network_2017]
+
+-   [@feehan_generalizing_2016]
+
+    -   **ASA Outstanding Article in Mathematical Sociology Award** (co-winner, 2018)
+
+-   [@feehan_quantity_2016]
+
+-   [@lozano_benchmarking_2006]
+
+-   [@gakidou_assessing_2006]
+
+-   [@murray_estimation_2007]
+
+-   [@murray_validation_2007]
+
+## Software
+
+-   [@feehan_siblingsurvival_2020] (Available from github: <https://github.com/dfeehan/siblingsurvival>
+
+-   [@feehan_mortfit:_2018] (Available from github: <https://github.com/dfeehan/mortfit>
+
+-   [@feehan_surveybootstrap:_2016] (Available from CRAN: <http://cran.r-project.org/web/packages/networkreporting/index.html>
+
+-   [@feehan_networkreporting:_2014-1] (Available from CRAN: <http://cran.r-project.org/web/packages/networkreporting/index.html>
+
+
+
+## Grants
+
+<!--
+
+TODO ADD
+
+- Pilot grant for Matlab
+- Pilot grant for BICS
+- FDW grant
+- Co-I on Josh R01
+- Co-I on Danny+Kristen R01
+- Co-I on Danny+Kristen R21
+
+-->
+-   2022 - present NIH, "Berkeley Formal Demography Workship." mPI with colleagues Josh Goldstein and Ayesha Mahmud. This R25 proposal funds five additional years of Berkeley's successful Formal Demography Workshop.
+
+-   2020 - present - Society of Hellman Fellows award, "Interpersonal contact in the U.S. during the COVID-19 Pandemic"; supporting additional data collection for Berkeley Interpersonal Contact Study.
+
+-   2020 - Berkeley Population Center rapid covid-19 pilot grant, "Interpersonal contact in the U.S. during the COVID-19 Pandemic." Supported pilot data collection for what would become the Berkeley Interpersonal Contact Study.
+
+-   2019 to present - Berkeley Center for the Economics and Demography of Aging pilot grant, "Social network methods for estimating adult death rates in the absence of vital registration." Supporting exploratory field work to develop new questions for estimating adult mortality from a sample survey.
+
+-   2018 Summer - Regents Junior Faculty Fellowship, "Validating a new social-network based approach to estimating adult death rates." Partially supported analyzing data from Brazil mortality study.
+
+-   2017 Summer - Berkeley Population Center pilot grant, "Estimating adult mortality using sampled social network data in 27 Brazilian cities" Partially supported weighting and cleaning data from my Brazil mortality study.
+
+## Invited talks and conference presentations
+
+-   "Survey methods for estimating the size of weak-tie personal networks," US Centers for Disease Control, technical consultation on Key Population Surveillance and Estimates: Recent Advances and Future Directions, May 2021
+
+-   "Quantifying population contact patterns in the United States during the COVID-19 pandemic," paper presentation at PAA, May 2021
+
+-   Discussant for PAA Session 146, "Formal Demography - Innovations in Theory and Methods," May 2021
+
+-   "Using an online sample to estimate the size of an offline population," seminar at UC Berkeley Computational Social Science Forum, April 2021
+
+-   "Estimating adult mortality using sampled social network data: Evidence from Brazil," seminar at University of Washington Center for Studies in Demography and Ecology, February 2021
+
+-   Panelist for "Demographic Research with Web and Social Media Data" at ALAP (Latin American Population Association Conference), November 2020
+
+-   "Using an online sample to estimate the size of an offline population," presentation at BAY-SICCS (the Bay Area Summer Institute in Computational Social Science), June 2020
+
+-   "BICS: The Berkeley Interpersonal Contact Study," lighting talk at UC Berkeley Population Center Brown Bag, Spring 2020.
+
+-   "Using sampled social network data to estiamte adult death rates: Evidence from Brazil," presentation at Joint Statistical Meetings, Denver, August 2019.
+
+-   "Using an online sample to estimate the size of an offline population," presentation at UCLA Summer Institute in Computational Social Science, June 2019
+
+-   "How do populations aggregate?" talk at Formal Demography Workshop, Berkeley, Summer 2019.
+
+-   "How do populations aggregate?" talk at Population Association of America meeting, Austin, TX, April 2019.
+
+-   "Using sampled social network data to estimate adult death rates: evidence from Brazil," talk at Population Association of America meeting, Austin, TX, April 2019.
+
+-   "Using an online sample to learn about an offline population: network reporting estimates of internet adoption around the world," presentation at University of Michigan, April 2019.
+
+-   "Using sampled social network data to estimate adult death rates," presentation at Ohio State, January 2019.
+
+-   "Using sampled social network data to estimate adult death rates," presentation at IUSSP/MPIDR Workshop on Mortality Monitoring in the Era of the SDGs, Rostock, Germany, December 2018..
+
+-   "Estimating death rates from network reports," invited presentation at US Centers for Disease Control, Atlanta (given remotely), September 2018.
+
+-   "Estimating the size of hidden populations using the network scale-up method," presentation at RSF Summer Instituate on Migration Research Methods, Berkeley, Summer 2018.
+
+-   "Network reporting methods and aggregate relational data," presentation at UCNets Conference, Summer 2018.
+
+-   "Aggregate relational data and the network scale-up method," presentation at the Sunbelt 2018 conference.\
+
+-   "Estimating adult mortality from sibling histories: A network approach," presentation at Formal Demography Workshop, Berkeley 2018.
+
+-   "Estimating internet adoption around the world using a sample of Facebook users," 2018 PAA pre-conference workshop *Demographic Research in the Digital Age*, Denver.
+
+    -   **Keynote address and tutorial**
+
+-   "Estimating adult death rates from sibling histories: A network approach," presentation at Population Association of America 2018 conference, Denver.
+
+-   "Estimating internet adoption around the world using a sample of Facebook users," presentation at Population Association of America 2018 conference, Denver.
+
+-   "Using sampled social network data to estimate the size of hidden populations," presentation at UC Berkeley Sociology Seminar, 2018.
+
+-   "Using sampled social network data to estimate adult death rates," presentation at Center for Statistics and the Social Sciences seminar, University of Washington, 2017.
+
+-   "Using sampled social network data to estimate adult death rates," presentation at Duke University DUPRI Seminar, 2017.
+
+-   "Estimating death rates using survey reports about social networks," presentation at the University of Wisconsin, Madison, 2017.
+
+-   "Estimating the size of hidden populations using the network scale-up method," presentation at US State Department's Bureau of Intelligence and Research, 2017.
+
+-   "Estimating the size of key populations at risk of HIV in Brazil using the network scale-up method," presentation at Population Association of America conference, Chicago, 2017.
+
+-   "Estimating internet adoption around the world using a sample of Facebook users," presentation at International Conference on Compuational Social Science, Cologne, Germany 2017.
+
+-   "Generalizing the network scale-up method," presentation at Population Association of America conference, Washington, D.C, 2016.
+
+-   "Using sampled social network data to estimate the size of hidden populations," presentation at RAIN Seminar, Stanford, 2016.
+
+-   "Network reporting methods," presentation at the Workshop on Incomplete Network Data, Sandia National Lab, March 2016.
+
+-   "Quantity vs. Quality: A Survey Experiment to Improve the Network Scale-up Method," presentation at the American Sociological Association, Chicago, August 2015.
+
+-   "Using sampled social network data to estimate the size of hidden populations," presentation at the Joint Statistical Meetings, Seattle, August 2015.
+
+-   "Using sampled social network data to estimate the size of hidden populations," presentation at the Guttmacher Institute, New York, August 2015.
+
+-   "Using sampled social network data to estimate the size of hidden populations (including deaths)," presentation at Centers for Disease Control, Division of Global HIV/AIDS (DGHA), March 2015.
+
+-   "Social networks and surveys," presentation at RAPIDD Workshop on Globalization and the spatial scale of disease spread and elimination: opportunities and challenges of existing and novel data-streams, Princeton, February 2015.
+
+-   "Network reporting methods for estimating adult mortality," Center for the Study of Complex Systems, U. of Michigan, January 2015.
+
+-   "Network reporting methods for estimating adult mortality," Departments of Sociology and Statistics, UCLA, December 2014.
+
+-   "Network reporting methods for estimating adult mortality," Department of Demography, Berkeley, November 2014.
+
+-   "Network reporting methods for estimating adult mortality," presented at Disease Group, Department of Ecology and Evolutionary Biology, Princeton, November 2014.
+
+-   "An experimental framework for continual improvement in survey research," presented at Population Association of America conference, Boston, 2014.
+
+-   "How should we measure mortality at the oldest ages?" presented at Population Association of America conference, Boston, 2014.
+
+-   Discussant for session "Digital records for Demographic Research", Population Association of America conference, Boston, 2014.
+
+-   "Social network methods for estimating adult mortality: evidence from Brazil and Rwanda," presented at Notestein Lecture Series, Office of Population Research, Princeton University, 2014.
+
+-   "Network reporting methods for estimating adult mortality: evidence from Brazil and Rwanda," presented at Center for the Study of Democratic Policy Networks Workshop, Princeton University, 2014.
+
+-   "Social network methods for measuring adult mortality: evidence from Rwanda," presentation at American Sociological Association meeting, New York, 2013.
+
+-   "Social network methods for measuring adult mortality: evidence from Brazil," presentation at Population Association of America conference, New Orleans, 2013.
+
+-   "Social network methods for measuring adult mortality: evidence from Rwanda," presentation at Chaire Quetelet conference, Louvain, Belgium, December, 2012.
+
+-   "Social network methods for measuring adult mortality: evidence from Rwanda," presentation at Population Association of America conference, San Francisco, CA, 2012.
+
+-   Discussant for session on Adult mortality at Population Association of America conference, San Francicso, CA, 2012.
+
+-   "Some generalizations of the network scale-up method," presentation at UNAIDS meeting, New York, New York, March 2012.
+
+-   "Social network methods for measuring adult mortality: evidence from Rwanda," presentation at Union for African Population Studies conference, Ougadougou, Burkina Faso, 2011.
+
+-   "Network scale-up estimates for hidden populations," presentation at VIII Congresso Brasileiro de Epidemiologia, Sao Paulo, Brazil, November, 2011.
+
+-   "How plausible are small-area estimates of fertility in sub-Saharan Africa," presentation at Population Association of America conference, Washington, D.C., 2010.
+
+-   "How should we choose models of old-age mortality rates?" poster at Population Association of America conference, Washington, D.C., 2010.
+
+## Organizer: Conferences and workshops
+
+-   Berkeley Workshop in Formal Demography, May 2021 (co-organized with Josh Goldstein and Ayesha Mahmud)
+
+-   IUSSP Expert Group Meeting on Population Data for the 21st Centry, at the UNFPA in New York, December 2019 (co-organized with Tom LeGrand, Sam Clark, and Romesh Silva)
+
+-   PAA Session 100, "Using big data in population research", April 2019
+
+-   SocInfo 2016 workshop, "Web, Social Media, and Cellphone Data for Demographic Research," Seattle, November 2016 (co-organized with Emilio Zagheni)
+
+## Reviewer: Journals
+
+-   *American Journal of Sociology*, *Annals of Applied Statistics*, *BMC Public Health*, *BMC Medicine*, *Cadernas de Saude Publica*, *Demography*, *Demographic Research*, *Epidemiology*, *Genus*, *International Journal of Epidemiology*, *Journal of Ethnic and Migration Studies*, *Journal of Survey Statistics and Methodology*, *JMIR Public Health and Surveillance*, *PLoS One*, *PNAS*, *Management Science*, *Nature Communications*, *Nature Medicine*, *Population Development Review*, *Population Research and Policy Review*, *Sexually Transmitted Infections*, *Social Forces*, *Social Networks*, *Sociological Methodology*, *Sociological Methods and Research*, *Sociological Science*, *Vienna Population Yearbook*, *International Journal of Epidemiology*
+
+## Reviewer: Conferences
+
+-   *IC2S2 2017*; *SocInfo 2019*; *IC2S2 2021*; *IUSSP 2021*
+
+## Other service
+
+-   Member, UN Interagency Group on Stateless Estimation Technical Advisory Group (2021-present)
+
+-   Editorial Board Member, *Sociological Methodology* (2021-present)
+
+-   Member, IUSSP Panel on Digital Demography (2020-present)
+
+## Work experience
+
+-   **Research Scientist (earlier, Core Data Science Intern)**, **Facebook** (Menlo Park, CA; summer 2014 and fall/winter 2015). I used Facebook's data about 1.3 billion users to study migration, social networks, and online survey research, in addition to other problems at the intersection of sociology, social networks and statistics.
+
+-   **Visiting student**, **Microsoft Research** (New York, NY; 2014). I visited the lab every week to attend seminars and meet with researchers in MSR's New York office.
+
+-   **Researcher**, **Institute for Health Metrics and Evaluation** (Seattle, WA; 2007-2008). I focused on statistical strategies for analyzing verbal autopsy data and on some of the methodological issues involved in the ongoing update of the Global Burden of Disease Study. I also supervised two research assistants.
+
+-   **Post Bachelor Fellow**, **Harvard Initiative for Global Health** (Cambridge, MA; 2005-2007). I was selected in a competitive application process. The fellowship involved classwork in public health and statistical methodology, as well as participation in research projects focusing on health system metrics in the developing world. Part of my work was conducted on Pemba Island, and in Dar Es Salaam, Tanzania.
+
+-   **Software engineer**, **SmarterLiving** and **Actifunds** (Cambridge, MA; summer 2000 and 2001). As an undergraduate, I spent two summers as a software engineer for start-ups. I worked on a mixture of designing back-end systems, database interfaces, and web scrapers; most of the work was in Perl, with some C.
+
+## Honors and awards
+
+-   Hellman Fellows Award, 2020
+
+-   American Sociological Association Outstanding Article in Mathematical Sociology Award, 2018
+
+-   Charles F. Westoff Prize in Demography, 2016
+
+-   Princeton Center for Health and Wellbeing Global Health Grand Challenge award for graduate research funding
+
+-   Princeton Institute for International and Regional Studies dissertation support award
+
+-   NIH grant for graduate study
+
+-   Harvard College Scholarship
+
+-   Presidential Scholar Finalist
+
+## Teaching
+
+-   **UC Berkeley, Assistant-Associate Professor**
+
+    -   *Demography 180: Social Networks*, Fall 2021, Spring 2017-2019 - undergraduate lecture class in social networks .
+
+    -   *Demography 280: Social Networks*, Fall 2020-2021; Spring 2016-2019 - graduate seminar in social networks (originally called Demography 260) .
+
+    -   *Demography 260: Field Methods and Research Design*, Fall 2019 - graduate seminar covering applied research design .
+
+    -   *Letters & Science 88: Social Networks*, Fall 2016 - undergraduate data science connector class .
+
+    -   *Letters & Science 88: Broken down by age and sex*, Fall 2018; Spring 2021 - undergraduate data science connector class .
+
+-   **Princeton University, Preceptor**
+
+    -   *Sociology 504: Social Statistics*, Spring 2009 - the second class in the Sociology Department's graduate statistics sequence, which covered statistical models and graphics with examples, exercises, and homeworks in R
+
+    -   *Introduction to R*, Spring 2009 - co-taught a day-long departmental introduction to R with Matthew J. Salganik
+
+    -   *Economics/Sociology 572: Demographic Methods*, Spring 2010 - the Office of Population Research's graduate-level methods class, covering life-table methods, stable population theory, methods for direct and indirect estimation, and survival analysis
+
+    -   *Introduction to Demographic Methods*, Summer 2012 and 2011 - the Office of Population Research's demography \`boot camp' for incoming graduate students
+
+        <!--%{\it Fall semesters, 1999-2000} and {\it 2000-2001; spring 2001; summers 1999, 2004,} and {\it 2005.}-->
+
+-   **Harvard University, Teaching Fellow**
+
+    -   *CS50: Introduction to Computer Science I (two years)* the first course in computer science for majors; we covered the fundamentals of programming, basic algorithms and their analysis, and computer architecture. I taught a section, held office hours, led review sessions, and graded homeworks and exams. All of the problems sets and exams were in C and Assembler. I was awarded a Certificate of Distinction in Teaching as a result of my outstanding student evaluations.
+
+    -   *CS51: Introduction to Computer Science II (Summer)* - the second class in the introductory computer science sequence. We covered design and analysis of more advanced algorithms, and introductory functional and object oriented programming languages. The homeworks and exams were in LISP, Java, and C++. At the end of the class, the students wrote most of a garbage-collected LISP interpreter.
+
+    -   *Introduction to Probability and Combinatorics* - an Extension School class in the mathematics of probability and combinatorics. I led sections, held office hours, and graded homeworks and exams.

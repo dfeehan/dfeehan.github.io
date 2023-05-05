@@ -1,3 +1,20 @@
+# Website README
+
+
+## Wish list:
+
+* get Posts up and running
+* det Data up and running
+* improve research page; develop callout box for abstract of papers, organize by theme, etc
+* revive bio page?
+
+
+
+
+### NOTES leftover from previous version of website (many irrelevant):
+
+
+
 
 This website is based on the template kindly provided by Karl Broman.
 View the template [here](http://kbroman.org/simple_site).
@@ -27,6 +44,3 @@ NB: to change theme (eg site-wide headers, footers, etc), start by looking at _i
 
 * now I'm getting an SSL error, so I am switching DNS to CloudFlare; apparently,
   they have free SSL certs
-
-
-

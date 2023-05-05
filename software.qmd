@@ -1,0 +1,48 @@
+---
+title: ""
+---
+
+Software packages I have developed for various research projects:
+
+
+### `siblingsurvival`
+
+[`siblingsurvival`](https://github.com/dfeehan/siblingsurvival) 
+
+Estimating adult death rates from sibling histories, especially those collected
+by the [Demographic and Health Surveys](https://dhsprogram.com/).
+
+### `surveybootstrap`
+
+[`surveybootstrap`](https://github.com/dfeehan/surveybootstrap)  
+
+Methods for estimating sampling uncertainty from data collected via complex
+sampling designs, such as household surveys.
+
+### `networkreporting`
+
+[`networkreporting`](https://github.com/dfeehan/networkreporting)  
+
+Methods for estimating group size and prevalence from network reports;
+includes routines for network scale-up, generalized network scale-up,
+and network survival.
+
+### `mortfit`
+
+[`mortfit`](https://github.com/dfeehan/mortfit)  
+
+Fitting mortality hazard models, with special attention to humans at very old ages
+
+### `nrsimulatr`
+
+[`nrsimluatr`](https://github.com/dfeehan/nrsimulatr)  
+
+Tools for simulating reporting networks, useful in developing and evaluating
+network reporting methods.
+
+
+### `calibratr`
+
+[`calibratr`](https://github.com/dfeehan/calibratr)  
+
+Wrappers to make  calibration with the `survey` package easier
