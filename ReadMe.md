@@ -8,6 +8,11 @@
 * improve research page; develop callout box for abstract of papers, organize by theme, etc
 * revive bio page?
 
+## pdf version of CV
+
+See <https://quarto.org/docs/output-formats/html-multi-format.html> for some helpful info.
+I could only get the second format to work when I included a `_metadata.yml` file
+inside the `cv` directory.
 
 
 

@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Dennis M. Feehan"
+  google-analytics: 
+    tracking-id: "G-498YJEHL6G"
+    anonymize-ip: true
   navbar:
     left:
       - href: index.qmd
