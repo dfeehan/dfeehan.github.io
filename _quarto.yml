@@ -31,6 +31,8 @@ format:
     theme: simplex
     css: styles.css
     toc: true
+    #mainfont: Georgia, serif 
+    fontsize: 1em
 
 editor: source
 
