@@ -16,9 +16,16 @@
   {
     "objectID": "posts/20230502/index.html",
     "href": "posts/20230502/index.html",
-    "title": "Social Science Matrix event",
+    "title": "PAA 2023",
     "section": "",
-    "text": "I had a great time at the Social Science Matrix event tales from big data"
+    "text": "I had a great time at PAA 2023 in New Orleans. I gave a talk on an in-progress project on estimating adult death rates from different social relationships as part of Session 187 (Methodological Innovations in Mortality). I also co-organized Session 156 (Network Methods)."
+  },
+  {
+    "objectID": "posts/20230509/index.html",
+    "href": "posts/20230509/index.html",
+    "title": "Paper in Epidemics",
+    "section": "",
+    "text": "We have a new paper just published in Epidemics. This study combines BICS contact survey data with a disease model to understand the implications of different vaccine prioritization strategies. Congrats to Ethan Roubenoff, who was lead author - this is the first chapter of his dissertation."
   },
   {
     "objectID": "index.html",
@@ -33,6 +40,13 @@
     "title": "Dennis M. Feehan",
     "section": "",
     "text": "Software packages I have developed for various research projects:\n\nsiblingsurvival\nsiblingsurvival\nEstimating adult death rates from sibling histories, especially those collected by the Demographic and Health Surveys.\n\n\nsurveybootstrap\nsurveybootstrap\nMethods for estimating sampling uncertainty from data collected via complex sampling designs, such as household surveys.\n\n\nnetworkreporting\nnetworkreporting\nMethods for estimating group size and prevalence from network reports; includes routines for network scale-up, generalized network scale-up, and network survival.\n\n\nmortfit\nmortfit\nFitting mortality hazard models, with special attention to humans at very old ages\n\n\nnrsimulatr\nnrsimluatr\nTools for simulating reporting networks, useful in developing and evaluating network reporting methods.\n\n\ncalibratr\ncalibratr\nWrappers to make calibration with the survey package easier"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Dennis M. Feehan",
+    "section": "",
+    "text": "Paper in Epidemics\n\n\n\n\n\n\n\n\n\n\n\n\nMay 9, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPAA 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv.html",

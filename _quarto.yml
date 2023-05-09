@@ -21,8 +21,8 @@ website:
         text: Software 
 #      - href: bio.qmd
 #        text: Bio
-#      - href: posts.qmd
-#        text: Posts
+      - href: posts.qmd
+        text: Posts
       - href: cv/cv.qmd
         text: CV
 

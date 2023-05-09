@@ -1,8 +1,12 @@
 ---
-title: "Social Science Matrix event"
+title: "PAA 2023"
+date: "2023-05-01"
 # ~ additional YAML options omitted for brevity ~
 #bibliography: references.bib
 ---
 
-I had a great time at the Social Science Matrix event
-[tales from big data]()
+I had a great time at PAA 2023 in New Orleans. I gave a talk on
+an in-progress project on 
+[estimating adult death rates from different social relationships](https://events.rdmobile.com/Asset/Download/11625956)
+as part of Session 187 (Methodological Innovations in Mortality).
+I also co-organized [Session 156 (Network Methods)](https://events.rdmobile.com/Sessions/Details/1725571).

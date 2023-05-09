@@ -1,0 +1,13 @@
+---
+title: "Paper in Epidemics"
+date: "2023-05-09"
+# ~ additional YAML options omitted for brevity ~
+#bibliography: references.bib
+---
+
+
+We have a [new paper just published  in *Epidemics*](https://www.sciencedirect.com/science/article/pii/S1755436523000221?via%3Dihub).
+This study combines BICS contact survey data with a disease model
+to understand the implications of different vaccine prioritization strategies.
+Congrats to Ethan Roubenoff, who was lead author - this is the first chapter of
+his dissertation.
