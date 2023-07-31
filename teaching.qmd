@@ -4,8 +4,8 @@ title: ""
 
 #### Current
 
-* Fall 2023: Demography 180: Social networks (undergrad)
-* Fall 2023: Demography 280/Sociology 273N: Social networks (grad)
+* Fall 2023: [Demography 180: Social networks (undergrad)](teaching/2023fa_demog180.html)
+* Fall 2023: [Demography 280/Sociology 273N: Social networks (grad)](teaching/2023fa_demog280.html)
   
 #### Previous
   

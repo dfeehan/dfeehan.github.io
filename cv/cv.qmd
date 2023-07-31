@@ -159,6 +159,8 @@ TODO ADD
 
 ## Invited talks and conference presentations
 
+-   "Estimating the size of an offline population from an online sample," NYU Center for Practice and Research at the Intersection of Information, Society, and Methodology (PRIISM) Seminar series, October 2022
+
 -   "Survey methods for estimating the size of weak-tie personal networks," US Centers for Disease Control, technical consultation on Key Population Surveillance and Estimates: Recent Advances and Future Directions, May 2021
 
 -   "Quantifying population contact patterns in the United States during the COVID-19 pandemic," paper presentation at PAA, May 2021
@@ -289,7 +291,7 @@ TODO ADD
 
 ## Reviewer: Journals
 
--   *American Journal of Sociology*, *Annals of Applied Statistics*, *BMC Public Health*, *BMC Medicine*, *Cadernas de Saude Publica*, *Demography*, *Demographic Research*, *Epidemiology*, *Genus*, *International Journal of Epidemiology*, *Journal of Ethnic and Migration Studies*, *Journal of Survey Statistics and Methodology*, *JMIR Public Health and Surveillance*, *PLoS One*, *PNAS*, *Management Science*, *Nature Communications*, *Nature Medicine*, *Population Development Review*, *Population Research and Policy Review*, *Sexually Transmitted Infections*, *Social Forces*, *Social Networks*, *Sociological Methodology*, *Sociological Methods and Research*, *Sociological Science*, *Vienna Population Yearbook*, *International Journal of Epidemiology*
+-   *American Journal of Sociology*, *Annals of Applied Statistics*, *BMC Public Health*, *BMC Medicine*, *Cadernas de Saude Publica*, *Demography*, *Demographic Research*, *Epidemiology*, *Field Methods*, *Genus*, *International Journal of Epidemiology*, *Journal of Ethnic and Migration Studies*, *Journal of Survey Statistics and Methodology*, *JMIR Public Health and Surveillance*, *PLoS One*, *PNAS*, *Management Science*, *Nature Communications*, *Nature Medicine*, *Population Development Review*, *Population Research and Policy Review*, *Sexually Transmitted Infections*, *Social Forces*, *Social Networks*, *Sociological Methodology*, *Sociological Methods and Research*, *Sociological Science*, *Vienna Population Yearbook*, *International Journal of Epidemiology*
 
 ## Reviewer: Conferences
 
