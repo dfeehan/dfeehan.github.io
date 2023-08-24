@@ -42,6 +42,27 @@
     "text": "Dennis Feehan  feehan {at} berkeley.edu  Department of Demography University of California, Berkeley 394 Social Science Building Berkeley, CA 94720-2120\n\n\n \nI’m a demographer and quantitative social scientist.\nMy research interests lie at the intersection of networks, demography, and quantitative methodology.\nI’m currently an Associate Professor of Demography at the University of California, Berkeley."
   },
   {
+    "objectID": "ReadMe.html",
+    "href": "ReadMe.html",
+    "title": "Website README",
+    "section": "",
+    "text": "get Posts up and running\ndet Data up and running\nimprove research page; develop callout box for abstract of papers, organize by theme, etc\nrevive bio page?\n\n\n\n\nSee https://quarto.org/docs/output-formats/html-multi-format.html for some helpful info. I could only get the second format to work when I included a _metadata.yml file inside the cv directory.\n\n\nThis website is based on the template kindly provided by Karl Broman. View the template here.\nTo update:\n\nedit the appropriate .md files\ntest the changes locally:\n\nrun jekyll serve to run a local jekyll server\ndial up http://localhost:4000\n\nstage and commit the changes to the git repo\npush the repo to origin (github), which will make the changes live\n\nFor the DNS, I have\n\nwww.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)\nCNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org\nDNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io\n\nThe net result is that my default page is www.dennisfeehan.org\nNB: see this page for some help on setting up google analytics\nNB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html\n2017-04-22\n\nnow I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs"
+  },
+  {
+    "objectID": "ReadMe.html#wish-list",
+    "href": "ReadMe.html#wish-list",
+    "title": "Website README",
+    "section": "",
+    "text": "get Posts up and running\ndet Data up and running\nimprove research page; develop callout box for abstract of papers, organize by theme, etc\nrevive bio page?"
+  },
+  {
+    "objectID": "ReadMe.html#pdf-version-of-cv",
+    "href": "ReadMe.html#pdf-version-of-cv",
+    "title": "Website README",
+    "section": "",
+    "text": "See https://quarto.org/docs/output-formats/html-multi-format.html for some helpful info. I could only get the second format to work when I included a _metadata.yml file inside the cv directory.\n\n\nThis website is based on the template kindly provided by Karl Broman. View the template here.\nTo update:\n\nedit the appropriate .md files\ntest the changes locally:\n\nrun jekyll serve to run a local jekyll server\ndial up http://localhost:4000\n\nstage and commit the changes to the git repo\npush the repo to origin (github), which will make the changes live\n\nFor the DNS, I have\n\nwww.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)\nCNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org\nDNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io\n\nThe net result is that my default page is www.dennisfeehan.org\nNB: see this page for some help on setting up google analytics\nNB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html\n2017-04-22\n\nnow I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs"
+  },
+  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Dennis M. Feehan",

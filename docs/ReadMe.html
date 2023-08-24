@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dennis M. Feehan -</title>
+<title>Dennis M. Feehan – readme</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,35 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5W77PPS14P"></script>
 
 <script type="text/javascript">
@@ -99,8 +68,6 @@ gtag('js', new Date());
 gtag('config', 'G-5W77PPS14P', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -139,7 +106,7 @@ gtag('config', 'G-5W77PPS14P', { 'anonymize_ip': true});
  <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./posts.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
@@ -158,106 +125,74 @@ gtag('config', 'G-5W77PPS14P', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#website-readme" id="toc-website-readme" class="nav-link active" data-scroll-target="#website-readme">Website README</a>
+  <ul class="collapse">
+  <li><a href="#wish-list" id="toc-wish-list" class="nav-link" data-scroll-target="#wish-list">Wish list:</a></li>
+  <li><a href="#pdf-version-of-cv" id="toc-pdf-version-of-cv" class="nav-link" data-scroll-target="#pdf-version-of-cv">pdf version of CV</a>
+  <ul class="collapse">
+  <li><a href="#notes-leftover-from-previous-version-of-website-many-irrelevant" id="toc-notes-leftover-from-previous-version-of-website-many-irrelevant" class="nav-link" data-scroll-target="#notes-leftover-from-previous-version-of-website-many-irrelevant">NOTES leftover from previous version of website (many irrelevant):</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
-<!--
+<section id="website-readme" class="level1">
+<h1>Website README</h1>
+<section id="wish-list" class="level2">
+<h2 class="anchored" data-anchor-id="wish-list">Wish list:</h2>
+<ul>
+<li>get Posts up and running</li>
+<li>det Data up and running</li>
+<li>improve research page; develop callout box for abstract of papers, organize by theme, etc</li>
+<li>revive bio page?</li>
+</ul>
+</section>
+<section id="pdf-version-of-cv" class="level2">
+<h2 class="anchored" data-anchor-id="pdf-version-of-cv">pdf version of CV</h2>
+<p>See <a href="https://quarto.org/docs/output-formats/html-multi-format.html" class="uri">https://quarto.org/docs/output-formats/html-multi-format.html</a> for some helpful info. I could only get the second format to work when I included a <code>_metadata.yml</code> file inside the <code>cv</code> directory.</p>
+<section id="notes-leftover-from-previous-version-of-website-many-irrelevant" class="level3">
+<h3 class="anchored" data-anchor-id="notes-leftover-from-previous-version-of-website-many-irrelevant">NOTES leftover from previous version of website (many irrelevant):</h3>
+<p>This website is based on the template kindly provided by Karl Broman. View the template <a href="http://kbroman.org/simple_site">here</a>.</p>
+<p>To update:</p>
+<ul>
+<li>edit the appropriate .md files</li>
+<li>test the changes locally:
+<ul>
+<li>run <code>jekyll serve</code> to run a local jekyll server</li>
+<li>dial up http://localhost:4000</li>
+</ul></li>
+<li>stage and commit the changes to the git repo</li>
+<li>push the repo to origin (github), which will make the changes live</li>
+</ul>
+<p>For the DNS, I have</p>
+<ul>
+<li>www.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)</li>
+<li>CNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org</li>
+<li>DNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io</li>
+</ul>
+<p>The net result is that my default page is www.dennisfeehan.org</p>
+<p>NB: see <a href="http://joshualande.com/jekyll-github-pages-poole/">this page</a> for some help on setting up google analytics</p>
+<p>NB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html</p>
+<p>2017-04-22</p>
+<ul>
+<li>now I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs</li>
+</ul>
 
-Helpful links:
-https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/
-https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/
 
--->
+</section>
+</section>
+</section>
 
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1686466800000" data-listing-file-modified-sort="1692895689807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/20230611/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/20230611/index.html">
-<h3 class="no-anchor listing-title">
-Formal Demography Workshop
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Just finished the week-long Annual Workshop on Formal Demography, which I co-organized with Josh Goldstein and Michelle Poulin. The focus this year was fertility. I learned a lot and I also had a great time. I’m already looking forward…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/20230611/index.html">
-<div class="listing-date">
-Jun 11, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1683615600000" data-listing-file-modified-sort="1692895689807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/20230509/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/20230509/index.html">
-<h3 class="no-anchor listing-title">
-Paper in Epidemics
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-We have a new paper just published in <em>Epidemics</em>. This study combines BICS contact survey data with a disease model to understand the implications of different…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/20230509/index.html">
-<div class="listing-date">
-May 9, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1692895689806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/20230502/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/20230502/index.html">
-<h3 class="no-anchor listing-title">
-PAA 2023
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-I had a great time at PAA 2023 in New Orleans. I gave a talk on an in-progress project on estimating adult death rates from different social relationships as part of Session 187 (Methodological Innovations in…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/20230502/index.html">
-<div class="listing-date">
-May 1, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
