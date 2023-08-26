@@ -2,13 +2,16 @@
 title: ""
 ---
 
-#### Current
+#### Currently teaching
 
-* Fall 2023: [Demography 180: Social networks (undergrad)](teaching/2023fa_demog180.html)
+* Fall 2023: [Demography 180: Social networks (undergrad)](https://www.dennisfeehan.org/demog180-fa2023)
 * Fall 2023: [Demography 280/Sociology 273N: Social networks (grad)](teaching/2023fa_demog280.html)
   
-#### Previous
+
+::: {.callout-note appearance='simple' icon=false collapse='true'}
   
+#### Previously taught
+
 * Fall 2022: [Demography 180: Social networks (undergrad)](teaching/2022fa_demog180.html)
 * Fall 2022: [Demography 280/Sociology 273N: Social networks (grad)](teaching/2022fa_demog280.html)
 * Fall 2022: Grad seminar on developing research papers 
@@ -29,3 +32,4 @@ title: ""
 * Fall 2016: [L&S 88 - Data Science Connector: Social networks](teaching/2016fa_ls88.html)
 * Spring 2016: [Demography 260: Social networks](teaching/201601_demog260.html)
 
+:::
