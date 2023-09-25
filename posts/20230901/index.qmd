@@ -1,0 +1,13 @@
+---
+title: "Faculty Director of D-Lab"
+date: "2023-09-01"
+# ~ additional YAML options omitted for brevity ~
+#bibliography: references.bib
+---
+
+
+This fall, I'm starting a new role as Faculty Director of Berkeley's
+[D-Lab](https://dlab.berkeley.edu/home). D-Lab is an amazing organization
+focused on data science education, consulting, and research with a special
+emphasis on diversity and inclusion. I'm tremendously excited to begin working
+with the amazing group of scholars and data scientists at D-Lab this fall.

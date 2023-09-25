@@ -1,0 +1,11 @@
+---
+title: "Talk at University of Maryland"
+date: "2023-09-18"
+# ~ additional YAML options omitted for brevity ~
+#bibliography: references.bib
+---
+
+
+Yesterday, I gave a talk at the [Maryland Population Research Center](https://www.popcenter.umd.edu/).
+I presented some not-yet-published work on validating methods for estimating adult mortality based
+on data collected in Brazil. I got great feedback and very much enjoyed the visit.
