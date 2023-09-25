@@ -161,6 +161,10 @@ TODO ADD
 
 ## Invited talks and conference presentations
 
+-   "Comparing survey-based estimates of adult mortality to high-quality vital records: Evidence from 27 Brazilian cities," Maryland Population Research Center Seminar, September 2023
+
+-   Discussant, Workshop on Determinants of Adult Mortality, Center for the Economics of Demography and Aging, Feb 2023
+
 -   "Estimating the size of an offline population from an online sample," NYU Center for Practice and Research at the Intersection of Information, Society, and Methodology (PRIISM) Seminar series, October 2022
 
 -   "Survey methods for estimating the size of weak-tie personal networks," US Centers for Disease Control, technical consultation on Key Population Surveillance and Estimates: Recent Advances and Future Directions, May 2021
