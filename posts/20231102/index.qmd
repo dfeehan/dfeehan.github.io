@@ -1,0 +1,12 @@
+---
+title: "Talk at Harvard"
+date: "2023-11-02"
+# ~ additional YAML options omitted for brevity ~
+#bibliography: references.bib
+---
+
+
+I had a great visit to Boston, where I gave a talk as part of the [Harvard Social Demography Seminar](https://www.hsph.harvard.edu/population-development/event/social-demography-seminar-with-dennis-feehan/).
+My talk focused on validating survey-based methods for estimating adult mortality,
+using data collected in Brazil. Thanks to everyone at the talk for great questions
+and a very enjoyable visit!

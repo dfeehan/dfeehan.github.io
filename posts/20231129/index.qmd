@@ -1,0 +1,17 @@
+---
+title: "PAA 2024"
+date: "2023-11-29"
+# ~ additional YAML options omitted for brevity ~
+#bibliography: references.bib
+---
+
+I'm looking forward to visiting Ohio this spring! My colleagues and I had several
+papers accepted, including
+
+* a project on novel approaches to estimating adult mortality from a survey, based on pilot data collected at the HDSS site in Matlab, Bangladesh 
+* a project on estimating mortality in humanitarian emergencies based on original data collected in the Democratic Republic of Congo (lead author: Casey Breen, postdoc at Oxford and former PhD student here at Berkeley; several other colleagues from REACH and DRC also participating)
+* a project on a network-based method for estimating out-migration using original data collected in 27 cities in Brazil (lead author: Andrea Miranda-Gonzalez, a PhD student here at UC Berkeley)
+* a project on how political views and context predict behavior during the COVID pandemic in the US, based on data from the BICS project (lead author: Chris Soria, a PhD student here at UC Berkeley)
+* a project on using the network reporting framework to understand sisterhood estimates of maternal mortality (lead author: Blake Erhardt-Ohren, a PhD student here at UC Berkeley)
+
+I'll also be a discussant for a session on digital demography.

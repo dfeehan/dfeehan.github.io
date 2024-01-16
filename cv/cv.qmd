@@ -139,15 +139,12 @@ feehan\@berkeley.edu
 
 TODO ADD
 
-- Pilot grant for Matlab
-- Pilot grant for BICS
-- FDW grant
 - Co-I on Josh R01
 - Co-I on Danny+Kristen R01
 - Co-I on Danny+Kristen R21
 
 -->
--   2022 - present NIH, "Berkeley Formal Demography Workship." mPI with colleagues Josh Goldstein and Ayesha Mahmud. This R25 proposal funds five additional years of Berkeley's successful Formal Demography Workshop.
+-   2022 - present NIH, "Berkeley Formal Demography Workshop." mPI with colleagues Josh Goldstein and Ayesha Mahmud. This R25 proposal funds five additional years of Berkeley's successful Formal Demography Workshop.
 
 -   2020 - present - Society of Hellman Fellows award, "Interpersonal contact in the U.S. during the COVID-19 Pandemic"; supporting additional data collection for Berkeley Interpersonal Contact Study.
 
@@ -160,6 +157,8 @@ TODO ADD
 -   2017 Summer - Berkeley Population Center pilot grant, "Estimating adult mortality using sampled social network data in 27 Brazilian cities" Partially supported weighting and cleaning data from my Brazil mortality study.
 
 ## Invited talks and conference presentations
+
+- "Validating social network-based estimates of adult mortality with high-quality vital records: Evidence from 27 cities," Harvard Social Demography Seminar Series, November 2023
 
 -   "Comparing survey-based estimates of adult mortality to high-quality vital records: Evidence from 27 Brazilian cities," Maryland Population Research Center Seminar, September 2023
 
