@@ -29,7 +29,8 @@ My [research interests](research.html) lie at the intersection of networks, demo
 quantitative methodology.   
      
 I'm currently an Associate Professor of Demography at the
-[University of California, Berkeley](https://www.demog.berkeley.edu).
+[University of California, Berkeley](https://www.demog.berkeley.edu)
+and Faculty Director of the [D-Lab](https://dlab.berkeley.edu/home).
 
 <!--
 In the summer of 2015, I finished my Ph.D. at Princeton's

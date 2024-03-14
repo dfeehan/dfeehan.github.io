@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Dennis M. Feehan",
-    "section": "",
-    "text": "Currently teaching\n\nSpring 2023 - No classes this semester\n\n\n\n\n\n\n\nPreviously taught\n\n\n\n\n\n\nFall 2023: Demography 180: Social networks (undergrad)\nFall 2023: Demography 280/Sociology 273N: Social networks (grad)\nFall 2022: Demography 180: Social networks (undergrad)\nFall 2022: Demography 280/Sociology 273N: Social networks (grad)\nFall 2022: Grad seminar on developing research papers\nSpring 2022: on parental leave\nFall 2021: Demography 180: Social networks (undergrad)\nFall 2021: Demography 280/Sociology 273N: Social networks (grad)\nSpring 2021: Data 88: Data science and demography (Connector course)\nFall 2020: Demography 280/Sociology 273N: Social networks (grad)\nSpring 2020: on parental leave\nFall 2019: Demography 260: Field methods and research design\nSpring 2019: Demography 180: Social networks (undergrad)\nSpring 2019: Demography 260/Sociology 273N: Social networks (grad)\nFall 2018: L&S 88 - Data Science Connector: Demography (undergrad)\nSpring 2018: Demography 180: Social networks (undergrad)\nSpring 2018: Demography 260: Social networks (grad)\nFall 2017: L&S 88 - Data Science Connector: Social networks\nSpring 2017: Demography 260: Social networks\nFall 2016: L&S 88 - Data Science Connector: Social networks\nSpring 2016: Demography 260: Social networks"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Dennis M. Feehan",
-    "section": "",
-    "text": "My research interests lie primarily at the intersection of social networks, demography, and quantitative methodology. Some themes in my work have included developing new sampling methods for learning about hidden and hard-to-reach populations; understanding health and mortality; and computational social science.\nWorking papers\n\nValidating survey-based estimates of adult mortality with high-quality vital statistics: Evidence from 27 cities\nEstimating death rates in complex humanitarian emergencies using the network survival method: Pre-analysis plan\n\nSelected publications (see CV for a full list):\n\nEstimating adult death rates from sibling histories: A network approach\nQuantifying population contact patterns in the United States during the COVID-19 pandemic\nUsing an online sample to learn about an offline population; arxiv version\nThe network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda\nGeneralizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations"
-  },
-  {
-    "objectID": "posts/20230611/index.html",
-    "href": "posts/20230611/index.html",
-    "title": "Formal Demography Workshop",
-    "section": "",
-    "text": "Just finished the week-long Annual Workshop on Formal Demography, which I co-organized with Josh Goldstein and Michelle Poulin. The focus this year was fertility. I learned a lot and I also had a great time. I’m already looking forward to next year! If you are an early career scholar (grad student/postdoc/junior faculty) interested in formal demography, please look out for the application call next spring."
-  },
-  {
-    "objectID": "posts/20231102/index.html",
-    "href": "posts/20231102/index.html",
-    "title": "Talk at Harvard",
-    "section": "",
-    "text": "I had a great visit to Boston, where I gave a talk as part of the Harvard Social Demography Seminar. My talk focused on validating survey-based methods for estimating adult mortality, using data collected in Brazil. Thanks to everyone at the talk for great questions and a very enjoyable visit!"
-  },
-  {
-    "objectID": "posts/20230901/index.html",
-    "href": "posts/20230901/index.html",
-    "title": "Faculty Director of D-Lab",
-    "section": "",
-    "text": "This fall, I’m starting a new role as Faculty Director of Berkeley’s D-Lab. D-Lab is an amazing organization focused on data science education, consulting, and research with a special emphasis on diversity and inclusion. I’m tremendously excited to begin working with the amazing group of scholars and data scientists at D-Lab this fall."
-  },
-  {
-    "objectID": "posts/20230502/index.html",
-    "href": "posts/20230502/index.html",
-    "title": "PAA 2023",
-    "section": "",
-    "text": "I had a great time at PAA 2023 in New Orleans. I gave a talk on an in-progress project on estimating adult death rates from different social relationships as part of Session 187 (Methodological Innovations in Mortality). I also co-organized Session 156 (Network Methods)."
-  },
-  {
-    "objectID": "posts/20231129/index.html",
-    "href": "posts/20231129/index.html",
-    "title": "PAA 2024",
-    "section": "",
-    "text": "I’m looking forward to visiting Ohio this spring! My colleagues and I had several papers accepted, including\n\na project on novel approaches to estimating adult mortality from a survey, based on pilot data collected at the HDSS site in Matlab, Bangladesh\na project on estimating mortality in humanitarian emergencies based on original data collected in the Democratic Republic of Congo (lead author: Casey Breen, postdoc at Oxford and former PhD student here at Berkeley; several other colleagues from REACH and DRC also participating)\na project on a network-based method for estimating out-migration using original data collected in 27 cities in Brazil (lead author: Andrea Miranda-Gonzalez, a PhD student here at UC Berkeley)\na project on how political views and context predict behavior during the COVID pandemic in the US, based on data from the BICS project (lead author: Chris Soria, a PhD student here at UC Berkeley)\na project on using the network reporting framework to understand sisterhood estimates of maternal mortality (lead author: Blake Erhardt-Ohren, a PhD student here at UC Berkeley)\n\nI’ll also be a discussant for a session on digital demography."
-  },
-  {
-    "objectID": "posts/20230509/index.html",
-    "href": "posts/20230509/index.html",
-    "title": "Paper in Epidemics",
-    "section": "",
-    "text": "We have a new paper just published in Epidemics. This study combines BICS contact survey data with a disease model to understand the implications of different vaccine prioritization strategies. Congrats to Ethan Roubenoff, who was lead author - this is the first chapter of his dissertation."
-  },
-  {
-    "objectID": "posts/20230918/index.html",
-    "href": "posts/20230918/index.html",
-    "title": "Talk at University of Maryland",
-    "section": "",
-    "text": "Yesterday, I gave a talk at the Maryland Population Research Center. I presented some not-yet-published work on validating methods for estimating adult mortality based on data collected in Brazil. I got great feedback and very much enjoyed the visit."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dennis M. Feehan",
-    "section": "",
-    "text": "Dennis Feehan  feehan {at} berkeley.edu  Department of Demography University of California, Berkeley 394 Social Science Building Berkeley, CA 94720-2120\n\n\n \nI’m a demographer and quantitative social scientist.\nMy research interests lie at the intersection of networks, demography, and quantitative methodology.\nI’m currently an Associate Professor of Demography at the University of California, Berkeley."
-  },
-  {
-    "objectID": "ReadMe.html",
-    "href": "ReadMe.html",
-    "title": "Website README",
-    "section": "",
-    "text": "get Posts up and running\ndet Data up and running\nimprove research page; develop callout box for abstract of papers, organize by theme, etc\nrevive bio page?\n\n\n\n\nSee https://quarto.org/docs/output-formats/html-multi-format.html for some helpful info. I could only get the second format to work when I included a _metadata.yml file inside the cv directory.\n\n\nThis website is based on the template kindly provided by Karl Broman. View the template here.\nTo update:\n\nedit the appropriate .md files\ntest the changes locally:\n\nrun jekyll serve to run a local jekyll server\ndial up http://localhost:4000\n\nstage and commit the changes to the git repo\npush the repo to origin (github), which will make the changes live\n\nFor the DNS, I have\n\nwww.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)\nCNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org\nDNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io\n\nThe net result is that my default page is www.dennisfeehan.org\nNB: see this page for some help on setting up google analytics\nNB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html\n2017-04-22\n\nnow I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs"
-  },
-  {
-    "objectID": "ReadMe.html#wish-list",
-    "href": "ReadMe.html#wish-list",
-    "title": "Website README",
-    "section": "",
-    "text": "get Posts up and running\ndet Data up and running\nimprove research page; develop callout box for abstract of papers, organize by theme, etc\nrevive bio page?"
-  },
-  {
-    "objectID": "ReadMe.html#pdf-version-of-cv",
-    "href": "ReadMe.html#pdf-version-of-cv",
-    "title": "Website README",
-    "section": "",
-    "text": "See https://quarto.org/docs/output-formats/html-multi-format.html for some helpful info. I could only get the second format to work when I included a _metadata.yml file inside the cv directory.\n\n\nThis website is based on the template kindly provided by Karl Broman. View the template here.\nTo update:\n\nedit the appropriate .md files\ntest the changes locally:\n\nrun jekyll serve to run a local jekyll server\ndial up http://localhost:4000\n\nstage and commit the changes to the git repo\npush the repo to origin (github), which will make the changes live\n\nFor the DNS, I have\n\nwww.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)\nCNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org\nDNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io\n\nThe net result is that my default page is www.dennisfeehan.org\nNB: see this page for some help on setting up google analytics\nNB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html\n2017-04-22\n\nnow I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Dennis M. Feehan",
-    "section": "",
-    "text": "Software packages I have developed for various research projects:\n\nsiblingsurvival\nsiblingsurvival\nEstimating adult death rates from sibling histories, especially those collected by the Demographic and Health Surveys.\n\n\nsurveybootstrap\nsurveybootstrap\nMethods for estimating sampling uncertainty from data collected via complex sampling designs, such as household surveys.\n\n\nnetworkreporting\nnetworkreporting\nMethods for estimating group size and prevalence from network reports; includes routines for network scale-up, generalized network scale-up, and network survival.\n\n\nmortfit\nmortfit\nFitting mortality hazard models, with special attention to humans at very old ages\n\n\nnrsimulatr\nnrsimluatr\nTools for simulating reporting networks, useful in developing and evaluating network reporting methods.\n\n\ncalibratr\ncalibratr\nWrappers to make calibration with the survey package easier"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Dennis M. Feehan",
-    "section": "",
-    "text": "PAA 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNov 29, 2023\n\n\n\n\n\n\n  \n\n\n\n\nTalk at Harvard\n\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\n\n\n\n\n  \n\n\n\n\nTalk at University of Maryland\n\n\n\n\n\n\n\n\n\n\n\n\nSep 18, 2023\n\n\n\n\n\n\n  \n\n\n\n\nFaculty Director of D-Lab\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nFormal Demography Workshop\n\n\n\n\n\n\n\n\n\n\n\n\nJun 11, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPaper in Epidemics\n\n\n\n\n\n\n\n\n\n\n\n\nMay 9, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPAA 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "cv/cv.html",
     "href": "cv/cv.html",
     "title": "Dennis M. Feehan",
@@ -208,5 +103,110 @@
     "title": "Dennis M. Feehan",
     "section": "Teaching",
     "text": "Teaching\n\nUC Berkeley, Assistant-Associate Professor\n\nDemography 180: Social Networks, Fall 2021, Spring 2017-2019 - undergraduate lecture class in social networks .\nDemography 280: Social Networks, Fall 2020-2021; Spring 2016-2019 - graduate seminar in social networks (originally called Demography 260) .\nDemography 260: Field Methods and Research Design, Fall 2019 - graduate seminar covering applied research design .\nLetters & Science 88: Social Networks, Fall 2016 - undergraduate data science connector class .\nLetters & Science 88: Broken down by age and sex, Fall 2018; Spring 2021 - undergraduate data science connector class .\n\nPrinceton University, Preceptor\n\nSociology 504: Social Statistics, Spring 2009 - the second class in the Sociology Department’s graduate statistics sequence, which covered statistical models and graphics with examples, exercises, and homeworks in R\nIntroduction to R, Spring 2009 - co-taught a day-long departmental introduction to R with Matthew J. Salganik\nEconomics/Sociology 572: Demographic Methods, Spring 2010 - the Office of Population Research’s graduate-level methods class, covering life-table methods, stable population theory, methods for direct and indirect estimation, and survival analysis\nIntroduction to Demographic Methods, Summer 2012 and 2011 - the Office of Population Research’s demography `boot camp’ for incoming graduate students\n\n\nHarvard University, Teaching Fellow\n\nCS50: Introduction to Computer Science I (two years) the first course in computer science for majors; we covered the fundamentals of programming, basic algorithms and their analysis, and computer architecture. I taught a section, held office hours, led review sessions, and graded homeworks and exams. All of the problems sets and exams were in C and Assembler. I was awarded a Certificate of Distinction in Teaching as a result of my outstanding student evaluations.\nCS51: Introduction to Computer Science II (Summer) - the second class in the introductory computer science sequence. We covered design and analysis of more advanced algorithms, and introductory functional and object oriented programming languages. The homeworks and exams were in LISP, Java, and C++. At the end of the class, the students wrote most of a garbage-collected LISP interpreter.\nIntroduction to Probability and Combinatorics - an Extension School class in the mathematics of probability and combinatorics. I led sections, held office hours, and graded homeworks and exams."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Dennis M. Feehan",
+    "section": "",
+    "text": "Software packages I have developed for various research projects:\n\nsiblingsurvival\nsiblingsurvival\nEstimating adult death rates from sibling histories, especially those collected by the Demographic and Health Surveys.\n\n\nsurveybootstrap\nsurveybootstrap\nMethods for estimating sampling uncertainty from data collected via complex sampling designs, such as household surveys.\n\n\nnetworkreporting\nnetworkreporting\nMethods for estimating group size and prevalence from network reports; includes routines for network scale-up, generalized network scale-up, and network survival.\n\n\nmortfit\nmortfit\nFitting mortality hazard models, with special attention to humans at very old ages\n\n\nnrsimulatr\nnrsimluatr\nTools for simulating reporting networks, useful in developing and evaluating network reporting methods.\n\n\ncalibratr\ncalibratr\nWrappers to make calibration with the survey package easier"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dennis M. Feehan",
+    "section": "",
+    "text": "Dennis Feehan  feehan {at} berkeley.edu  Department of Demography University of California, Berkeley 394 Social Science Building Berkeley, CA 94720-2120\n\n\n \nI’m a demographer and quantitative social scientist.\nMy research interests lie at the intersection of networks, demography, and quantitative methodology.\nI’m currently an Associate Professor of Demography at the University of California, Berkeley and Faculty Director of the D-Lab."
+  },
+  {
+    "objectID": "posts/20230509/index.html",
+    "href": "posts/20230509/index.html",
+    "title": "Paper in Epidemics",
+    "section": "",
+    "text": "We have a new paper just published in Epidemics. This study combines BICS contact survey data with a disease model to understand the implications of different vaccine prioritization strategies. Congrats to Ethan Roubenoff, who was lead author - this is the first chapter of his dissertation."
+  },
+  {
+    "objectID": "posts/20230502/index.html",
+    "href": "posts/20230502/index.html",
+    "title": "PAA 2023",
+    "section": "",
+    "text": "I had a great time at PAA 2023 in New Orleans. I gave a talk on an in-progress project on estimating adult death rates from different social relationships as part of Session 187 (Methodological Innovations in Mortality). I also co-organized Session 156 (Network Methods)."
+  },
+  {
+    "objectID": "posts/20231102/index.html",
+    "href": "posts/20231102/index.html",
+    "title": "Talk at Harvard",
+    "section": "",
+    "text": "I had a great visit to Boston, where I gave a talk as part of the Harvard Social Demography Seminar. My talk focused on validating survey-based methods for estimating adult mortality, using data collected in Brazil. Thanks to everyone at the talk for great questions and a very enjoyable visit!"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Dennis M. Feehan",
+    "section": "",
+    "text": "My research interests lie primarily at the intersection of social networks, demography, and quantitative methodology. Some themes in my work have included developing new sampling methods for learning about hidden and hard-to-reach populations; understanding health and mortality; and computational social science.\nWorking papers\n\nValidating survey-based estimates of adult mortality with high-quality vital statistics: Evidence from 27 cities (new version coming soon)\nEstimating death rates in complex humanitarian emergencies using the network survival method: Pre-analysis plan\n\nSelected publications (see CV for a full list):\n\nEstimating adult death rates from sibling histories: A network approach\nQuantifying population contact patterns in the United States during the COVID-19 pandemic\nUsing an online sample to learn about an offline population; arxiv version\nThe network survival method for estimating adult mortality: Evidence from a survey experiment in Rwanda\nGeneralizing the Network Scale-Up Method: A New Estimator for the Size of Hidden Populations"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Dennis M. Feehan",
+    "section": "",
+    "text": "Currently teaching\n\nSpring 2023 - No classes this semester\n\n\n\n\n\n\n\nPreviously taught\n\n\n\n\n\n\nFall 2023: Demography 180: Social networks (undergrad)\nFall 2023: Demography 280/Sociology 273N: Social networks (grad)\nFall 2022: Demography 180: Social networks (undergrad)\nFall 2022: Demography 280/Sociology 273N: Social networks (grad)\nFall 2022: Grad seminar on developing research papers\nSpring 2022: on parental leave\nFall 2021: Demography 180: Social networks (undergrad)\nFall 2021: Demography 280/Sociology 273N: Social networks (grad)\nSpring 2021: Data 88: Data science and demography (Connector course)\nFall 2020: Demography 280/Sociology 273N: Social networks (grad)\nSpring 2020: on parental leave\nFall 2019: Demography 260: Field methods and research design\nSpring 2019: Demography 180: Social networks (undergrad)\nSpring 2019: Demography 260/Sociology 273N: Social networks (grad)\nFall 2018: L&S 88 - Data Science Connector: Demography (undergrad)\nSpring 2018: Demography 180: Social networks (undergrad)\nSpring 2018: Demography 260: Social networks (grad)\nFall 2017: L&S 88 - Data Science Connector: Social networks\nSpring 2017: Demography 260: Social networks\nFall 2016: L&S 88 - Data Science Connector: Social networks\nSpring 2016: Demography 260: Social networks"
+  },
+  {
+    "objectID": "posts/20230611/index.html",
+    "href": "posts/20230611/index.html",
+    "title": "Formal Demography Workshop",
+    "section": "",
+    "text": "Just finished the week-long Annual Workshop on Formal Demography, which I co-organized with Josh Goldstein and Michelle Poulin. The focus this year was fertility. I learned a lot and I also had a great time. I’m already looking forward to next year! If you are an early career scholar (grad student/postdoc/junior faculty) interested in formal demography, please look out for the application call next spring."
+  },
+  {
+    "objectID": "posts/20230901/index.html",
+    "href": "posts/20230901/index.html",
+    "title": "Faculty Director of D-Lab",
+    "section": "",
+    "text": "This fall, I’m starting a new role as Faculty Director of Berkeley’s D-Lab. D-Lab is an amazing organization focused on data science education, consulting, and research with a special emphasis on diversity and inclusion. I’m tremendously excited to begin working with the amazing group of scholars and data scientists at D-Lab this fall."
+  },
+  {
+    "objectID": "posts/20231129/index.html",
+    "href": "posts/20231129/index.html",
+    "title": "PAA 2024",
+    "section": "",
+    "text": "I’m looking forward to visiting Ohio this spring! My colleagues and I had several papers accepted, including\n\na project on novel approaches to estimating adult mortality from a survey, based on pilot data collected at the HDSS site in Matlab, Bangladesh\na project on estimating mortality in humanitarian emergencies based on original data collected in the Democratic Republic of Congo (lead author: Casey Breen, postdoc at Oxford and former PhD student here at Berkeley; several other colleagues from REACH and DRC also participating)\na project on a network-based method for estimating out-migration using original data collected in 27 cities in Brazil (lead author: Andrea Miranda-Gonzalez, a PhD student here at UC Berkeley)\na project on how political views and context predict behavior during the COVID pandemic in the US, based on data from the BICS project (lead author: Chris Soria, a PhD student here at UC Berkeley)\na project on using the network reporting framework to understand sisterhood estimates of maternal mortality (lead author: Blake Erhardt-Ohren, a PhD student here at UC Berkeley)\n\nI’ll also be a discussant for a session on digital demography."
+  },
+  {
+    "objectID": "posts/20230918/index.html",
+    "href": "posts/20230918/index.html",
+    "title": "Talk at University of Maryland",
+    "section": "",
+    "text": "Yesterday, I gave a talk at the Maryland Population Research Center. I presented some not-yet-published work on validating methods for estimating adult mortality based on data collected in Brazil. I got great feedback and very much enjoyed the visit."
+  },
+  {
+    "objectID": "ReadMe.html",
+    "href": "ReadMe.html",
+    "title": "Website README",
+    "section": "",
+    "text": "get Posts up and running\ndet Data up and running\nimprove research page; develop callout box for abstract of papers, organize by theme, etc\nrevive bio page?\n\n\n\n\nSee https://quarto.org/docs/output-formats/html-multi-format.html for some helpful info. I could only get the second format to work when I included a _metadata.yml file inside the cv directory.\n\n\nThis website is based on the template kindly provided by Karl Broman. View the template here.\nTo update:\n\nedit the appropriate .md files\ntest the changes locally:\n\nrun jekyll serve to run a local jekyll server\ndial up http://localhost:4000\n\nstage and commit the changes to the git repo\npush the repo to origin (github), which will make the changes live\n\nFor the DNS, I have\n\nwww.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)\nCNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org\nDNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io\n\nThe net result is that my default page is www.dennisfeehan.org\nNB: see this page for some help on setting up google analytics\nNB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html\n2017-04-22\n\nnow I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs"
+  },
+  {
+    "objectID": "ReadMe.html#wish-list",
+    "href": "ReadMe.html#wish-list",
+    "title": "Website README",
+    "section": "",
+    "text": "get Posts up and running\ndet Data up and running\nimprove research page; develop callout box for abstract of papers, organize by theme, etc\nrevive bio page?"
+  },
+  {
+    "objectID": "ReadMe.html#pdf-version-of-cv",
+    "href": "ReadMe.html#pdf-version-of-cv",
+    "title": "Website README",
+    "section": "",
+    "text": "See https://quarto.org/docs/output-formats/html-multi-format.html for some helpful info. I could only get the second format to work when I included a _metadata.yml file inside the cv directory.\n\n\nThis website is based on the template kindly provided by Karl Broman. View the template here.\nTo update:\n\nedit the appropriate .md files\ntest the changes locally:\n\nrun jekyll serve to run a local jekyll server\ndial up http://localhost:4000\n\nstage and commit the changes to the git repo\npush the repo to origin (github), which will make the changes live\n\nFor the DNS, I have\n\nwww.dennisfeehan.com forwards to www.dennisfeehan.org (set via Hover’s forwarding option)\nCNAME (file in this repo) points dfeehan.github.io to www.dennisfeehan.org\nDNS entry with Hover forwards www for www.dennisfeehan.org to dfeehan.github.io\n\nThe net result is that my default page is www.dennisfeehan.org\nNB: see this page for some help on setting up google analytics\nNB: to change theme (eg site-wide headers, footers, etc), start by looking at _includes/themes/twitter/default.html\n2017-04-22\n\nnow I’m getting an SSL error, so I am switching DNS to CloudFlare; apparently, they have free SSL certs"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Dennis M. Feehan",
+    "section": "",
+    "text": "PAA 2024\n\n\n\n\n\n\n\n\n\n\n\nNov 29, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTalk at Harvard\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTalk at University of Maryland\n\n\n\n\n\n\n\n\n\n\n\nSep 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Director of D-Lab\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nFormal Demography Workshop\n\n\n\n\n\n\n\n\n\n\n\nJun 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPaper in Epidemics\n\n\n\n\n\n\n\n\n\n\n\nMay 9, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPAA 2023\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]
