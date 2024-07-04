@@ -58,7 +58,7 @@ feehan\@berkeley.edu
     Department of Demography\
     University of California, Berkeley
 
--   Faculty Director, D-Lab (2023-present)
+-   Faculty Director, [D-Lab](https://dlab.berkeley.edu/home) (2023-present)
 
 ## Previous positions
 
@@ -121,6 +121,17 @@ feehan\@berkeley.edu
 
 -   [@murray_validation_2007]
 
+## Working papers
+
+- [Validating survey-based estimates of adult mortality with high-quality vital statistics: Evidence from 27 cities](https://osf.io/preprints/socarxiv/x5ywv) 
+
+- Estimating death rates in complex humanitarian emergencies using the network survival method ([Pre-analysis plan](https://osf.io/e23gc))
+
+- New Data Sources For Demographic Research (joint with Casey Breen, forthcoming at _Population Development Review_) 
+
+<!--- TODO - Abortion / confidantes paper-->
+
+
 ## Software
 
 -   [@feehan_siblingsurvival_2020] (Available from github: <https://github.com/dfeehan/siblingsurvival>
@@ -139,6 +150,8 @@ feehan\@berkeley.edu
 
 TODO ADD
 
+- Matlab R21
+- T32 PI 
 - Co-I on Josh R01
 - Co-I on Danny+Kristen R01
 - Co-I on Danny+Kristen R21
