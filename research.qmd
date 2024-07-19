@@ -16,6 +16,7 @@ and computational social science.
 
 * [Estimating death rates in complex humanitarian emergencies using the network survival method: Pre-analysis plan](https://osf.io/e23gc)  
   
+* [New Data Sources for Demographic Research](https://osf.io/ybghv)
   
 
 **Selected publications** (see [CV](cv/cv.html) for a full list):
