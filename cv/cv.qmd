@@ -83,6 +83,8 @@ feehan\@berkeley.edu
 
 ## Peer-reviewed publications
 
+-   @breen_new_2024
+
 -   @roubenoff_evaluating_2023
 
 -   @breen_novel_2022
@@ -127,8 +129,6 @@ feehan\@berkeley.edu
 
 - Estimating death rates in complex humanitarian emergencies using the network survival method ([Pre-analysis plan](https://osf.io/e23gc))
 
-- New Data Sources For Demographic Research (joint with Casey Breen, forthcoming at _Population and Development Review_) 
-
 <!--- TODO - Abortion / confidantes paper-->
 
 
@@ -150,26 +150,39 @@ feehan\@berkeley.edu
 
 TODO ADD
 
-- Matlab R21
-- T32 PI 
-- Co-I on Josh R01
-- Co-I on Danny+Kristen R01
-- Co-I on Danny+Kristen R21
+- U Minnesota supplment for CDC
 
 -->
--   2022 - present NIH, "Berkeley Formal Demography Workshop." mPI with colleagues Josh Goldstein and Ayesha Mahmud. This R25 proposal funds five additional years of Berkeley's successful Formal Demography Workshop.
 
--   2020 - present - Society of Hellman Fellows award, "Interpersonal contact in the U.S. during the COVID-19 Pandemic"; supporting additional data collection for Berkeley Interpersonal Contact Study.
+-   2024 to present - PI, NIH/NIA R21 "Novel methods for estimating adult mortality using a survey"
 
--   2020 - Berkeley Population Center rapid covid-19 pilot grant, "Interpersonal contact in the U.S. during the COVID-19 Pandemic." Supported pilot data collection for what would become the Berkeley Interpersonal Contact Study.
+-   2024  - PI, Berkeley Center for the Economics and Demography of Aging pilot grant, "Social network methods for estimating adult death rates in the absence of vital registration." Supporting exploratory field work to develop new questions for estimating adult mortality from a sample survey.
 
--   2019 to present - Berkeley Center for the Economics and Demography of Aging pilot grant, "Social network methods for estimating adult death rates in the absence of vital registration." Supporting exploratory field work to develop new questions for estimating adult mortality from a sample survey.
+-   2022 to present mPI, NIH/NICHD "Berkeley Formal Demography Workshop." This R25 funds five years of Berkeley's successful Formal Demography Workshop.
 
--   2018 Summer - Regents Junior Faculty Fellowship, "Validating a new social-network based approach to estimating adult death rates." Partially supported analyzing data from Brazil mortality study.
+-   2022 to present PI - NIH/NICHD T32 "Interdisciplinary Training in Demography"
 
--   2017 Summer - Berkeley Population Center pilot grant, "Estimating adult mortality using sampled social network data in 27 Brazilian cities" Partially supported weighting and cleaning data from my Brazil mortality study.
+-   2020 - present PI - Society of Hellman Fellows award, "Interpersonal contact in the U.S. during the COVID-19 Pandemic"; supporting additional data collection for Berkeley Interpersonal Contact Study.
+
+-   2020 - PI, Berkeley Population Center rapid covid-19 pilot grant, "Interpersonal contact in the U.S. during the COVID-19 Pandemic." Supported pilot data collection for what would become the Berkeley Interpersonal Contact Study.
+
+-   2020, Co-I NIH/NIA R01 (PIs: Daniel Schneider and Kristen Harknett) "Effects of Job Quality in the Service Sector on Health-Related Outcomes Across the Life Course"
+
+-   2019 to present - PI, Berkeley Center for the Economics and Demography of Aging pilot grant, "Social network methods for estimating adult death rates in the absence of vital registration." Supporting exploratory field work to develop new questions for estimating adult mortality from a sample survey.
+
+-   2019, Co-I NIH/NIA R01 (PI: Joshua Goldstein) "CenSoc: A New, Public, Individual-level Dataset for Studying Mortality Inequality"
+
+-   2018 Summer - PI, Regents Junior Faculty Fellowship, "Validating a new social-network based approach to estimating adult death rates." Partially supported analyzing data from Brazil mortality study.
+
+- 2017, Co-I NIH/NIA R21 (PIs: Daniel Schneider and Kristen Harknett) "Health Effects of Unstable Work Schedules in the Service Sector"
+
+-   2017 Summer - PI, Berkeley Population Center pilot grant, "Estimating adult mortality using sampled social network data in 27 Brazilian cities" Partially supported weighting and cleaning data from my Brazil mortality study.
+
 
 ## Invited talks and conference presentations
+
+
+- "Validating social network-based estimates of adult mortality with high-quality vital records: Evidence from 27 cities," University of Chicago, Committee on Quantitative Methods Workshop, February 2024 
 
 - "Validating social network-based estimates of adult mortality with high-quality vital records: Evidence from 27 cities," Harvard Social Demography Seminar Series, November 2023
 
@@ -357,9 +370,9 @@ TODO ADD
 
 -   **UC Berkeley, Assistant-Associate Professor**
 
-    -   *Demography 180: Social Networks*, Fall 2021, Spring 2017-2019 - undergraduate lecture class in social networks .
+    -   *Demography 180: Social Networks*, Fall 2021, 2023-2024; Spring 2017-2019 - undergraduate lecture class in social networks .
 
-    -   *Demography 280: Social Networks*, Fall 2020-2021; Spring 2016-2019 - graduate seminar in social networks (originally called Demography 260) .
+    -   *Demography 280: Social Networks*, Fall 2020-2021 and 2023; Spring 2016-2019 - graduate seminar in social networks (originally called Demography 260) .
 
     -   *Demography 260: Field Methods and Research Design*, Fall 2019 - graduate seminar covering applied research design .
 
