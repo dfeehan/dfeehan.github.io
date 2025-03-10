@@ -156,7 +156,7 @@ TODO ADD
 
 -   2024 to present - PI, NIH/NIA R21 "Novel methods for estimating adult mortality using a survey"
 
--   2024  - PI, Berkeley Center for the Economics and Demography of Aging pilot grant, "Social network methods for estimating adult death rates in the absence of vital registration." Supporting exploratory field work to develop new questions for estimating adult mortality from a sample survey.
+-   2024  - PI, Berkeley Center for the Economics and Demography of Aging pilot grant, "Evaluating humanitarian surveys as a potential resource for understanding mortality in Sub-Saharan Africa"
 
 -   2022 to present mPI, NIH/NICHD "Berkeley Formal Demography Workshop." This R25 funds five years of Berkeley's successful Formal Demography Workshop.
 
@@ -230,7 +230,7 @@ TODO ADD
 
 -   "Network reporting methods and aggregate relational data," presentation at UCNets Conference, Summer 2018.
 
--   "Aggregate relational data and the network scale-up method," presentation at the Sunbelt 2018 conference.\
+-   "Aggregate relational data and the network scale-up method," presentation at the Sunbelt 2018 conference.
 
 -   "Estimating adult mortality from sibling histories: A network approach," presentation at Formal Demography Workshop, Berkeley 2018.
 
@@ -326,15 +326,21 @@ TODO ADD
 
 ## Reviewer: Conferences
 
--   *IC2S2 2017*; *SocInfo 2019*; *IC2S2 2021*; *IUSSP 2021*
+-   *IC2S2 2017*; *SocInfo 2019*; *IC2S2 2021*; *IUSSP 2021*; *IUSSP 2025*
 
-## Other service
+## Professional service
 
 -   Member, UN Interagency Group on Stateless Estimation Technical Advisory Group (2021-present)
 
 -   Editorial Board Member, *Sociological Methodology* (2021-present)
 
 -   Member, IUSSP Panel on Digital Demography (2020-present)
+
+## University service
+
+- Faculty Director, Berkeley Social Science D-Lab (2023 - present)
+
+- Member, Graduate Group for Berkeley's MA in Computational Social Science (MaCSS)
 
 ## Work experience
 
