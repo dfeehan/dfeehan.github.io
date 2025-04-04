@@ -158,7 +158,7 @@ TODO ADD
 
 -   2024  - PI, Berkeley Center for the Economics and Demography of Aging pilot grant, "Evaluating humanitarian surveys as a potential resource for understanding mortality in Sub-Saharan Africa"
 
--   2022 to present mPI, NIH/NICHD "Berkeley Formal Demography Workshop." This R25 funds five years of Berkeley's successful Formal Demography Workshop.
+-   2022 to present Co-I, NIH/NICHD "Berkeley Formal Demography Workshop." This R25 funds five years of Berkeley's successful Formal Demography Workshop.
 
 -   2022 to present PI - NIH/NICHD T32 "Interdisciplinary Training in Demography"
 
