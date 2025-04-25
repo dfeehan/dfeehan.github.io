@@ -83,6 +83,8 @@ feehan\@berkeley.edu
 
 ## Peer-reviewed publications
 
+- Estimating death rates in complex humanitarian emergencies using the network survival method (accepted at *American Journal of Epidemiology*; [Pre-print](https://osf.io/preprints/socarxiv/4efdt_v2))
+
 -   @breen_new_2024
 
 -   @roubenoff_evaluating_2023
@@ -127,7 +129,6 @@ feehan\@berkeley.edu
 
 - [Validating survey-based estimates of adult mortality with high-quality vital statistics: Evidence from 27 cities](https://osf.io/preprints/socarxiv/x5ywv) 
 
-- Estimating death rates in complex humanitarian emergencies using the network survival method ([Pre-analysis plan](https://osf.io/e23gc))
 
 <!--- TODO - Abortion / confidantes paper-->
 
@@ -180,7 +181,6 @@ TODO ADD
 
 
 ## Invited talks and conference presentations
-
 
 - "Validating social network-based estimates of adult mortality with high-quality vital records: Evidence from 27 cities," University of Chicago, Committee on Quantitative Methods Workshop, February 2024 
 
@@ -340,7 +340,7 @@ TODO ADD
 
 - Faculty Director, Berkeley Social Science D-Lab (2023 - present)
 
-- Member, Graduate Group for Berkeley's MA in Computational Social Science (MaCSS)
+- Member and Executive Committee Member, Graduate Group for Berkeley's MA in Computational Social Science (MaCSS) (2024-present)
 
 ## Work experience
 
