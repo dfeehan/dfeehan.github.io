@@ -83,9 +83,11 @@ feehan\@berkeley.edu
 
 ## Peer-reviewed publications
 
-- Estimating death rates in complex humanitarian emergencies using the network survival method (accepted at *American Journal of Epidemiology*; [Pre-print](https://osf.io/preprints/socarxiv/4efdt_v2))
+-   @breen_estimating_2025
 
--   @breen_new_2024
+-   @breen_new_2025
+
+-   @erhardt-ohren_maternal_2024
 
 -   @roubenoff_evaluating_2023
 
@@ -182,11 +184,27 @@ TODO ADD
 
 ## Invited talks and conference presentations
 
+- "Novel approaches to data collection for estimating adult death rates", Penn State, Invited Speaker at PRI Methodology Workshop, May 2025
+
+- "A mathematical framework for understanding inequalities in risk to an infectious diseases", Population Association of America (PAA) conference presentation, April 2025
+
+- "Modeling reports from DHS sibling histories", Population Association of America (PAA) conference presentation, April 2025
+
+- "New survey-based estimators for adult mortality based on reports about extended kin and neighbors", invited talk at pre-PAA workshop 'Frontiers in Mortality', April 2025
+
+- "New estimators for adult mortality based on reports about extended kin and neighbors", invited lunchtime talk with Demographic and Health Survey Team, May 2024
+
+- "New estimators for adult mortality based on reports about extended kin and neighbors", Population Association of America (PAA) presentation, April 2024
+
+- Discussant for PAA 2024 Session on 'Digital and Computational Demography'
+
 - "Validating social network-based estimates of adult mortality with high-quality vital records: Evidence from 27 cities," University of Chicago, Committee on Quantitative Methods Workshop, February 2024 
 
 - "Validating social network-based estimates of adult mortality with high-quality vital records: Evidence from 27 cities," Harvard Social Demography Seminar Series, November 2023
 
 -   "Comparing survey-based estimates of adult mortality to high-quality vital records: Evidence from 27 Brazilian cities," Maryland Population Research Center Seminar, September 2023
+
+- "Quantity vs quality in data collection for estimating adult death rates", Population Association of America (PAA) presentation, April 2023
 
 -   Discussant, Workshop on Determinants of Adult Mortality, Center for the Economics of Demography and Aging, Feb 2023
 
