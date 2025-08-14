@@ -4,12 +4,14 @@ title: ""
 
 #### Currently teaching
 
-* Spring 2025 - No classes this semester  
+* Fall 2025: Demography 180 (Site coming soon)
+* Fall 2025: Demography 280 (Site coming soon)
 
 ::: {.callout-note appearance='simple' icon=false collapse='true'}
   
 #### Previously taught
 
+* Spring 2025 - No classes this semester  
 * Fall 2024: [Demography 180: Social networks (undergrad)](https://www.dennisfeehan.org/demog180-fa2024)
 * Spring 2023 - No classes this semester
 * Fall 2023: [Demography 180: Social networks (undergrad)](https://www.dennisfeehan.org/demog180-fa2023)
