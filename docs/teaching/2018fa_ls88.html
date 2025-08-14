@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Broken down by age and sex: Data science and demography (LS-88)</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+  /*
+     This document has been created with Marked.app <http://marked2app.com>
+     Please leave this notice in place, along with any additional credits below.
+     ---------------------------------------------------------------
+     Title: Kultiad
+     Author: Peter Sziebig - @bigpe; Modified by Kieran Healy - @kjhealy
+     Description: Easy to read. Pandoc style elements. 
+  */
+  
+  
+  
+  
+  html {
+      font-size: 100%;
+  }
+  html, button, input, select, textarea {
+      font-family: sans-serif;
+  }
+  
+  html, body, button, input, select, textarea {
+      color: #57534A;
+      font-family: "PT Serif","Calluna","Arno Pro",serif;
+      //font-size: 18px;
+      font-size: 14px;
+      font-weight: 300;
+  }
+  
+  body{
+      margin: 0 auto;
+      background-color: #FFFFFF;
+  }
+  
+  body, textarea {
+      line-height: 1.4;
+  }
+  
+  
+  body:after {
+      clear: both;
+      content: "";
+      display: table;
+  }
+  
+  body {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      margin-left: auto;
+      margin-right: auto;
+      //max-width: 44rem;
+      max-width: 50rem;
+      display: block;
+  }
+  
+  
+  
+  h1, h2, h3, dt {
+      color: #423F37;
+      font-weight: 700;
+  }
+  
+  h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+  }
+  h2, .article-list .article-title {
+      padding-top: 1em;
+      padding-bottom: 0em;
+      border-bottom: none;
+      font-size: 1.5em;
+      margin: 0.83em 0;
+  }
+  h3, dt {
+      padding-top: 1em;
+      font-size: 1.17em;
+      font-style: italic;
+      margin: 1em 0;
+  }
+  h4 {
+      font-size: 1em;
+      margin: 1.33em 0;
+  }
+  h5 {
+      font-size: 0.83em;
+      margin: 1.67em 0;
+  }
+  h6 {
+      font-size: 0.75em;
+      margin: 2.33em 0;
+  }
+  
+  
+  a {
+      color: #8DB359;
+      cursor: pointer;
+      outline: 0 none;
+      text-decoration: underline;
+  }
+  
+  a:hover {
+      outline: 0 none;
+      color: #739544;
+  }
+  
+  
+  p, pre {
+      margin: 1em 0;
+  }
+  
+  code, kbd, pre, samp {
+      font-family: monospace,serif;
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+  
+  }
+  pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
+  
+  pre {
+      background-color: #F8F5F0;
+      font-size: 0.7rem;
+      overflow-x: auto;
+      padding: 1.3rem;
+      position: relative;
+      white-space: pre;
+      word-wrap: normal;
+  }
+  pre, code, kbd, samp {
+      margin: 0;
+  }
+  code, kbd, pre, samp {
+      font-family: monospace,serif;
+  }
+  
+  code {
+      color: #423F37;
+  }
+  
+  
+  aside {
+      display: block;
+      float: right;
+      width: 390px;
+  }
+  
+  
+  b, strong {
+      font-weight: bold;
+      color: #423F37;
+      font-weight: 700;
+  }
+  
+  blockquote {
+      color: #423F37;
+      margin: 1em 40px;
+  }
+  
+  blockquote {
+      margin-bottom: 2em;
+      margin-top: 2em;
+  }
+  
+  figure {
+  	margin-left: -4.5rem;
+      margin-right: -4.5rem;
+      margin-bottom: 2em;
+      margin-top: 2em;
+  }
+  
+  
+  hr {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-color: -moz-use-text-color -moz-use-text-color #ECE6DA;
+      border-image: none;
+      border-style: none none solid;
+      border-width: medium medium 1px;
+      margin: 3em 6em;
+  }
+  
+  
+  img {
+      max-width: 100%;
+      display: block;
+      border: 0 none;
+  }
+  
+  
+  ol > li:before {
+      color: #423F37;
+      content: counter(ol, decimal) ".";
+      counter-increment: ol;
+      font-weight: 700;
+      margin-right: 0.333em;
+      position: absolute;
+      right: 100%;
+  }
+  
+  ul > li:before {
+      background-color: #423F37;
+      border-radius: 14px 14px 14px 14px;
+      content: "";
+      height: 6px;
+      margin-right: 0.333em;
+      margin-top: 0.55em;
+      position: absolute;
+      right: 100%;
+      width: 6px;
+  }
+  
+  ol, ul, dl {
+      margin-left: 2rem;
+      padding: 0;
+  }
+  ol {
+      counter-reset: ol;
+  }
+  li + li, dd + dt {
+      margin-top: 0.5em;
+  }
+  
+  ul > li {
+      position: relative;
+  }
+  
+  ol > li {
+      position: relative;
+  }
+  li {
+      list-style: none outside none;
+  }
+  
+  
+  figure > figcaption {
+      margin-top: 0.5em;
+  }
+  small, dd, figcaption {
+      color: #A19C91;
+      display: block;
+      font-size: 0.8rem;
+      font-style: italic;
+      line-height: 1.2;
+  }
+  singlespace {
+      line-height: 1;
+  }
+  
+  tbody{display:table-row-group}
+  tfoot{display:table-footer-group}
+  //table{margin-bottom:2em;font-size: 0.8em;padding:0;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,.35);width:100%;margin:0 auto 2em auto}
+  table{margin-bottom:2em;font-size: 1.0em;padding:0;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,.35);width:100%;margin:0 auto 2em auto}
+  table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}
+  table th{
+  padding-top:9px;!important;text-transform:uppercase;vertical-align:middle}
+  table td{vertical-align:top;border-top:1px solid #ddd;}
+  table tbody th{border-top:1px solid #ddd;vertical-align:top}
+  table{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+  table th+th,table td+td,table th+td{border-left:1px solid #ddd}
+  table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}
+  table thead tr:first-child th:last-child,table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}
+  table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}
+  table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}
+  tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
+  
+  caption{display:table-caption;font-weight:300;font-size:1.3em;text-transform:uppercase;letter-spacing:2px;word-spacing:.2em;background:rgba(0,0,0,.75);color:#EEE;padding:4px;-webkit-border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.35)}
+  
+  /* grey out placeholders */
+  :-moz-placeholder {
+    color: #bfbfbf;
+  }
+  ::-webkit-input-placeholder {
+    color: #bfbfbf;
+  }
+  
+  
+  .article-date {
+      color: #C7C2B8;
+      display: block;
+      font-size: 0.8rem;
+  }
+  
+  .title{
+      padding-bottom: 1em;
+  }
+  
+  .author{
+    padding-top: 0.5em;
+    font-size:1.24em;
+    line-height:0.5em;
+  }
+  
+  .date {
+      color: #C7C2B8;
+      display: block;
+      font-size: 0.8rem;
+  }
+  
+  .caption {
+     display: block;
+     font-size: 0.8rem;
+     font-style: italic;
+  }
+  
+  .small{
+   font-size:0.8em;
+  }
+  
+  .affiliation{
+   margin-top: 0;
+   padding-top: 0;
+   font-size:0.9em;
+   font-style: italic;
+  }
+  </style>
+</head>
+<body>
+<header>
+
+<h1 class="title">Broken down by age and sex: Data science and demography (LS-88)</h1>
+
+
+
+</header>
+
+
+
+<p>Class meetings: <strong>Mondays, 12-2pm (122 Barrows)</strong><br />
+Instructor: <strong>Dennis M. Feehan (feehan@berkeley.edu)</strong><br />
+Office hours: <strong>Mondays, 3-4pm (2232 Piedmont Ave, Rm 210), or by appointment</strong><br />
+Course control number: <strong>25860</strong></p>
+<p><a href="https://piazza.com/class/jlbtfsat18p4u1" target="_blank">Piazza page</a><br />
+<a href="https://bcourses.berkeley.edu/courses/1476198" target="_blank">Bcourses page</a></p>
+<h2 id="overview">Overview</h2>
+<p>Demography is the science of populations and how they change—including death, sex, migration, marriage, and more. Today, demography is a critical part of answering the most pressing questions that face populations all over the world: why do some countries become rich, while some remain poor? Which forces guide the shifting landscape of politics and voting? Who is most affected by the opioid epidemic? In this connector, we will take a tour of cutting-edge problems in demography and how data science can be used to help address them.</p>
+<h2 id="syllabus">Syllabus</h2>
+<p><strong>NOTE: Please consult the syllabus regularly – it will change over the course of the semester</strong></p>
+<iframe width="105%," height="350" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTSKRO-8s86ADEbjzEMeLw8DZfwuPf5WGwOlIYmPThLgBVMXXuZFwJe5dBdp51ahghoSBmOfoUDWMmZ/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false">
+</iframe>
+<p><a href="https://docs.google.com/spreadsheets/d/1DjP9Yp9aqNZnuIXbu4dFpBXn9ZuDK4NG2dtDGX3VxdI/edit?usp=sharing" target="_blank">(You can also click here for the syllabus.)</a>.</p>
+<h2 id="sec:requirements">Requirements</h2>
+<p>Course requirements will include:</p>
+<h4 id="reading-and-class-participation-5">Reading and class participation (5%)</h4>
+<p>Attending class, doing assigned readings, and contributing to class discussions are all important to learning the material we will cover.</p>
+<h4 id="in-class-labs-35">In-class labs (35%)</h4>
+<p>Part of almost every class will be devoted to working through hands-on labs. These labs will guide you through analysis of demographic problems and datasets. The labs will require you to build on the Python skills you will be learning in Data 8, The labs will also give you a chance to communicate the results of your analysis in writing.</p>
+<h4 id="homework-30">Homework (30)%</h4>
+<p>The homework is an essential part of the learning that you will do in the class; there will be approximately 4 homework assignments, which will build on the concepts we discuss in class and the skills that we learn in the labs.</p>
+<h4 id="final-project-30">Final project (30%)</h4>
+<p>The final project will give you and a partner the opportunity to use a demographic dataset to pose a question, answer the question, and communicate your results in writing and through plots.</p>
+</body>
+</html>
