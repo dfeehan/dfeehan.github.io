@@ -1,5 +1,14 @@
 # Website README
 
+## Course syllabi
+
+Starting in fall 2025, I am using the following process to get syllabi for my classes:
+
+- each class has a separate github repository where the syllabus fiiles are kept
+- when the syllabus is updated in those repositories, a github action is used to copy the rendered site to two places:
+    - the `docs/teaching` directory of this repo - `docs/teaching` directory has the rendered version of this site, so this makes the update syllabus publicly available
+    - the `teaching` directory of this repo - the contents of teaching are automatically added to the rendered website in `docs/teaching`. by copying here, we ensure that if this website is rebuilt cleanly, we won't lose the syllabi 
+
 
 ## Wish list:
 
