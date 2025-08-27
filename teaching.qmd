@@ -5,7 +5,7 @@ title: ""
 #### Currently teaching
 
 * Fall 2025: Demography 180 (Site coming soon)
-* Fall 2025: Demography 280 (Site coming soon)
+* [Fall 2025: Demography 280](https://dennisfeehan.org/teaching/2025fa_demog280/)
 
 ::: {.callout-note appearance='simple' icon=false collapse='true'}
   
