@@ -135,6 +135,7 @@ gtag('config', 'G-5W77PPS14P', { 'anonymize_ip': true});
   <ul>
   <li><a href="#website-readme" id="toc-website-readme" class="nav-link active" data-scroll-target="#website-readme">Website README</a>
   <ul class="collapse">
+  <li><a href="#course-syllabi" id="toc-course-syllabi" class="nav-link" data-scroll-target="#course-syllabi">Course syllabi</a></li>
   <li><a href="#wish-list" id="toc-wish-list" class="nav-link" data-scroll-target="#wish-list">Wish list:</a></li>
   <li><a href="#pdf-version-of-cv" id="toc-pdf-version-of-cv" class="nav-link" data-scroll-target="#pdf-version-of-cv">pdf version of CV</a>
   <ul class="collapse">
@@ -152,6 +153,18 @@ gtag('config', 'G-5W77PPS14P', { 'anonymize_ip': true});
 
 <section id="website-readme" class="level1">
 <h1>Website README</h1>
+<section id="course-syllabi" class="level2">
+<h2 class="anchored" data-anchor-id="course-syllabi">Course syllabi</h2>
+<p>Starting in fall 2025, I am using the following process to get syllabi for my classes:</p>
+<ul>
+<li>each class has a separate github repository where the syllabus fiiles are kept</li>
+<li>when the syllabus is updated in those repositories, a github action is used to copy the rendered site to two places:
+<ul>
+<li>the <code>docs/teaching</code> directory of this repo - <code>docs/teaching</code> directory has the rendered version of this site, so this makes the update syllabus publicly available</li>
+<li>the <code>teaching</code> directory of this repo - the contents of teaching are automatically added to the rendered website in <code>docs/teaching</code>. by copying here, we ensure that if this website is rebuilt cleanly, we won’t lose the syllabi</li>
+</ul></li>
+</ul>
+</section>
 <section id="wish-list" class="level2">
 <h2 class="anchored" data-anchor-id="wish-list">Wish list:</h2>
 <ul>
