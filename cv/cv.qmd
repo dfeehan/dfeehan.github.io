@@ -344,7 +344,7 @@ TODO ADD
 
 ## Reviewer: Conferences
 
--   *IC2S2 2017*; *SocInfo 2019*; *IC2S2 2021*; *IUSSP 2021*; *IUSSP 2025*
+-   *IC2S2 2017*; *SocInfo 2019*; *IC2S2 2021*; *IUSSP 2021*; *IUSSP 2025*; *MIDAS 2025*
 
 ## Professional service
 
