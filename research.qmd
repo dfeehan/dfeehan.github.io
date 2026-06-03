@@ -16,7 +16,7 @@ and computational social science.
 
 * [Social Network Structure Rivals Smoking and Income as a Predictor of U.S. County Mortality](https://osf.io/preprints/socarxiv/kvmx6_v1)
 
-* [How accurate are survey-based estimates of adultmortality? Benchmarking sibling and network methodsagainst vital records in 27 Brazilian cities](https://osf.io/preprints/socarxiv/x5ywv_v2)
+* [How accurate are survey-based estimates of adult mortality? Benchmarking sibling and network methods against vital records in 27 Brazilian cities](https://osf.io/preprints/socarxiv/x5ywv_v2)
 
 #### **Selected publications** (see [CV](cv/cv.html) for a full list):
 
