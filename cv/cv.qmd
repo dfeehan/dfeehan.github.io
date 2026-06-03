@@ -129,8 +129,11 @@ feehan\@berkeley.edu
 
 ## Working papers
 
-- [Validating survey-based estimates of adult mortality with high-quality vital statistics: Evidence from 27 cities](https://osf.io/preprints/socarxiv/x5ywv) 
+* [Partisan differences in health behaviors can impact respiratory disease dynamics](https://www.medrxiv.org/content/10.64898/2026.01.14.26344076v1)
 
+* [Social Network Structure Rivals Smoking and Income as a Predictor of U.S. County Mortality](https://osf.io/preprints/socarxiv/kvmx6_v1)
+
+* [How accurate are survey-based estimates of adultmortality? Benchmarking sibling and network methodsagainst vital records in 27 Brazilian cities](https://osf.io/preprints/socarxiv/x5ywv_v2)
 
 <!--- TODO - Abortion / confidantes paper-->
 
