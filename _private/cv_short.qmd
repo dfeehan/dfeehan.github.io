@@ -1,0 +1,157 @@
+---
+title: ""
+draft: true
+bibliography: "../cv/feehan-cv.bib"
+csl: "../cv/dmf-chicago-syllabus.csl"
+link-citations: false
+suppress-bibliography: True
+format:
+  pdf:
+    output-file: feehan_cv_short.pdf
+    toc: false
+    fontsize: 10pt
+    geometry:
+      - top=0.75in
+      - bottom=0.75in
+      - left=0.75in
+      - right=0.75in
+    include-in-header:
+      text: |
+        \usepackage{enumitem}
+        \setlist[itemize]{itemsep=3pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+        \usepackage{titlesec}
+        \titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+        \titlespacing{\subsection}{0pt}{6pt}{3pt}
+---
+
+:::: {layout="[0.6, 0.4]" align=left}
+
+::: {#first-column}
+\raggedright
+Dennis M. Feehan\
+Department of Demography\
+University of California, Berkeley\
+294 Social Science Building\
+Berkeley, CA 94720-2120\
+USA
+:::
+
+::: {#second-column}
+\raggedleft
+feehan\@berkeley.edu
+<https://www.dennisfeehan.org>
+:::
+
+::::
+
+## Current position
+
+-   Associate Professor (with tenure; July 2022-present)\
+    Department of Demography\
+    University of California, Berkeley
+
+-   Faculty Director, [D-Lab](https://dlab.berkeley.edu/home) (2023-present)
+
+## Previous positions
+
+-   Assistant Professor (January 2016 - July 2022), Department of Demography, UC Berkeley
+
+-   Research Scientist (Postdoc; Fall/Winter 2015), Facebook, Menlo Park, California
+
+## Education
+
+-   **Ph.D. Demography, Princeton University** (2015)
+
+-   **M.A. Demography, Princeton University** (2013)
+
+-   **A.B. Mathematics, Harvard College** (2002)
+
+## Selected peer-reviewed publications
+
+-   @breen_estimating_2025
+
+-   @breen_new_2025
+
+-   @erhardt-ohren_maternal_2024
+
+-   @roubenoff_evaluating_2023
+
+-   @breen_novel_2022
+
+-   [@feehan_survey_2022]
+
+-   [@feehan_estimating_2021]
+
+-   [@feehan_quantifying_2021]
+
+-   [@feehan_how_2021]
+
+-   [@feehan_using_2019]
+
+-   [@feehan_separating_2018]
+
+-   [@feehan_network_2017]
+
+-   [@feehan_generalizing_2016]
+
+    -   **ASA Outstanding Article in Mathematical Sociology Award** (co-winner, 2018)
+
+-   [@feehan_quantity_2016]
+
+## Working papers
+
+* [Partisan differences in health behaviors can impact respiratory disease dynamics](https://www.medrxiv.org/content/10.64898/2026.01.14.26344076v1)
+
+* [Social Network Structure Rivals Smoking and Income as a Predictor of U.S. County Mortality](https://osf.io/preprints/socarxiv/kvmx6_v1)
+
+* [How accurate are survey-based estimates of adult mortality? Benchmarking sibling and network methods against vital records in 27 Brazilian cities](https://osf.io/preprints/socarxiv/x5ywv_v2)
+
+## Grants
+
+-   2024-present — PI, NIH/NIA R21 "Novel methods for estimating adult mortality using a survey"
+
+-   2022-present — Co-I, NIH/NICHD "Berkeley Formal Demography Workshop" (R25)
+
+-   2022-present — PI, NIH/NICHD T32 "Interdisciplinary Training in Demography"
+
+-   2020-present — PI, Society of Hellman Fellows award, "Interpersonal contact in the U.S. during the COVID-19 Pandemic"
+
+-   2019-present — PI, Berkeley Center for the Economics and Demography of Aging pilot grant, "Social network methods for estimating adult death rates in the absence of vital registration"
+
+## Professional service
+
+-   Member, UN Interagency Group on Child Mortality Estimation (IGME) (2024-present)
+
+-   Member, UN Interagency Group on Stateless Estimation Technical Advisory Group (2021-present)
+
+-   Editorial Board Member, *Demography* (2025-present)
+
+-   Editorial Board Member, *Sociological Methodology* (2021-present)
+
+-   PAA Award Committee, Dorothy Thomas Award (2026)
+
+-   Member, IUSSP Panel on Digital Demography (2020-present)
+
+## University service
+
+-   Faculty Director, Berkeley Social Science D-Lab (2023-present)
+
+-   Member and Executive Committee Member, Graduate Group for MaCSS (2024-present)
+
+## Teaching (UC Berkeley)
+
+-   *Demography 180/280: Social Networks* (undergraduate and graduate), 2016-present
+
+-   *Demography 260: Field Methods and Research Design*, Fall 2019
+
+-   *Letters & Science 88: Social Networks*, Fall 2016
+
+-   *Letters & Science 88: Broken down by age and sex*, Fall 2018, Spring 2021
+
+## Honors and awards
+
+-   Hellman Fellows Award, 2020
+
+-   ASA Outstanding Article in Mathematical Sociology Award, 2018
+
+-   Charles F. Westoff Prize in Demography, 2016
