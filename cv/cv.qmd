@@ -133,6 +133,8 @@ feehan\@berkeley.edu
 
 * [Social Network Structure Rivals Smoking and Income as a Predictor of U.S. County Mortality](https://osf.io/preprints/socarxiv/kvmx6_v1)
 
+* [Fertility measurement in data-constrained settings: possibilities and limitations of a Facebook-recruited network reporting survey in Senegal](https://www.demogr.mpg.de/en/publications_databases_6118/publications_1904/mpidr_working_papers/fertility_measurement_in_data_constrained_settings_possibilities_and_limitations_of_a_facebook_recruited_9002)
+
 * [How accurate are survey-based estimates of adult mortality? Benchmarking sibling and network methods against vital records in 27 Brazilian cities](https://osf.io/preprints/socarxiv/x5ywv_v2)
 
 <!--- TODO - Abortion / confidantes paper-->
