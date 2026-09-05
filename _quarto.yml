@@ -4,6 +4,7 @@ project:
   resources:
     #- "teaching/*.html"
     - "teaching"
+    - "film"
 
 website:
   title: "Dennis M. Feehan"
